@@ -15,15 +15,8 @@ Network administration. Especially, I was able to develop great skill in integra
 practical aspects of several computer science courses; and some land administration courses such as
 GIS and Remote Sensing.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
- 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+Download a PDF copy of [my CV here.](/files/Academic_cv_v4.pdf)
 
 For more info
 ------
