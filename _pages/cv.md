@@ -13,18 +13,20 @@ Download a PDF copy of [my CV here.](/files/Accademic%20CV%20v4.pdf)
 
 Education
 ======
-* MSc in GIS and Remote Sensing, Bahir Dar University, on Progress (expected Dec 2026)
+* M.Sc. in Geoinformation Science (In Progress, expected Dec 2026), Bahir Dar University,Ethiopia.
 * M.Sc. in Information Technology, Bahir Dar University, Ethiopia March 2021
-  *Thesis: A Linked Data (LD) Approach for Publishing and Better Integration of Ethiopian Open Government Datasets (OGD)
+  * Thesis: A Linked Data (LD) Approach for Publishing and Better Integration of Ethiopian Open Government Datasets (OGD)
 * B.Sc. in Computer Science
-    *Bahir Dar University, Ethiopia December 2016
-    *Project: Developed an interactive learning management system (LMS) to improve academic engagement based on Open EDX framework
+  * Bahir Dar University, Ethiopia December 2016
+  * Project: Developed an interactive learning management system (LMS) to improve academic engagement based on Open EDX framework
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
+* (2020 – Present): Senior Lab Instructor & Manager
+  * Bahir Dar University GDTC Lab
+  * Duties includes: Teaching & Curriculum Development: Lead lab instruction for MSc courses: Advanced RS, Geo-Databases, Computational and Geostastical Science and Spatial Programming.
+  * Research Mentorship: Technical lead for 20+ MSc theses, transitioning student projects from manual GIS workflows to automated Python/R-based spatial analysis.
+  * System Administration: Manage high-performance GIS workstations and ERDAS/ArcGIS Enterprise environments.
   * Supervisor: The Users
 
 * Fall 2015: Research Assistant
@@ -37,7 +39,7 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Senior Teaching and Research Assistant | Sept 2021 – Present
+* Senior Teaching and Research Assistant | Sept 2016 – Present
 * Facilitate undergraduate and graduate lab sessions on GIS, Remote Sensing, Databases, and Programming, integrating computer science, GIS, and Remote Sensing to support Land Administration programs.
   * Support M.Sc. students with remote sensing workflows—including satellite image acquisition, processing, and analysis using tools like ArcGIS, QGIS, ERDAS Imagine, and Python, and applying techniques such as ML algorithms for classification and statistical methods.
 * Administrative and Academic Support Organized course logistics, including
@@ -52,18 +54,16 @@ guidelines for multiple courses.
   
 Skills
 ======
-* Skill 1
+* Programming: Python (Pandas, Rasterio, PyTorch), R (sf, terra), JavaScript (GEE).
+* Geospatial Engines: Google Earth Engine, ArcGIS Pro, ERDAS IMAGINE, QGIS.
+* Database Management: PostGIS, SQL Server, Spatial Indexing, Graph.
+* Advanced RS: InSAR, LiDAR processing basics, OBIA, Hyperspectral image processing basics
 * Skill 2
   * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Pandikumar, T., & Gidey, M. (2017). "Data Security in LAN Using Distributed Firewall." International Research Journal of Engineering and Technology (IRJET), 4(5), 867–873.Configured and tested security protocols for local networks.
   
 Talks
 ======
