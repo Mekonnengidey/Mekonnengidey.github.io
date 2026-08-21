@@ -7,16 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I have over ten years of experience as a Computer Science professional in academia and
-practical projects in Computer Science. Currently, I am a Senior Technical Assistant & Lab Instructor
-at Bahir Dar University, Institute Of Land Administration. Working as Lab Instructor, Teaching and
-technical Assistant, I have acquired rich skills in teaching, programming, Laboratory management, and
-Network administration. Especially, I was able to develop great skill in integrating the theoretical and
-practical aspects of several computer science courses; and some land administration courses such as
-GIS and Remote Sensing.
+Senior Geospatial Lab Instructor and Manager with 5+ years of experience in advanced Data
+base/GIS/RS systems. Specializing in automating remote sensing workflows using Python
+and Google Earth Engine (GEE). Proven track record in mentoring MSc researchers in multimodal data integration, Computational and Geostastical analysis and geodatabase management.
 
-
-Download a PDF copy of [my CV here.](/files/Academic_cv_v4.pdf)
 
 For more info
 ------
