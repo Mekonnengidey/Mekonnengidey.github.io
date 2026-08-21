@@ -11,6 +11,14 @@ redirect_from:
 
 Download a PDF copy of [my CV here.](/files/Accademic%20CV%20v4.pdf)
 
+MEKONNEN GIDEY MELES
+======
+• Phone: +251-918-23-33-32
+• Email: mekonnengidey@gmail.com;
+• Email: mekonnen.gidey@bdu.edu.et
+• LinkedIn: www.linkedin.com/in/mekonnengidey
+• Address: Bahir Dar, Amhara Region, Ethiopia.
+
 Education
 ======
 * M.Sc. in Geoinformation Science (In Progress, expected Dec 2026), Bahir Dar University,Ethiopia.
@@ -27,17 +35,7 @@ Work experience
   * Duties includes: Teaching & Curriculum Development: Lead lab instruction for MSc courses: Advanced RS, Geo-Databases, Computational and Geostastical Science and Spatial Programming.
   * Research Mentorship: Technical lead for 20+ MSc theses, transitioning student projects from manual GIS workflows to automated Python/R-based spatial analysis.
   * System Administration: Manage high-performance GIS workstations and ERDAS/ArcGIS Enterprise environments.
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Lab technicians and Users
 
 * Senior Teaching and Research Assistant | Sept 2016 – Present
 * Facilitate undergraduate and graduate lab sessions on GIS, Remote Sensing, Databases, and Programming, integrating computer science, GIS, and Remote Sensing to support Land Administration programs.
@@ -58,12 +56,10 @@ Skills
 * Geospatial Engines: Google Earth Engine, ArcGIS Pro, ERDAS IMAGINE, QGIS.
 * Database Management: PostGIS, SQL Server, Spatial Indexing, Graph.
 * Advanced RS: InSAR, LiDAR processing basics, OBIA, Hyperspectral image processing basics
-* Skill 2
-  * Sub-skill 2.1
 
 Publications
 ======
-* Pandikumar, T., & Gidey, M. (2017). "Data Security in LAN Using Distributed Firewall." International Research Journal of Engineering and Technology (IRJET), 4(5), 867–873.Configured and tested security protocols for local networks.
+* Pandikumar, T., & Gidey, M. (2017). "Data Security in LAN Using Distributed Firewall." International Research Journal of Engineering and Technology (IRJET), 4(5), 867–873.Configured and tested security protocols for local networks.[URL](https://doi.org/10.13140/RG.2.2.27418.09924)
   
 Talks
 ======
@@ -79,4 +75,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently working as Lab accreditation team leader(Over see 7 Labs(210 Work stations) and technicians
