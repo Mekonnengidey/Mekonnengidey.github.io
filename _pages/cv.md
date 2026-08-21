@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Download a PDF copy of [my CV here.](/files/Academic_cv_v4.pdf)
+
 Education
 ======
 * MSc in GIS and Remote Sensing, Bahir Dar University, on Progress (expected Dec 2026)
