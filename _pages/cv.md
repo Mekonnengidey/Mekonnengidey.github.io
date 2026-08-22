@@ -9,15 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Download a PDF copy of [my CV here.](/files/Accademic%20CV%20v4.pdf)
 
 MEKONNEN GIDEY MELES
 ======
-• Phone: +251-918-23-33-32
-• Email: mekonnengidey@gmail.com;
-• Email: mekonnen.gidey@bdu.edu.et
-• LinkedIn: www.linkedin.com/in/mekonnengidey
-• Address: Bahir Dar, Amhara Region, Ethiopia.
+* Address: Bahir Dar, Ethiopia.
+* Phone: +251-918-23-33-32
+* Email: mekonnengidey@gmail.com; Email: mekonnen.gidey@bdu.edu.et
+* LinkedIn: www.linkedin.com/in/mekonnengidey
+* website(portfolio):https://mekonnengidey.github.io/
 
 Education
 ======
@@ -35,7 +34,7 @@ Work experience
 * (2020 – Present): Senior Lab Instructor & Manager
   * Bahir Dar University GDTC Lab
   * Duties includes:Teaching & Curriculum Development:
-  * Lead lab instruction for MSc courses: Advanced RS, Geo-Databases, Computational and Geostatstical Science and Spatial Programming.
+  * Lead lab instruction for MSc courses: Advanced RS, Geo-Databases, Computational and Geostatistical Science and Spatial Programming.
   * Research Mentorship: Technical lead for 20+ MSc theses, transitioning student projects from manual GIS workflows to automated Python/R-based spatial analysis.
   * System Administration: Manage high-performance GIS workstations and ERDAS/ArcGIS Enterprise environments.
   * Supervisor: Lab technicians and Users
@@ -98,8 +97,17 @@ Languages
 * English: Proficient (TOEFL Score: 87, Duolingo Score: 130)
 * GRE:309(Verbal Reasoning:155; Quantitative reasoning: 154)
 
+Professional Membership and Affiliations
+====
+* [American Society for Photogrammetry and Remote Sensing (ASPRS)](https://www.asprs.org/Main/Membership/Student-Membership.aspx)
+* [GIS Society of Ethiopia (GISSoE)](https://www.developmentaid.org/organizations/view/692013/ethiopia-gis-society-of-ethiopia)
+
 Talks
 ======
+ * A comparative analysis of Sentinel-1 SAR flood mapping workflows using ESA SNAP and Google Earth Engine
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
+Download a PDF copy of [my CV here.](/files/Accademic%20CV%20v4.pdf)
+
