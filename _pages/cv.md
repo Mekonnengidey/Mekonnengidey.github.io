@@ -235,11 +235,10 @@ Technical Skills
 
 Research Interests
 ===
-* Data science, AI and Machine Learning for Information accessibility
+* Geospatial Data Science, GIS ,Remote Sensing and Land information Administration
 * Semantic Web Technologies and Linked Open Data (LOD)
 * Knowledge Management, Public data repositories.
 * Automated Reasoning, Knowledge Representation, Knowledge Graphs
-* Geospatial Data Science, GIS and Land information Administration
 
 
 Teaching
