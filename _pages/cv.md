@@ -212,47 +212,6 @@ for applications in **environmental monitoring, natural hazards, agriculture, la
 
 This interdisciplinary foundation supports both **applied geospatial research and future PhD-level work** in areas such as **Geospatial AI, Earth Observation, SAR/InSAR, environmental remote sensing, spatial data science, and computational Earth-system science**.
 
-Work experience old
-======
-* (2020 – Present): Senior Technical Instructor & Lab Manager
-* Bahir Dar University GIS & Remote Sensing Lab
-  * Teaching & Curriculum Development:
-  * Lead lab instruction for BSc and MSc courses: Advanced Remote Sensing/GIS, Geo-Databases, Computational and Geostatistical Science and Spatial Programming.
-  * Research Mentorship: Technical lead for 20+ MSc theses, transitioning student projects from manual GIS workflows to automated Python/R-based spatial analysis.
-  * System Administration: Manage high-performance GIS workstations and ERDAS/ArcGIS Enterprise environments.
-  * Supervisor: Lab technicians and Users
-
-* Senior Teaching and Research Assistant | Sept 2016 – Present
-* Facilitate undergraduate and graduate lab sessions on GIS, Remote Sensing, Databases, and Programming, integrating computer science, GIS, and Remote Sensing to support Land Administration programs.
-  * Support M.Sc. students with remote sensing workflows—including satellite image acquisition, processing, and analysis using tools like ArcGIS, QGIS, ERDAS Imagine, and Python, and applying techniques such as ML algorithms for classification and statistical methods.
-* Administrative and Academic Support Organized course logistics, including
-schedules, and communication with students.
-* Assisted professors with national research projects, in data collection,
-preprocessing, and analysis.
-* Prepared and disseminated syllabi, lecture materials, lab manuals, and
-guidelines for multiple courses.
-* Delivered instructions on introductory and advanced courses.
-  * Full Courses taught: Introduction to programming, Databases, and ICT.
-  * Lab Instructor: GIS, Geo-Database, Photogrammetry, and Remote Sensing.
-
-RESEARCH ASSISTANT
-
-* Conduct independent and collaborative research on remote sensing data analysis using artificial intelligence and machine learning techniques.
-* Design, develop, and evaluate deep learning models (e.g., CNNs, Transformers, hybrid architectures) for applications such as damage assessment, land-use classification, change detection, and environmental monitoring.
-* Acquire, preprocess, and manage multi-source remote sensing data, including satellite imagery (optical, SAR), aerial data, and geospatial datasets.
-* Perform feature extraction in spatial, spectral, temporal, and frequency domains to enhance model performance.
-* Analyze results using quantitative metrics (e.g., accuracy, IoU, F1-score) and statistically interpret model performance.
-* Contribute to grant proposals, technical documentation, and research deliverables aligned with institutional and funding agency goals.
-
-* TA
-* Assisted master's and PhD students with Artificial Intelligence courses, focusing on algorithms like BFS and DFS.
-* Provided guidance and support for coding assignments to ensure students' understanding and success.
-
-* SOFTWARE
-* -Engineered robust Web APIs using Ruby on Rails to streamline data access, reducing response time by 50% and enabling seamless integration with third-party applications, thereby boosting overall system efficiency.
-* Directed the transition to a microservices architecture implementing Golang which enhanced deployment frequency by 30% and positioned the team to better adapt to evolving business requirements.
-* Authored detailed technical documentation on software methodologies using Notion and Confluence; served as SCRUM master, leveraging JIRA to ensure consistent team progress and delivery.
-* -Enhanced workflow efficiency by implementing advanced CI/CD pipelines via GitLab and GitHub, facilitating seamless collaboration and code integration.
   
 Skills
 ======
