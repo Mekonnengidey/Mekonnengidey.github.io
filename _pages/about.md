@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Senior Geospatial Lab Instructor and Manager with 5+ years of experience in advanced Data
-base/GIS/RS systems. Specializing in automating remote sensing workflows using Python
-and Google Earth Engine (GEE). Proven track record in mentoring MSc researchers in multimodal data integration, Computational and Geostastical analysis and geodatabase management.
+Senior Geospatial Lab Instructor and Manager with 5+ years of experience in advanced Database/GIS/Remote Sensing systems. Specializing in automating remote sensing workflows using Python and Google Earth Engine (GEE). Proven track record in practical mentoring BSc and MSc students/researchers in Advanced topics in Programing, GIS, Satellite Data processing, Computational and Geostatistical analysis and geodatabase management.
 
 
 For more info
