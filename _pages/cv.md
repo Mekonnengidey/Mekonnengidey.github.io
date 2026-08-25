@@ -102,7 +102,7 @@ Teaching, Mentorship & Academic Leadership
 
 ---
 
-Research Experience & Selected academic Projects
+Research Experience & Selected academic Projects 
 ======
 
 ### SAR Data Processing & Remote Sensing Laboratory Manual
@@ -179,10 +179,10 @@ Research Experience & Selected academic Projects
 
 - The project demonstrates the integration of **geospatial databases, server-side GIS, Python programming, external APIs, routing algorithms, and web cartography** into a functional location-based decision-support application.
 
-### Geospatial Artificial Intelligence & Machine Learning
+### Geospatial Artificial Intelligence & Machine Learning 
 
-- Conduct research at the intersection of **remote sensing, GIS, artificial intelligence, and machine learning**.
-- Develop and evaluate machine learning and deep learning approaches for:
+- Conducted and lead Lab experiments at the intersection of **remote sensing, GIS, artificial intelligence, and machine learning**.
+- Developed and evaluated machine learning and deep learning approaches for:
   - Land-use/land-cover classification
   - Object-based image analysis
   - Environmental change detection
@@ -205,7 +205,6 @@ Develop and deliver practical training in:
 - **GIS Automation and Spatial Programming**
 - **Machine Learning for Remote Sensing**
 - **Multi-source Geospatial Data Integration**
-
 ---
 
 Publications
