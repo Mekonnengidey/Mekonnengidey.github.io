@@ -11,15 +11,13 @@ redirect_from:
 
 # MEKONNEN GIDEY MELES
 
-**Senior GIS & Remote Sensing Research Laboratory Assistant | Geospatial Data Science | Remote Sensing & AI**
+** Senior GIS & Remote Sensing Research Laboratory Assistant | Geospatial Data Science | Remote Sensing & AI**
 
 Bahir Dar, Ethiopia  
 **Phone:** +251-918-23-33-32  
 **Email:** mekonnengidey@gmail.com | mekonnen.gidey@bdu.edu.et  
 **LinkedIn:** [linkedin.com/in/mekonnengidey](https://www.linkedin.com/in/mekonnengidey)  
-**Portfolio:** [mekonnengidey.github.io](https://mekonnengidey.github.io/)  
-**Google Scholar:** [Add profile link]  
-**ORCID:** [Add ORCID]  
+**Portfolio:** [mekonnengidey.github.io](https://mekonnengidey.github.io/)   
 **GitHub:** [Add GitHub profile]
 
 ---
@@ -31,9 +29,7 @@ Education
 **Bahir Dar University, Ethiopia** | *In Progress — Expected December 2026*
 
 - **Research Focus:** Geospatial Artificial Intelligence, Advanced Remote Sensing, Object-Based Image Analysis, and high-resolution Earth observation.
-- **Research/Technical Milestone:** Developed an **11-stage Object-Based Image Classification (OBIC)** workflow using ERDAS IMAGINE Objective.
-- Applied **0.15 m aerial imagery** and calibrated a Multi-Bayesian Network for agricultural plot delineation, achieving a **Mean PixProb > 0.98** in the experimental classification workflow.
-- Current research interests include **multi-source remote sensing, geospatial AI, spatial machine learning, image segmentation, and environmental applications of Earth observation**.
+- Current research interests include **NISAR and multi-source remote sensing, geospatial AI, spatial machine learning, image segmentation, and environmental applications of Earth observation**.
 
 ### M.Sc. in Information Technology
 **Bahir Dar University, Ethiopia** | **March 2021**
@@ -102,6 +98,11 @@ Research Experience & Selected Projects
 - Processed sequential SAR observations to derive interferometric information and spatial patterns of surface motion.
 - Integrated deformation products with **GIS, terrain information, and environmental/geological context** for geohazard assessment.
 
+### Object-Based Image Classification 
+
+-  Used  **ERDAS OBJECTIVE and Bayesian** methods for developing an **11-stage Object-Based Image Classification (OBIC)** model for crop field delineation.
+- Applied **0.15 m aerial imagery** and calibrated a Multi-Bayesian Network for agricultural plot delineation, achieving a **Mean PixProb > 0.98** in the experimental classification workflow.
+
 ### Geospatial Artificial Intelligence & Machine Learning
 
 - Conduct research at the intersection of **remote sensing, GIS, artificial intelligence, and machine learning**.
@@ -124,7 +125,7 @@ Teaching, Mentorship & Academic Leadership
 ### Postgraduate Research Mentorship
 
 - Technical mentor for **20+ MSc research projects** involving GIS, remote sensing, spatial analysis, machine learning, and environmental applications.
-- Guide students through **research design, data acquisition, preprocessing, modeling, validation, visualization, and technical writing**.
+- Guide students through **research design, data selection, acquisition, preprocessing, modeling, validation, visualization, and technical writing**.
 - Support the transition from conventional/manual GIS workflows to **automated, reproducible Python/R and cloud-based geospatial workflows**.
 
 ### Courses Taught / Laboratory Instruction
@@ -135,7 +136,7 @@ Teaching, Mentorship & Academic Leadership
 - Geo-Databases
 - Computational & Geostatistical Science
 - Spatial Programming
-- Photogrammetry
+- Photogrammetry (using Satelite and UAV data)
 - Introduction to Programming
 - Databases
 - Information & Communication Technology
