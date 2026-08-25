@@ -62,6 +62,33 @@ Academic & Research Experience
 - Develop laboratory manuals, datasets, practical exercises, technical guidelines, and research-oriented teaching materials.
 - Promote **reproducible research practices**, including scripted processing, structured project organization, version control, documentation, and automated geospatial workflows.
 
+---
+
+Teaching, Mentorship & Academic Leadership
+======
+
+### Postgraduate Research Mentorship
+
+- Technical mentor for **20+ MSc research projects** involving GIS, remote sensing, spatial analysis, machine learning, and environmental applications.
+- Guide students through **research design, data selection, acquisition, preprocessing, modeling, validation, visualization, and technical writing**.
+- Support the transition from conventional/manual GIS workflows to **automated, reproducible Python/R and cloud-based geospatial workflows**.
+
+### Courses Taught / Laboratory Instruction
+
+**Full undergraduate Courses taught**
+- Introduction to Programming 
+- Introduction to Database management systems
+- Introduction to Information & Communication Technology
+
+**Lab Instructor**
+- Advanced GIS & Remote Sensing
+- Remote Sensing
+- Geographic Information Systems
+- Geo-Databases
+- Computational & Geostatistical Science
+- Spatial Programming
+- Photogrammetry (Satellite/UAV )
+
 ### Senior Teaching & Research Assistant
 
 **Bahir Dar University, Ethiopia**  
@@ -75,7 +102,7 @@ Academic & Research Experience
 
 ---
 
-Research Experience & Selected Projects
+Research Experience & Selected academic Projects
 ======
 
 ### SAR Data Processing & Remote Sensing Laboratory Manual
@@ -103,6 +130,55 @@ Research Experience & Selected Projects
 -  Used  **ERDAS OBJECTIVE and Bayesian** methods for developing an **11-stage Object-Based Image Classification (OBIC)** model for crop field delineation.
 - Applied **0.15 m aerial imagery** and calibrated a Multi-Bayesian Network for agricultural plot delineation, achieving a **Mean PixProb > 0.98** in the experimental classification workflow.
 
+### Watershed Delineation, Morphometry & Conservation Prioritization
+
+- Used **ArcGIS Pro** and DEM-based hydrological analysis to delineate the **Gilgel Abay watershed** and its drainage network.
+- Delineated and analyzed **micro-watersheds** using terrain-derived hydrological parameters, including flow direction, flow accumulation, stream networks, and drainage characteristics.
+- Conducted **watershed morphometric analysis** using linear, areal, and relief parameters to characterize drainage structure and watershed response.
+- Applied multi-criteria spatial analysis to **prioritize micro-watersheds for conservation and preservation**, integrating terrain, drainage, and environmental characteristics.
+- Developed reproducible GIS workflows for watershed delineation, morphometric parameter extraction, spatial ranking, and thematic mapping.
+
+### Geostatistical Analysis & Investment Site Suitability — Bahir Dar
+
+- Applied **advanced geostatistical and spatial-analysis methods** to evaluate the spatial distribution of environmental, infrastructural, accessibility, and socioeconomic factors influencing **investment-site suitability in Bahir Dar**.
+- Integrated heterogeneous spatial datasets using **GIS-based multi-criteria decision analysis (MCDA)**, spatial statistics, proximity analysis, and weighted suitability modeling.
+- Investigated spatial patterns and relationships among candidate investment locations and key suitability constraints to support **evidence-based spatial planning and investment decision-making**.
+- Developed suitability surfaces and thematic maps to identify, rank, and visualize **potential investment zones**.
+
+### Geostatistical Modeling & Malaria Risk Analysis — West Gojam
+
+- Applied **spatial statistics and geostatistical methods** to investigate the spatial distribution and environmental determinants of **malaria risk in West Gojam**.
+- Integrated malaria occurrence data with relevant environmental and geographic variables, including **elevation, land cover, climatic conditions, proximity, and other spatial risk factors**.
+- Applied spatial interpolation, exploratory spatial analysis, hotspot analysis, and spatial modeling to identify **patterns and geographic concentrations of malaria risk**.
+- Developed spatial risk maps to support **public-health planning, environmental risk assessment, and targeted intervention strategies**.
+
+### Advanced Geospatial Database & Web Map Services
+
+- Designed and implemented a centralized **geospatial data management and dissemination environment** using **PostgreSQL/PostGIS and GeoServer** for organizing, storing, managing, and publishing institutional raster and vector datasets.
+- Designed spatial database structures for **vector geodata**, leveraging PostGIS for spatial storage, spatial querying, geometry management, and integration with GIS applications.
+- Configured **GeoServer workspaces, data stores, and published layers** from PostGIS, enabling standardized web-based access to institutional geospatial datasets.
+- Integrated raster datasets through GeoServer coverage stores, including **GeoTIFF-based raster data**, and configured them as web-accessible map layers. :contentReference[oaicite:1]{index=1}
+- Published geospatial datasets through **OGC-compliant Web Map Service (WMS)** interfaces for browser-based visualization and interoperability with desktop GIS clients. GeoServer WMS supports dynamic map rendering, reprojection, and SLD-based styling. :contentReference[oaicite:2]{index=2}
+- Configured vector layers from PostGIS and explored **WFS-based feature access** for interoperable delivery of spatial data to GIS and web applications. :contentReference[oaicite:3]{index=3}
+- Applied spatial database concepts including **coordinate reference systems, geometry types, spatial indexing, spatial queries, layer organization, metadata, and database-to-map-server integration**.
+- Developed a reusable architecture linking **PostgreSQL/PostGIS → GeoServer → OGC web services → GIS/Web-map clients**, demonstrating practical experience in geospatial data infrastructure and Spatial Data Infrastructure (SDI) concepts.
+
+### Python-Based Web GIS for Health Facility Accessibility & Routing
+
+- Developed a **Python-based Web GIS application** for locating nearby health facilities and identifying the **fastest road-based route** from a user-defined location.
+- Designed a backend workflow connecting a Python web API with geospatial datasets published through the **GeoServer infrastructure**, separating data management/service delivery from application logic.
+- Integrated **OpenStreetMap road-network data** with a routing service to support network-based accessibility analysis rather than simple Euclidean-distance calculations.
+- Implemented spatial queries to identify candidate health facilities near a user's location and used routing services to evaluate **road-network distance and travel time**.
+- Integrated the **OSRM routing API** to perform nearest-road matching and fastest-route analysis; OSRM supports route geometry, distance, duration, alternative routes, and GeoJSON output for web mapping. :contentReference[oaicite:4]{index=4}
+- Implemented API requests and response handling in **Python**, including coordinate-based queries, JSON processing, spatial feature handling, and integration of external routing services.
+- Returned route geometries in a web-compatible format and visualized the resulting **health-facility locations, user position, road network, and recommended route** within an interactive web map.
+- Applied practical concepts in **REST API integration, geospatial web services, spatial querying, coordinate transformation, network analysis, GeoJSON, OpenStreetMap data, and web-based visualization**.
+- Demonstrated an end-to-end geospatial application architecture:
+
+  **PostgreSQL/PostGIS → GeoServer/OGC Services → Python Web API → Routing API/OpenStreetMap → Interactive Web Map**
+
+- The project demonstrates the integration of **geospatial databases, server-side GIS, Python programming, external APIs, routing algorithms, and web cartography** into a functional location-based decision-support application.
+
 ### Geospatial Artificial Intelligence & Machine Learning
 
 - Conduct research at the intersection of **remote sensing, GIS, artificial intelligence, and machine learning**.
@@ -118,28 +194,6 @@ Research Experience & Selected Projects
 - Evaluate models using quantitative metrics including **accuracy, precision, recall, F1-score, IoU, RMSE, MAE, and R²**, depending on the research application.
 
 ---
-
-Teaching, Mentorship & Academic Leadership
-======
-
-### Postgraduate Research Mentorship
-
-- Technical mentor for **20+ MSc research projects** involving GIS, remote sensing, spatial analysis, machine learning, and environmental applications.
-- Guide students through **research design, data selection, acquisition, preprocessing, modeling, validation, visualization, and technical writing**.
-- Support the transition from conventional/manual GIS workflows to **automated, reproducible Python/R and cloud-based geospatial workflows**.
-
-### Courses Taught / Laboratory Instruction
-
-- Advanced GIS & Remote Sensing
-- Remote Sensing
-- Geographic Information Systems
-- Geo-Databases
-- Computational & Geostatistical Science
-- Spatial Programming
-- Photogrammetry (using Satelite and UAV data)
-- Introduction to Programming
-- Databases
-- Information & Communication Technology
 
 ### Technical Workshops
 
