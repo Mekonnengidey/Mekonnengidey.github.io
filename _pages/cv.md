@@ -11,13 +11,13 @@ redirect_from:
 
 # MEKONNEN GIDEY MELES
 
-** Senior GIS & Remote Sensing Research Laboratory Assistant | Geospatial Data Science | Remote Sensing & AI**
+**Senior GIS & Remote Sensing Research Laboratory Assistant | Geospatial Data Science | Earth Observation | Geospatial AI**
 
 Bahir Dar, Ethiopia  
 **Phone:** +251-918-23-33-32  
-**Email:** mekonnengidey@gmail.com | mekonnen.gidey@bdu.edu.et  
+**Email:** mekonnengidey@gmail.com · mekonnen.gidey@bdu.edu.et  
 **LinkedIn:** [linkedin.com/in/mekonnengidey](https://www.linkedin.com/in/mekonnengidey)  
-**Portfolio:** [mekonnengidey.github.io](https://mekonnengidey.github.io/)   
+**Portfolio:** [mekonnengidey.github.io](https://mekonnengidey.github.io/)  
 **GitHub:** [Add GitHub profile]
 
 ---
@@ -28,19 +28,19 @@ Education
 ### M.Sc. in Geoinformation Science
 **Bahir Dar University, Ethiopia** | *In Progress — Expected December 2026*
 
-- **Research Focus:** Geospatial Artificial Intelligence, Advanced Remote Sensing, Object-Based Image Analysis, and high-resolution Earth observation.
-- Current research interests include **NISAR and multi-source remote sensing, geospatial AI, spatial machine learning, image segmentation, and environmental applications of Earth observation**.
+- **Research focus:** Geospatial AI, Advanced Remote Sensing, Object-Based Image Analysis, and high-resolution Earth observation.
+- Current interests include **NISAR/SAR, multi-source Earth observation, spatial machine learning, image segmentation, and environmental applications of geospatial AI**.
 
 ### M.Sc. in Information Technology
 **Bahir Dar University, Ethiopia** | **March 2021**
 
 - **Thesis:** *A Linked Data (LD) Approach for Publishing and Better Integration of Ethiopian Open Government Datasets (OGD).*
-- Research involved **Linked Open Data, semantic interoperability, knowledge representation, RDF, SPARQL, ontology design, and integration of heterogeneous public datasets**.
+- Focus: **Linked Open Data, RDF, SPARQL, ontology design, semantic interoperability, and integration of heterogeneous public datasets**.
 
 ### B.Sc. in Computer Science
 **Bahir Dar University, Ethiopia** | **December 2016**
 
-- **Project:** Developed an interactive Learning Management System based on the **Open edX framework** to improve academic engagement and digital learning.
+- **Project:** Interactive Learning Management System based on the **Open edX framework**.
 
 ---
 
@@ -52,15 +52,157 @@ Academic & Research Experience
 **Bahir Dar University — GIS & Remote Sensing Laboratory**  
 **2020 – Present**
 
-- Lead the technical and academic operation of a multidisciplinary **GIS, Remote Sensing, Geospatial Data Science, and Spatial Computing laboratory**, supporting BSc, MSc, and research activities.
-- Design and deliver practical laboratory instruction in **Advanced GIS & Remote Sensing, Geo-Databases, Computational & Geostatistical Science, Spatial Programming, Photogrammetry, and Geospatial Data Analysis**.
-- Provide technical leadership and research mentorship for **20+ MSc research projects**, supporting students from research design and data acquisition through processing, modeling, validation, visualization, and scientific reporting.
-- Develop reproducible geospatial workflows integrating **satellite remote sensing, GIS, spatial statistics, programming, machine learning, databases, and computational resources** for environmental and land-related research.
-- Support research using **Sentinel-1, Sentinel-2, Landsat, DEMs, UAV/aerial imagery, and other multi-source geospatial datasets**.
-- Manage high-performance GIS workstations, research software environments, geospatial databases, and laboratory computing infrastructure.
-- Supervise laboratory technicians and users and coordinate technical support, software resources, research infrastructure, and laboratory operations.
-- Develop laboratory manuals, datasets, practical exercises, technical guidelines, and research-oriented teaching materials.
-- Promote **reproducible research practices**, including scripted processing, structured project organization, version control, documentation, and automated geospatial workflows.
+- Lead the technical and academic operation of a multidisciplinary laboratory supporting **GIS, Remote Sensing, Geospatial Data Science, Spatial Computing, and environmental research**.
+- Design and deliver practical instruction in **Advanced GIS & Remote Sensing, Geo-Databases, Computational & Geostatistical Science, Spatial Programming, Photogrammetry, and Geospatial Data Analysis**.
+- Provide technical mentorship for **20+ MSc research projects**, supporting research from data acquisition and preprocessing through analysis, modeling, validation, visualization, and reporting.
+- Develop reproducible workflows integrating **Earth observation, GIS, spatial statistics, programming, machine learning, databases, and cloud-based geospatial analysis**.
+- Work with **Sentinel-1, Sentinel-2, Landsat, DEMs, UAV/aerial imagery, and other multi-source geospatial datasets**.
+- Manage geospatial computing infrastructure, GIS workstations, research software environments, databases, and laboratory technical resources.
+- Supervise laboratory technicians and users and coordinate technical support, software resources, and research infrastructure.
+- Develop **technical manuals, datasets, laboratory exercises, and research-oriented teaching resources** used in undergraduate and postgraduate training.
+- Promote reproducible research through **scripted processing, structured workflows, documentation, version control, and automated geospatial analysis**.
+
+### Senior Teaching & Research Assistant
+
+**Bahir Dar University, Ethiopia**  
+**September 2016 – Present**
+
+- Support undergraduate and postgraduate teaching and research in **GIS, Remote Sensing, Geo-Databases, Photogrammetry, Programming, Spatial Analysis, and Computational Geospatial Science**.
+- Integrate **computer science, Earth observation, GIS, statistics, databases, and programming** into multidisciplinary teaching and research.
+- Assist MSc researchers with satellite-data acquisition, preprocessing, feature extraction, classification, spatial modeling, machine learning, validation, visualization, and technical reporting.
+- Contribute to faculty and institutional research through **field data collection, geospatial database development, remote-sensing analysis, spatial modeling, and research documentation**.
+- Prepare course materials, laboratory manuals, datasets, programming exercises, and technical guidelines.
+
+---
+
+Selected Projects & Technical Portfolio
+======
+
+The following projects represent the main technical methods and application areas developed through research, teaching, and laboratory practice.
+
+### 1. Advanced SAR & InSAR Analysis
+
+**Methods:** Sentinel-1 · SAR preprocessing · VV/VH analysis · InSAR · deformation analysis · terrain correction · change detection · GIS integration
+
+- Developed workflows for **Sentinel-1 SAR acquisition, preprocessing, calibration, filtering, backscatter analysis, and interpretation** using ESA SNAP.
+- Applied SAR time-series methods for **flood/inundation mapping** using multi-temporal VV/VH observations and backscatter-based change detection.
+- Applied **InSAR** techniques to investigate surface deformation associated with tectonic, volcanic, seismic, and environmental processes.
+- Integrated SAR-derived products with **DEM, terrain, geological, and environmental information** for geohazard analysis.
+
+**Technical resource:**  
+[Download: SAR Data Processing & Applications Laboratory Manual](/files/SAR-Data-Processing-Laboratory-Manual.pdf)
+
+[Download: Sentinel-1 Flood Monitoring Laboratory Manual](/files/Sentinel-1-Flood-Monitoring-Laboratory-Manual.pdf)
+
+[Download: InSAR Surface Deformation Laboratory Manual](/files/InSAR-Surface-Deformation-Laboratory-Manual.pdf)
+
+---
+
+### 2. Object-Based Image Analysis & Probabilistic Classification
+
+**Methods:** Object-Based Image Analysis · Image Segmentation · Bayesian Classification · High-resolution Aerial Imagery · Accuracy Assessment
+
+- Developed an **11-stage Object-Based Image Classification (OBIC)** workflow using **ERDAS IMAGINE Objective**.
+- Used **0.15 m aerial imagery** for agricultural plot/field delineation.
+- Developed and calibrated a **Multi-Bayesian Network** for object-based classification.
+- Achieved an experimental **Mean PixProb > 0.98**, demonstrating high probabilistic classification confidence within the evaluated workflow.
+
+**Technical resource:**  
+[Download: Object-Based Image Classification Laboratory Manual](/files/Object-Based-Image-Classification-Laboratory-Manual.pdf)
+
+---
+
+### 3. Watershed Analysis, Morphometry & Conservation Prioritization
+
+**Study area:** Gilgel Abay, Ethiopia
+
+**Methods:** DEM analysis · Hydrological modeling · Watershed delineation · Morphometry · Multi-Criteria Analysis
+
+- Used **ArcGIS Pro and DEM-based hydrological modeling** to delineate the Gilgel Abay watershed and drainage network.
+- Delineated hierarchical **micro-watersheds** using flow direction, flow accumulation, stream extraction, and watershed analysis.
+- Computed **linear, areal, and relief morphometric parameters** to characterize drainage and watershed response.
+- Applied spatial multi-criteria analysis to **rank and prioritize micro-watersheds for conservation and preservation**.
+
+**Technical resource:**  
+[Download: Watershed Delineation & Morphometric Analysis Manual](/files/Watershed-Morphometric-Analysis-Laboratory-Manual.pdf)
+
+---
+
+### 4. Geostatistics, Spatial Decision Analysis & Environmental Risk
+
+#### Investment Site Suitability — Bahir Dar
+
+**Methods:** Geostatistics · Spatial Statistics · MCDA · Proximity Analysis · Suitability Modeling · Weighted Overlay
+
+- Integrated environmental, infrastructural, accessibility, socioeconomic, and land-related datasets to evaluate **investment-site suitability**.
+- Applied spatial analysis and **Multi-Criteria Decision Analysis (MCDA)** to identify and rank candidate investment areas.
+- Produced spatial suitability surfaces supporting **urban planning and evidence-based investment decisions**.
+
+#### Malaria Risk Analysis — West Gojam
+
+**Methods:** Spatial Statistics · Geostatistical Modeling · Hotspot Analysis · Environmental Risk Modeling
+
+- Investigated the spatial distribution of malaria risk in relation to **elevation, land cover, climatic and geographic variables**.
+- Applied spatial statistical and geostatistical approaches to identify **risk concentrations and environmental patterns**.
+- Produced spatial risk information supporting **public-health planning and targeted intervention**.
+
+**Technical resources:**  
+[Download: Investment Site Suitability Analysis Manual](/files/Investment-Site-Suitability-Laboratory-Manual.pdf)
+
+[Download: Malaria Risk & Geostatistical Analysis Manual](/files/Malaria-Risk-Geostatistical-Analysis-Laboratory-Manual.pdf)
+
+---
+
+### 5. Geospatial Database, GeoServer & Web Mapping Infrastructure
+
+**Technologies:** PostgreSQL/PostGIS · GeoServer · WMS/WFS · GeoTIFF · Spatial SQL · OGC Services
+
+- Designed a geospatial data infrastructure for storing, managing, and publishing institutional **raster and vector datasets**.
+- Used **PostgreSQL/PostGIS** for spatial data storage, geometry management, spatial queries, and database organization.
+- Configured **GeoServer workspaces, data stores, raster coverage stores, and published layers**.
+- Implemented OGC-based services including **WMS and WFS** for interoperable access to geospatial data.
+- Applied spatial indexing, coordinate reference systems, layer styling, metadata organization, and GIS/web-client integration.
+
+**Architecture:**
+
+`PostgreSQL/PostGIS → GeoServer → OGC Services → GIS/Web Clients`
+
+**Technical resource:**  
+[Download: Advanced Geospatial Database & Web Map Services Manual](/files/Advanced-Geospatial-Database-GeoServer-Laboratory-Manual.pdf)
+
+---
+
+### 6. Python Web GIS, Health Accessibility & Network Routing
+
+**Technologies:** Python · REST APIs · GeoServer · PostgreSQL/PostGIS · OpenStreetMap · OSRM · GeoJSON · Web Mapping
+
+- Developed a Python-based Web GIS application for locating **nearby health facilities** and identifying the **fastest road-based route**.
+- Integrated geospatial datasets served through **GeoServer** with a Python application layer.
+- Used **OpenStreetMap road-network data** and OSRM routing services for network-based distance and travel-time analysis.
+- Implemented API communication, JSON/GeoJSON processing, spatial queries, route geometry handling, and interactive map visualization.
+- Demonstrated an end-to-end geospatial application architecture:
+
+`PostGIS → GeoServer/OGC → Python API → OpenStreetMap/OSRM → Web Map`
+
+**Technical resource:**  
+[Download: Python Web GIS & Health Facility Routing Manual](/files/Python-Web-GIS-Health-Facility-Routing-Manual.pdf)
+
+---
+
+### 7. Geospatial AI & Machine Learning
+
+**Methods:** Machine Learning · Deep Learning · Object-Based Analysis · Image Segmentation · Change Detection · Feature Engineering
+
+- Conduct laboratory and research experiments applying **machine learning and deep learning to Earth observation and geospatial problems**.
+- Explore **Random Forest, SVM, CNNs, Transformers, and hybrid architectures** for:
+  - Land-use/land-cover classification
+  - Object-based image analysis
+  - Environmental change detection
+  - Disaster and damage assessment
+  - Agricultural monitoring
+  - Remote-sensing image segmentation
+- Develop multi-source workflows combining **optical imagery, SAR, aerial imagery, DEMs, spatial features, and temporal information**.
+- Evaluate models using application-specific metrics including **accuracy, precision, recall, F1-score, IoU, RMSE, MAE, and R²**.
 
 ---
 
@@ -69,331 +211,108 @@ Teaching, Mentorship & Academic Leadership
 
 ### Postgraduate Research Mentorship
 
-- Technical mentor for **20+ MSc research projects** involving GIS, remote sensing, spatial analysis, machine learning, and environmental applications.
-- Guide students through **research design, data selection, acquisition, preprocessing, modeling, validation, visualization, and technical writing**.
-- Support the transition from conventional/manual GIS workflows to **automated, reproducible Python/R and cloud-based geospatial workflows**.
+- Technical mentor for **20+ MSc research projects** across GIS, Remote Sensing, Land Administration, spatial analysis, and environmental applications.
+- Guide students through **research design, data acquisition, preprocessing, modeling, validation, visualization, and scientific reporting**.
+- Support transition from manual GIS workflows to **Python/R automation, cloud-based processing, machine learning, and reproducible research pipelines**.
 
-### Courses Taught / Laboratory Instruction
+### Courses & Laboratory Instruction
 
-**Full undergraduate Courses taught**
-- Introduction to Programming 
-- Introduction to Database management systems
-- Introduction to Information & Communication Technology
+**Full Courses**
 
-**Lab Instructor**
+- Introduction to Programming
+- Database Management Systems
+- Information & Communication Technology
+
+**Laboratory Instruction**
+
 - Advanced GIS & Remote Sensing
 - Remote Sensing
 - Geographic Information Systems
 - Geo-Databases
 - Computational & Geostatistical Science
 - Spatial Programming
-- Photogrammetry (Satellite/UAV )
-
-### Senior Teaching & Research Assistant
-
-**Bahir Dar University, Ethiopia**  
-**September 2016 – Present**
-
-- Facilitate undergraduate and postgraduate laboratory instruction in **GIS, Remote Sensing, Geo-Databases, Photogrammetry, Programming, Spatial Analysis, and Computational Geospatial Science**.
-- Integrate **computer science, GIS, remote sensing, statistics, databases, and programming** to support multidisciplinary teaching and research.
-- Support MSc researchers with complete remote sensing workflows, including **satellite-data acquisition, preprocessing, feature extraction, classification, spatial analysis, machine learning, statistical evaluation, visualization, and technical reporting**.
-- Assist faculty and institutional research projects with **field data collection, geospatial database development, satellite-data processing, spatial analysis, and research documentation**.
-- Prepare and deliver course syllabi, lecture materials, laboratory manuals, datasets, programming exercises, and technical guidelines.
-
----
-
-Research Experience & Selected academic Projects 
-======
-
-### SAR Data Processing & Remote Sensing Laboratory Manual
-
-**Bahir Dar University / Geospatial Data Technology Center**
-
-- Developed a postgraduate laboratory manual standardizing **Synthetic Aperture Radar (SAR) data processing and analysis workflows**.
-- Documented practical workflows for **Sentinel-1 data acquisition, preprocessing, calibration, filtering, visualization, and interpretation** using ESA SNAP.
-- Designed the manual as a reusable technical resource supporting postgraduate teaching, laboratory training, and independent research.
-
-### SAR-Based Flood Monitoring
-
-- Developed radar-based workflows for **flood and inundation mapping** using multi-temporal Sentinel-1 SAR imagery.
-- Applied **VV/VH backscatter analysis, preprocessing, thresholding, change detection, and GIS-based spatial analysis** to delineate inundated areas.
-- Explored automated and scripted workflows for processing multi-temporal SAR observations and generating flood-risk information.
-
-### InSAR-Based Surface Deformation Monitoring
-
-- Applied **Interferometric Synthetic Aperture Radar (InSAR)** methods for investigating surface deformation associated with geological and environmental processes.
-- Processed sequential SAR observations to derive interferometric information and spatial patterns of surface motion.
-- Integrated deformation products with **GIS, terrain information, and environmental/geological context** for geohazard assessment.
-
-### Object-Based Image Classification 
-
--  Used  **ERDAS OBJECTIVE and Bayesian** methods for developing an **11-stage Object-Based Image Classification (OBIC)** model for crop field delineation.
-- Applied **0.15 m aerial imagery** and calibrated a Multi-Bayesian Network for agricultural plot delineation, achieving a **Mean PixProb > 0.98** in the experimental classification workflow.
-
-### Watershed Delineation, Morphometry & Conservation Prioritization
-
-- Used **ArcGIS Pro** and DEM-based hydrological analysis to delineate the **Gilgel Abay watershed** and its drainage network.
-- Delineated and analyzed **micro-watersheds** using terrain-derived hydrological parameters, including flow direction, flow accumulation, stream networks, and drainage characteristics.
-- Conducted **watershed morphometric analysis** using linear, areal, and relief parameters to characterize drainage structure and watershed response.
-- Applied multi-criteria spatial analysis to **prioritize micro-watersheds for conservation and preservation**, integrating terrain, drainage, and environmental characteristics.
-- Developed reproducible GIS workflows for watershed delineation, morphometric parameter extraction, spatial ranking, and thematic mapping.
-
-### Geostatistical Analysis & Investment Site Suitability — Bahir Dar
-
-- Applied **advanced geostatistical and spatial-analysis methods** to evaluate the spatial distribution of environmental, infrastructural, accessibility, and socioeconomic factors influencing **investment-site suitability in Bahir Dar**.
-- Integrated heterogeneous spatial datasets using **GIS-based multi-criteria decision analysis (MCDA)**, spatial statistics, proximity analysis, and weighted suitability modeling.
-- Investigated spatial patterns and relationships among candidate investment locations and key suitability constraints to support **evidence-based spatial planning and investment decision-making**.
-- Developed suitability surfaces and thematic maps to identify, rank, and visualize **potential investment zones**.
-
-### Geostatistical Modeling & Malaria Risk Analysis — West Gojam
-
-- Applied **spatial statistics and geostatistical methods** to investigate the spatial distribution and environmental determinants of **malaria risk in West Gojam**.
-- Integrated malaria occurrence data with relevant environmental and geographic variables, including **elevation, land cover, climatic conditions, proximity, and other spatial risk factors**.
-- Applied spatial interpolation, exploratory spatial analysis, hotspot analysis, and spatial modeling to identify **patterns and geographic concentrations of malaria risk**.
-- Developed spatial risk maps to support **public-health planning, environmental risk assessment, and targeted intervention strategies**.
-
-### Advanced Geospatial Database & Web Map Services
-
-- Designed and implemented a centralized **geospatial data management and dissemination environment** using **PostgreSQL/PostGIS and GeoServer** for organizing, storing, managing, and publishing institutional raster and vector datasets.
-- Designed spatial database structures for **vector geodata**, leveraging PostGIS for spatial storage, spatial querying, geometry management, and integration with GIS applications.
-- Configured **GeoServer workspaces, data stores, and published layers** from PostGIS, enabling standardized web-based access to institutional geospatial datasets.
-- Integrated raster datasets through GeoServer coverage stores, including **GeoTIFF-based raster data**, and configured them as web-accessible map layers. :contentReference[oaicite:1]{index=1}
-- Published geospatial datasets through **OGC-compliant Web Map Service (WMS)** interfaces for browser-based visualization and interoperability with desktop GIS clients. GeoServer WMS supports dynamic map rendering, reprojection, and SLD-based styling. :contentReference[oaicite:2]{index=2}
-- Configured vector layers from PostGIS and explored **WFS-based feature access** for interoperable delivery of spatial data to GIS and web applications. :contentReference[oaicite:3]{index=3}
-- Applied spatial database concepts including **coordinate reference systems, geometry types, spatial indexing, spatial queries, layer organization, metadata, and database-to-map-server integration**.
-- Developed a reusable architecture linking **PostgreSQL/PostGIS → GeoServer → OGC web services → GIS/Web-map clients**, demonstrating practical experience in geospatial data infrastructure and Spatial Data Infrastructure (SDI) concepts.
-
-### Python-Based Web GIS for Health Facility Accessibility & Routing
-
-- Developed a **Python-based Web GIS application** for locating nearby health facilities and identifying the **fastest road-based route** from a user-defined location.
-- Designed a backend workflow connecting a Python web API with geospatial datasets published through the **GeoServer infrastructure**, separating data management/service delivery from application logic.
-- Integrated **OpenStreetMap road-network data** with a routing service to support network-based accessibility analysis rather than simple Euclidean-distance calculations.
-- Implemented spatial queries to identify candidate health facilities near a user's location and used routing services to evaluate **road-network distance and travel time**.
-- Integrated the **OSRM routing API** to perform nearest-road matching and fastest-route analysis; OSRM supports route geometry, distance, duration, alternative routes, and GeoJSON output for web mapping. :contentReference[oaicite:4]{index=4}
-- Implemented API requests and response handling in **Python**, including coordinate-based queries, JSON processing, spatial feature handling, and integration of external routing services.
-- Returned route geometries in a web-compatible format and visualized the resulting **health-facility locations, user position, road network, and recommended route** within an interactive web map.
-- Applied practical concepts in **REST API integration, geospatial web services, spatial querying, coordinate transformation, network analysis, GeoJSON, OpenStreetMap data, and web-based visualization**.
-- Demonstrated an end-to-end geospatial application architecture:
-
-  **PostgreSQL/PostGIS → GeoServer/OGC Services → Python Web API → Routing API/OpenStreetMap → Interactive Web Map**
-
-- The project demonstrates the integration of **geospatial databases, server-side GIS, Python programming, external APIs, routing algorithms, and web cartography** into a functional location-based decision-support application.
-
-### Geospatial Artificial Intelligence & Machine Learning 
-
-- Conducted and lead Lab experiments at the intersection of **remote sensing, GIS, artificial intelligence, and machine learning**.
-- Developed and evaluated machine learning and deep learning approaches for:
-  - Land-use/land-cover classification
-  - Object-based image analysis
-  - Environmental change detection
-  - Disaster and damage assessment
-  - Agricultural monitoring
-  - Remote sensing image segmentation
-- Experiment with **CNNs, Transformers, hybrid architectures, Random Forest, SVM, and ensemble learning**.
-- Develop multi-source workflows combining **optical imagery, SAR, aerial imagery, DEMs, spatial features, temporal information, and environmental variables**.
-- Evaluate models using quantitative metrics including **accuracy, precision, recall, F1-score, IoU, RMSE, MAE, and R²**, depending on the research application.
-
----
+- Photogrammetry
+- Satellite & UAV Remote Sensing
 
 ### Technical Workshops
 
-Develop and deliver practical training in:
-
-- **Python for Spatial Data Analytics**
-- **Google Earth Engine for Earth Observation**
-- **SAR and Sentinel-1 Data Processing**
-- **GIS Automation and Spatial Programming**
-- **Machine Learning for Remote Sensing**
-- **Multi-source Geospatial Data Integration**
----
-
-Publications
-======
-
-### Journal Publication
-
-- **Pandikumar, T., & Gidey, M. (2017).** *Data Security in LAN Using Distributed Firewall.* **International Research Journal of Engineering and Technology (IRJET), 4(5), 867–873.**  
-  [DOI](https://doi.org/10.13140/RG.2.2.27418.09924)
-
-### Technical / Academic Publication
-
-- **Gidey, M.** (2025). *Synthetic Aperture Radar (SAR) Data Processing and Applications: An Advanced Postgraduate Laboratory Manual.* Geospatial Data Technology Center Publication Series, Bahir Dar University, Ethiopia.
-
-### Manuscripts / Research in Progress
-
-- **Gidey, M., et al.** *Spatiotemporal Flood Monitoring Using Sentinel-1 SAR and Cloud-Based Geospatial Processing in Sub-Saharan Catchments.* **[In Preparation / Under Review]**
-
-> *Publication and manuscript statuses should be updated to reflect their actual current status.*
-Technical Manuals & Teaching Resources
-======
-
-As part of my academic and laboratory responsibilities at **Bahir Dar University Geospatial Data Technology Center (GDTC)**, I have developed a series of technical and laboratory manuals based on applied research and geospatial projects. These resources are maintained in the **BDU GDTC library** and used to support practical instruction, postgraduate training, and independent research in GIS, Remote Sensing, Geospatial Data Science, and Spatial Programming.
-
-### 1. SAR Data Processing & Applications — Postgraduate Laboratory Manual
-
-- Comprehensive practical manual covering **Synthetic Aperture Radar (SAR)** data acquisition, preprocessing, calibration, filtering, visualization, interpretation, and analysis.
-- Provides step-by-step workflows using **Sentinel-1 SAR and ESA SNAP**, with emphasis on reproducible radar-data processing.
-- Covers core concepts including **SAR geometry, polarization, speckle filtering, radiometric calibration, terrain correction, backscatter analysis, and multi-temporal interpretation**.
-- Developed as a reusable postgraduate teaching resource for **Remote Sensing, SAR, and Geospatial Data Science** courses.
-
-### 2. Sentinel-1 SAR Flood & Inundation Mapping — Laboratory Manual
-
-- Practical manual for **SAR-based flood and inundation mapping** using multi-temporal Sentinel-1 observations.
-- Demonstrates **VV/VH polarization analysis, SAR preprocessing, backscatter-based water detection, thresholding, change detection, and GIS-based flood delineation**.
-- Includes workflows for comparing pre- and post-event SAR observations and generating inundation maps and flood-risk information.
-- Introduces automated and scripted approaches for **repeatable multi-temporal flood-monitoring workflows**.
-
-### 3. Interferometric SAR (InSAR) for Surface Deformation Monitoring — Laboratory Manual
-
-- Practical guide to **InSAR-based surface deformation analysis** using sequential SAR acquisitions.
-- Covers interferometric processing concepts including **SAR coregistration, interferogram generation, phase analysis, filtering, phase unwrapping, geocoding, and deformation interpretation**.
-- Demonstrates the application of InSAR to **tectonic, volcanic, seismic, and other surface-deformation processes**.
-- Integrates deformation products with **GIS, DEMs, geological information, and environmental datasets** for geohazard assessment.
-
-### 4. Object-Based Image Analysis & Bayesian Classification — Laboratory Manual
-
-- Developed an advanced practical workflow for **Object-Based Image Classification (OBIC)** using **ERDAS IMAGINE Objective**.
-- Documents an **11-stage object-based classification workflow** for high-resolution agricultural plot delineation.
-- Demonstrates image segmentation, object generation, feature extraction, rule/model development, classification, and accuracy assessment.
-- Uses **0.15 m aerial imagery** and a calibrated **Multi-Bayesian Network** for agricultural field delineation.
-- Documents an experimental classification workflow achieving **Mean PixProb > 0.98**, providing a practical example of probabilistic object-based image classification.
-
-### 5. Watershed Delineation, Morphometric Analysis & Conservation Prioritization — GIS Laboratory Manual
-
-- Practical guide for **DEM-based watershed and drainage-network analysis** using ArcGIS Pro.
-- Demonstrates delineation of the **Gilgel Abay watershed** and hierarchical subdivision into micro-watersheds.
-- Covers hydrological terrain processing including **fill, flow direction, flow accumulation, stream extraction, stream ordering, and watershed delineation**.
-- Provides workflows for **linear, areal, and relief-based morphometric analysis** of drainage basins.
-- Applies multi-criteria spatial analysis to **rank and prioritize micro-watersheds for conservation and preservation**.
-- Includes procedures for automated parameter extraction, spatial ranking, thematic mapping, and reproducible watershed analysis.
-
-### 6. Advanced Geostatistics & Investment Site Suitability Analysis — Laboratory Manual
-
-- Practical manual demonstrating the application of **advanced spatial statistics, geostatistics, GIS, and Multi-Criteria Decision Analysis (MCDA)** to investment-site selection in Bahir Dar.
-- Covers integration and preprocessing of heterogeneous **environmental, infrastructural, accessibility, socioeconomic, and land-related datasets**.
-- Demonstrates spatial analysis techniques including **proximity analysis, spatial interpolation, suitability modeling, weighted overlay, constraint mapping, and spatial ranking**.
-- Provides workflows for generating suitability surfaces and identifying **high-, moderate-, and low-suitability investment zones**.
-- Emphasizes reproducible spatial decision-support workflows for **urban planning, investment analysis, and evidence-based land-use decision-making**.
-
-### 7. Geostatistical Modeling & Malaria Risk Analysis — Laboratory Manual
-
-- Practical guide for applying **spatial statistics and geostatistical modeling** to environmental and public-health risk analysis in **West Gojam**.
-- Integrates malaria occurrence information with environmental and geographic variables such as **elevation, land cover, climatic conditions, proximity measures, and other spatial risk factors**.
-- Demonstrates **exploratory spatial data analysis, spatial interpolation, hotspot analysis, spatial relationships, risk modeling, and thematic risk mapping**.
-- Provides workflows for identifying spatial concentrations and environmental patterns associated with **malaria risk**.
-- Demonstrates the application of geospatial analysis to **public-health planning, environmental risk assessment, and spatially targeted intervention**.
-
-### 8. Advanced Geospatial Database & Web Map Services — Laboratory Manual
-
-- Practical guide to designing a **geospatial data management and dissemination infrastructure** using **PostgreSQL/PostGIS and GeoServer**.
-- Covers spatial database design, geometry types, coordinate reference systems, spatial queries, spatial indexing, data organization, and management of institutional geospatial datasets.
-- Demonstrates configuration of **GeoServer workspaces, PostGIS data stores, raster coverage stores, and published geospatial layers**.
-- Covers publication and consumption of geospatial data through **OGC Web Map Service (WMS) and Web Feature Service (WFS)**.
-- Demonstrates management and visualization of both **vector and raster datasets**, including GeoTIFF-based raster layers.
-- Introduces **SLD-based styling, map rendering, reprojection, layer configuration, and web-based geospatial data dissemination**.
-- Documents an end-to-end Spatial Data Infrastructure workflow:
-
-  **PostgreSQL/PostGIS → GeoServer → OGC Services → GIS/Web Clients**
-
-- Designed as a practical resource for teaching **Spatial Databases, Web GIS, GeoServer, OGC standards, and geospatial data infrastructure**.
-
-### 9. Python Web GIS, Health Facility Accessibility & Network Routing — Laboratory Manual
-
-- Practical guide to developing a **Python-based Web GIS application** for health-facility accessibility and route optimization.
-- Demonstrates integration of **PostgreSQL/PostGIS, GeoServer, Python Web APIs, OpenStreetMap, routing services, and interactive web mapping**.
-- Implements spatial queries for identifying **nearby health facilities** based on user-defined geographic locations.
-- Demonstrates network-based accessibility analysis using **road-network distance and travel time**, rather than simple Euclidean distance.
-- Integrates the **OSRM routing API** for nearest-road matching and fastest-route computation.
-- Covers API request/response handling, **JSON processing, GeoJSON, coordinate handling, route geometry, distance/duration extraction, and web-map visualization**.
-- Demonstrates integration of institutional geospatial data served through GeoServer with external **OpenStreetMap-based routing services**.
-- Documents the complete application architecture:
-
-  **PostgreSQL/PostGIS → GeoServer/OGC Services → Python Web API → OpenStreetMap/OSRM → Interactive Web Map**
-
-- Provides a practical example of integrating **spatial databases, server-side GIS, REST APIs, network analysis, Python programming, and web cartography** into a geospatial decision-support application.
+- Python for Spatial Data Analytics
+- Google Earth Engine for Earth Observation
+- Sentinel-1 SAR Data Processing
+- InSAR and Surface Deformation Analysis
+- GIS Automation & Spatial Programming
+- Machine Learning for Remote Sensing
+- Multi-source Geospatial Data Integration
 
 ---
 
-### Teaching & Research Resource Portfolio
-
-Collectively, these manuals cover a broad range of **geospatial methods, computational tools, and environmental applications**, including:
-
-**Remote Sensing → SAR/InSAR → Object-Based Classification → GIS → Hydrological Modeling → Geostatistics → Spatial Decision Analysis → Spatial Databases → GeoServer/OGC → Python APIs → Web GIS → Network Analysis**
-
-The manuals are designed not only as software tutorials but as **research-oriented workflows**, linking geospatial theory, computational methods, real-world datasets, quantitative analysis, validation, and environmental decision-making.
----
-
-Technical & Methodological Skills
+Technical Skills
 ======
 
-### Remote Sensing & Earth Observation
+### Earth Observation & Remote Sensing
 
-**Optical Remote Sensing · SAR · InSAR · Multispectral Imaging · Object-Based Image Analysis · Image Classification · Change Detection · Time-Series Analysis · Feature Extraction · Environmental Monitoring**
-
-### Satellite & Geospatial Data
-
-**Sentinel-1 · Sentinel-2 · Landsat · High-Resolution Aerial Imagery · DEMs · UAV Data · Multi-source Data Fusion · Earth Observation Time Series**
+**Sentinel-1 · Sentinel-2 · Landsat · SAR · InSAR · Multispectral Remote Sensing · Object-Based Image Analysis · Change Detection · Time-Series Analysis · UAV/Aerial Imagery · DEM Processing**
 
 ### GIS & Spatial Analysis
 
-**ArcGIS Pro · ArcGIS Enterprise · QGIS · ERDAS IMAGINE · LPS · Spatial Analysis · Terrain Analysis · Spatial Statistics · Geostatistics · Cartography**
+**ArcGIS Pro · ArcGIS Enterprise · QGIS · ERDAS IMAGINE · LPS · Spatial Analysis · Terrain Analysis · Geostatistics · Spatial Statistics · Hydrological Modeling · MCDA · Cartography**
 
 ### Programming & Data Science
 
 **Python · R · C++ · Java · PHP · SQL · GeoPandas · NumPy · Pandas · Rasterio · Scikit-learn**
 
+### Geospatial Databases & Web GIS
+
+**PostgreSQL/PostGIS · GeoServer · WMS · WFS · GeoTIFF · GeoJSON · REST APIs · OpenStreetMap · OSRM · Web GIS**
+
 ### Cloud & Computational Geospatial Science
 
-**Google Earth Engine · GEE API · Automated Geospatial Processing · Batch Processing · Reproducible Research Workflows · Computational Earth Observation**
+**Google Earth Engine · GEE API · Automated Geospatial Processing · Batch Processing · Reproducible Research · Version Control**
 
 ### Machine Learning & AI
 
-**Machine Learning · Deep Learning · Random Forest · SVM · CNNs · Transformers · Object-Based Classification · Semantic Segmentation · Change Detection · Feature Engineering · Model Evaluation**
-
-### Spatial Databases & Data Management
-
-**PostgreSQL/PostGIS · MySQL · Microsoft SQL Server · Oracle · Spatial Databases · RDF · SPARQL · Ontology Design · Knowledge Graphs**
+**Random Forest · SVM · CNNs · Transformers · Ensemble Learning · Semantic Segmentation · Object-Based Classification · Change Detection · Feature Engineering · Model Evaluation**
 
 ### Semantic Web & Linked Data
 
-**Linked Open Data · RDF · SPARQL · Ontology Engineering · Protégé · Google Refine · SILK · Virtuoso · W3C Semantic Web Standards**
+**RDF · SPARQL · Linked Open Data · Ontology Engineering · Protégé · Google Refine · SILK · Virtuoso**
 
-### Software Engineering & Development
+### Software Engineering
 
-**REST APIs · Ruby on Rails · Golang · Microservices · HTML/CSS · JavaScript · Git · GitHub · GitLab · CI/CD · Agile/Scrum · Jira**
+**Git · GitHub · GitLab · CI/CD · REST APIs · Ruby on Rails · Golang · Microservices · HTML/CSS · JavaScript · Agile/Scrum · Jira**
 
 ### Systems & Infrastructure
 
-**GIS Workstation Administration · ArcGIS Enterprise · Windows Server Administration · LAN Configuration · Research Computing Infrastructure**
+**GIS Workstation Administration · ArcGIS Enterprise · Windows Server · LAN Configuration · Research Computing Infrastructure**
 
 ---
 
 Research Interests
 ======
 
-My research interests are centered on the integration of **Earth Observation, Geospatial Data Science, Artificial Intelligence, and Computational GIS** to address environmental and societal challenges.
+My research interests focus on combining **Earth Observation, Geospatial Data Science, Artificial Intelligence, and Computational GIS** to understand and model environmental and societal processes.
 
-### Primary Research Areas
+### Current Research Interests
 
-- **Geospatial Artificial Intelligence and Machine Learning**
-- **Advanced Remote Sensing and Earth Observation**
-- **SAR/InSAR and Surface Deformation Monitoring**
-- **Multi-source and Multi-modal Remote Sensing**
-- **Object-Based Image Analysis and High-Resolution Imagery**
-- **Time-Series Satellite Image Analysis**
-- **Environmental Change Detection**
-- **Flood and Natural Hazard Monitoring**
-- **Agricultural and Ecosystem Monitoring**
-- **Spatial Statistics and Geostatistics**
-- **Geospatial Data Fusion**
-- **Cloud-Based Earth Observation**
-- **Spatial Data Science and Computational GIS**
+- Geospatial Artificial Intelligence and Spatial Machine Learning
+- Advanced Remote Sensing and Earth Observation
+- SAR/InSAR and Surface Deformation Monitoring
+- Multi-source and Multi-modal Remote Sensing
+- Object-Based Image Analysis
+- Satellite Image Time-Series Analysis
+- Environmental Change Detection
+- Flood and Natural Hazard Monitoring
+- Agricultural and Ecosystem Monitoring
+- Spatial Statistics and Geostatistics
+- Geospatial Data Fusion
+- Cloud-Based Earth Observation
+- Computational GIS and Spatial Data Science
 
-### Emerging PhD Research Interests
+### Future PhD Research Direction
 
-Particularly interested in doctoral research combining:
+Particularly interested in doctoral research at the intersection of:
 
-**NISAR / SAR + InSAR + Optical Earth Observation + Geospatial AI + Time-Series Analysis + Environmental Modeling**
+**NISAR/SAR + InSAR + Optical Earth Observation + Geospatial AI + Time-Series Analysis + Environmental Modeling**
 
 with applications in:
 
@@ -407,18 +326,55 @@ with applications in:
 
 ---
 
-Service & Academic Leadership
+Selected Technical Resource Collection
 ======
 
-- **Laboratory Accreditation Team Leader:** Coordinate accreditation-related activities across **7 laboratories and approximately 210 workstations**, including technical infrastructure, documentation, laboratory standards, and technician coordination.
-- **GIS & Remote Sensing Laboratory Management:** Coordinate laboratory users, technical resources, software environments, computing infrastructure, and research support.
-- **Research Mentorship:** Provide technical supervision and research support to MSc students across GIS, Remote Sensing, Land Administration, and related disciplines.
-- **Academic Material Development:** Develop laboratory manuals, practical exercises, datasets, and technical guidelines for undergraduate and postgraduate courses.
-- **Research Support:** Contribute to institutional and collaborative research projects through geospatial data acquisition, processing, analysis, visualization, and technical documentation.
+The following manuals were developed as **research-oriented teaching and laboratory resources** and are available for download from this website.
+
+| Resource | Main Methods | Download |
+|---|---|---|
+| **SAR Data Processing & Applications** | Sentinel-1, SAR preprocessing, calibration, filtering, backscatter | [PDF](/files/SAR-Data-Processing-Laboratory-Manual.pdf) |
+| **Sentinel-1 Flood Monitoring** | VV/VH, change detection, thresholding, flood mapping | [PDF](/files/Sentinel-1-Flood-Monitoring-Laboratory-Manual.pdf) |
+| **InSAR Surface Deformation** | InSAR, interferometry, phase analysis, deformation | [PDF](/files/InSAR-Surface-Deformation-Laboratory-Manual.pdf) |
+| **Object-Based Image Classification** | OBIA, segmentation, Bayesian classification | [PDF](/files/Object-Based-Image-Classification-Laboratory-Manual.pdf) |
+| **Watershed & Morphometric Analysis** | DEM, hydrology, morphometry, prioritization | [PDF](/files/Watershed-Morphometric-Analysis-Laboratory-Manual.pdf) |
+| **Investment Site Suitability** | Geostatistics, MCDA, suitability analysis | [PDF](/files/Investment-Site-Suitability-Laboratory-Manual.pdf) |
+| **Malaria Risk & Geostatistics** | Spatial statistics, geostatistics, risk modeling | [PDF](/files/Malaria-Risk-Geostatistical-Analysis-Laboratory-Manual.pdf) |
+| **Geospatial Database & GeoServer** | PostGIS, GeoServer, WMS/WFS, SDI | [PDF](/files/Advanced-Geospatial-Database-GeoServer-Laboratory-Manual.pdf) |
+| **Python Web GIS & Health Routing** | Python, APIs, OSM, OSRM, Web GIS | [PDF](/files/Python-Web-GIS-Health-Facility-Routing-Manual.pdf) |
 
 ---
 
-Professional Memberships & Affiliations
+Selected Publications & Research Outputs
+======
+
+### Journal Publication
+
+- **Pandikumar, T., & Gidey, M. (2017).** *Data Security in LAN Using Distributed Firewall.* **International Research Journal of Engineering and Technology (IRJET), 4(5), 867–873.**  
+  [DOI](https://doi.org/10.13140/RG.2.2.27418.09924)
+
+### Technical Publication
+
+- **Gidey, M. (2025).** *Synthetic Aperture Radar (SAR) Data Processing and Applications: An Advanced Postgraduate Laboratory Manual.* Geospatial Data Technology Center Publication Series, Bahir Dar University, Ethiopia.
+
+### Research in Progress
+
+- **Gidey, M., et al.** *Spatiotemporal Flood Monitoring Using Sentinel-1 SAR and Cloud-Based Geospatial Processing in Sub-Saharan Catchments.* **[Update status: In Preparation / Under Review]**
+
+---
+
+Academic & Professional Service
+======
+
+- **Laboratory Accreditation Team Leader:** Coordinate accreditation activities across **7 laboratories and approximately 210 workstations**, including technical infrastructure, documentation, standards, and technician coordination.
+- **GIS & Remote Sensing Laboratory Management:** Coordinate laboratory users, technical resources, software environments, computing infrastructure, and research support.
+- **Research Mentorship:** Provide technical mentorship and research support to MSc students across GIS, Remote Sensing, Land Administration, and related disciplines.
+- **Academic Resource Development:** Develop laboratory manuals, datasets, exercises, technical guidelines, and research-oriented teaching materials.
+- **Institutional Research Support:** Contribute to research projects through geospatial data acquisition, processing, analysis, visualization, and technical documentation.
+
+---
+
+Professional Memberships
 ======
 
 - [American Society for Photogrammetry and Remote Sensing (ASPRS)](https://www.asprs.org/)
@@ -429,9 +385,9 @@ Professional Memberships & Affiliations
 Talks & Presentations
 ======
 
-### Selected Technical Talk
+### Selected Technical Presentation
 
-- **A Comparative Analysis of Sentinel-1 SAR Flood Mapping Workflows Using ESA SNAP and Google Earth Engine**
+**A Comparative Analysis of Sentinel-1 SAR Flood Mapping Workflows Using ESA SNAP and Google Earth Engine**
 
 <ul>
 {% for post in site.talks reversed %}
@@ -445,18 +401,18 @@ Languages
 ======
 
 - **Amharic:** Native
-- **English:** Proficient — TOEFL: 87; Duolingo English Test: 130
+- **English:** Proficient — TOEFL 87; Duolingo English Test 130
 
 ---
 
-Additional Academic Information
+Additional Information
 ======
 
 - **GRE:** 309 — Verbal Reasoning: 155; Quantitative Reasoning: 154
-- **Current M.Sc. Research:** Geoinformation Science, with emphasis on **Geospatial AI and Advanced Remote Sensing**
-- **Current Academic Position:** Senior GIS & Remote Sensing Research Laboratory Assistant, Bahir Dar University
-- **Research Experience:** Remote sensing, SAR/InSAR, GIS, geospatial machine learning, spatial databases, environmental monitoring, and computational geospatial science.
-- **Teaching Experience:** Undergraduate and postgraduate instruction, laboratory management, technical workshops, and MSc research mentorship.
+- **Current Degree:** M.Sc. Geoinformation Science, Bahir Dar University
+- **Expected Graduation:** December 2026
+- **Current Position:** Senior GIS & Remote Sensing Research Laboratory Assistant
+- **Research Profile:** Earth Observation · Geospatial AI · SAR/InSAR · Spatial Data Science · GIS · Geostatistics · Environmental Modeling
 
 ---
 
@@ -482,7 +438,5 @@ Email: [email]
 
 Download CV
 ======
-
-A PDF version of my academic CV is available here:
 
 [**Download Academic CV (PDF)**](/files/Academic-CV.pdf)
