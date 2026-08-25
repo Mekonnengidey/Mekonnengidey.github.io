@@ -51,6 +51,25 @@ guidelines for multiple courses.
 * Delivered instructions on introductory and advanced courses.
   * Full Courses taught: Introduction to programming, Databases, and ICT.
   * Lab Instructor: GIS, Geo-Database, Photogrammetry, and Remote Sensing.
+
+RESEARCH ASSISTANT
+
+* Conduct independent and collaborative research on remote sensing data analysis using artificial intelligence and machine learning techniques.
+* Design, develop, and evaluate deep learning models (e.g., CNNs, Transformers, hybrid architectures) for applications such as damage assessment, land-use classification, change detection, and environmental monitoring.
+* Acquire, preprocess, and manage multi-source remote sensing data, including satellite imagery (optical, SAR), aerial data, and geospatial datasets.
+* Perform feature extraction in spatial, spectral, temporal, and frequency domains to enhance model performance.
+* Analyze results using quantitative metrics (e.g., accuracy, IoU, F1-score) and statistically interpret model performance.
+* Contribute to grant proposals, technical documentation, and research deliverables aligned with institutional and funding agency goals.
+
+* TA
+* Assisted master's and PhD students with Artificial Intelligence courses, focusing on algorithms like BFS and DFS.
+* Provided guidance and support for coding assignments to ensure students' understanding and success.
+
+* SOFTWARE
+* -Engineered robust Web APIs using Ruby on Rails to streamline data access, reducing response time by 50% and enabling seamless integration with third-party applications, thereby boosting overall system efficiency.
+* Directed the transition to a microservices architecture implementing Golang which enhanced deployment frequency by 30% and positioned the team to better adapt to evolving business requirements.
+* Authored detailed technical documentation on software methodologies using Notion and Confluence; served as SCRUM master, leveraging JIRA to ensure consistent team progress and delivery.
+* -Enhanced workflow efficiency by implementing advanced CI/CD pipelines via GitLab and GitHub, facilitating seamless collaboration and code integration.
   
 Skills
 ======
@@ -90,6 +109,8 @@ Teaching
 Service and leadership
 ======
 * Currently working as Lab accreditation team leader(Over see 7 Labs(210 Work stations) and technicians
+* Collaborated with a cross-functional team to implement a sentiment analysis framework for 12 analysts, enhancing decision-making based on real-time public sentiment.
+* Developed tweet classification models using TFIDF methodology to improve sentiment analysis accuracy.
 
 Languages
 ===
