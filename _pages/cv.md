@@ -29,12 +29,195 @@ Education
   * Bahir Dar University, Ethiopia December 2016
   * Project: Developed an interactive learning management system (LMS) to improve academic engagement based on Open EDX framework
 
-Work experience
+Work Experience
 ======
-* (2020 – Present): Senior Lab Instructor & Manager
-  * Bahir Dar University GDTC Lab
-  * Duties includes:Teaching & Curriculum Development:
-  * Lead lab instruction for MSc courses: Advanced RS, Geo-Databases, Computational and Geostatistical Science and Spatial Programming.
+
+## Senior Technical Instructor & GIS/Remote Sensing Laboratory Manager
+**Bahir Dar University — GIS & Remote Sensing Laboratory**  
+**2020 – Present**
+
+- Lead the technical and academic operation of a multidisciplinary **GIS, Remote Sensing, Geospatial Data Science, and Spatial Computing laboratory**, supporting BSc, MSc, and research activities.
+- Design and deliver practical laboratory instruction in **Advanced GIS & Remote Sensing, Geo-Databases, Computational & Geostatistical Science, Spatial Programming, Photogrammetry, and Geospatial Data Analysis**.
+- Mentor and provide technical leadership for **20+ MSc research projects**, helping students transition from conventional/manual GIS workflows toward **reproducible, automated, and scalable Python/R-based geospatial analysis**.
+- Develop laboratory workflows that integrate **GIS, remote sensing, programming, statistics, machine learning, databases, and high-performance computing** for environmental and land-related research.
+- Manage and maintain high-performance geospatial computing infrastructure, including **GIS workstations, ERDAS Imagine, ArcGIS/ArcGIS Enterprise, QGIS, geospatial databases, and research software environments**.
+- Supervise laboratory technicians and users, coordinate technical support, manage software/hardware resources, and maintain reliable research and teaching environments.
+- Support the development of practical curricula, laboratory manuals, technical guidelines, datasets, exercises, and research-oriented teaching materials.
+- Promote **reproducible research practices**, including scripted data processing, structured project organization, version control, documentation, and automated geospatial workflows.
+
+### Multidisciplinary Geospatial & Remote Sensing Applications
+
+Laboratory teaching and research activities involve **multi-purpose workflows and datasets** applicable to environmental monitoring, land administration, agriculture, natural-resource management, disaster risk reduction, and Earth-system research.
+
+- **Satellite Remote Sensing:** Optical and multispectral imagery, SAR, time-series imagery, vegetation monitoring, land-cover/land-use mapping, change detection, environmental monitoring, and hazard assessment.
+- **Earth Observation Data:** Sentinel-1, Sentinel-2, Landsat, DEMs, and other multi-source satellite and geospatial datasets.
+- **SAR & InSAR:** SAR preprocessing, backscatter analysis, interferometry, deformation monitoring, change detection, and integration of radar observations with optical and topographic datasets.
+- **Image Processing:** Radiometric/geometric preprocessing, atmospheric and terrain corrections, image enhancement, mosaicking, spectral analysis, feature extraction, segmentation, and classification.
+- **Time-Series Analysis:** Temporal compositing, seasonal analysis, trend detection, anomaly detection, vegetation dynamics, environmental change, and multi-temporal satellite analysis.
+- **GIS & Spatial Analysis:** Spatial querying, geoprocessing, overlay analysis, network analysis, terrain analysis, suitability modeling, spatial statistics, and geostatistics.
+- **Geospatial Databases:** Spatial database design, SQL, spatial queries, data modeling, database integration, and management of large geospatial datasets.
+- **Machine Learning:** Supervised/unsupervised classification, feature selection, Random Forest, Support Vector Machines, ensemble methods, regression, clustering, and model evaluation.
+- **Deep Learning & AI:** CNNs, Transformers, hybrid architectures, image segmentation, object detection, change detection, and multimodal geospatial learning.
+- **Statistical & Geostatistical Analysis:** Exploratory spatial analysis, regression, spatial autocorrelation, interpolation, uncertainty assessment, and quantitative model evaluation.
+- **Spatial Programming:** Python and R for geospatial automation, data processing, analysis, visualization, machine learning, and reproducible research.
+- **Cloud/Scalable Geospatial Workflows:** Large-scale Earth observation processing, automated pipelines, batch processing, and integration of computational tools for satellite-data analysis.
+- **Data Visualization & Cartography:** Scientific mapping, thematic cartography, interactive visualization, spatial dashboards, and communication of research results.
+- **Photogrammetry & UAV Data:** Image acquisition, photogrammetric processing, orthomosaic generation, surface modeling, 3D reconstruction, and integration of UAV-derived products with GIS and satellite data.
+
+### Research Mentorship & Technical Leadership
+
+- Provide end-to-end technical mentorship for MSc research, from **research problem formulation and data acquisition to preprocessing, modeling, validation, visualization, and scientific reporting**.
+- Help students design workflows that combine multiple datasets, such as **SAR + optical imagery + DEM + climate/environmental variables + field observations**.
+- Introduce students to research practices emphasizing **automation, reproducibility, quantitative validation, and scalable computational methods**.
+- Support research projects involving **land-cover classification, agricultural monitoring, environmental change, disaster assessment, land administration, spatial modeling, and geospatial AI**.
+- Assist researchers in selecting appropriate sensors, algorithms, software, computational workflows, and validation strategies according to the research question.
+
+---
+
+## Senior Teaching & Research Assistant
+**Bahir Dar University**  
+**September 2016 – Present**
+
+- Facilitate undergraduate and graduate laboratory sessions in **GIS, Remote Sensing, Geo-Databases, Photogrammetry, Programming, Spatial Analysis, and Geospatial Data Science**.
+- Integrate concepts from **computer science, GIS, remote sensing, statistics, databases, and programming** to support multidisciplinary teaching and research, particularly within Land Administration and related programs.
+- Support MSc students throughout remote sensing research workflows, including:
+  - Satellite data discovery and acquisition
+  - Image preprocessing and quality assessment
+  - Optical and SAR data analysis
+  - Feature extraction and engineering
+  - GIS-based spatial analysis
+  - Machine learning classification
+  - Statistical analysis and model evaluation
+  - Cartographic visualization and scientific reporting
+- Provide practical training using **ArcGIS Pro/ArcGIS Enterprise, QGIS, ERDAS Imagine, Python, R, spatial databases, and remote sensing processing environments**.
+- Assist faculty members and research teams with national and institutional research projects, including **field data collection, geospatial database development, satellite-data preprocessing, spatial analysis, modeling, and research documentation**.
+- Prepare and maintain **course syllabi, lecture materials, laboratory manuals, datasets, programming exercises, technical guidelines, and assessment materials**.
+- Deliver practical instruction ranging from foundational computing to advanced geospatial analysis.
+
+### Courses & Laboratory Instruction
+
+- **Programming & Computing:** Introduction to Programming, ICT, computational problem solving, scripting, and programming fundamentals.
+- **Databases:** Database concepts, SQL, relational database design, and geospatial databases.
+- **GIS:** GIS fundamentals, spatial analysis, geoprocessing, cartography, and spatial modeling.
+- **Remote Sensing:** Fundamentals and advanced remote sensing, image processing, classification, change detection, and Earth observation applications.
+- **Photogrammetry:** Digital photogrammetry, image processing, 3D reconstruction, and geospatial data generation.
+- **Geo-Database:** Spatial database design, spatial SQL, database management, and GIS-database integration.
+
+---
+
+# Research Assistant — Geospatial AI & Remote Sensing
+
+- Conduct independent and collaborative research at the intersection of **remote sensing, artificial intelligence, machine learning, deep learning, GIS, and environmental monitoring**.
+- Design, implement, train, and evaluate **deep learning architectures**, including CNNs, Transformers, and hybrid models, for geospatial applications.
+- Apply AI/ML to:
+  - Land-use/land-cover classification
+  - Environmental change detection
+  - Disaster and damage assessment
+  - Agricultural and vegetation monitoring
+  - Remote sensing image segmentation
+  - Spatial pattern recognition
+  - Environmental monitoring and risk assessment
+- Acquire, preprocess, organize, and integrate **multi-source Earth observation data**, including:
+  - Optical satellite imagery
+  - SAR imagery
+  - Multispectral data
+  - DEMs and terrain products
+  - UAV/aerial imagery
+  - Field observations
+  - Ancillary geospatial and environmental datasets
+- Develop **multi-modal and multi-temporal workflows** combining spatial, spectral, temporal, and radar information.
+- Perform feature engineering and representation learning across **spatial, spectral, temporal, and frequency domains**.
+- Develop automated preprocessing and analysis pipelines using **Python/R and geospatial libraries** to improve reproducibility and scalability.
+- Evaluate models using quantitative metrics including **overall accuracy, precision, recall, F1-score, IoU, confusion matrices, RMSE, MAE, R², and statistical significance/uncertainty measures**, depending on the application.
+- Conduct comparative experiments to assess the contribution of different **sensors, features, algorithms, and data-fusion strategies**.
+- Analyze and interpret model outputs from both computational and geospatial perspectives, emphasizing **generalization, uncertainty, robustness, and practical applicability**.
+- Contribute to **research proposals, grant applications, technical reports, manuscripts, datasets, documentation, and project deliverables** aligned with institutional and funding-agency priorities.
+
+### Research & Computational Focus
+
+My research activities emphasize the integration of:
+
+**Earth Observation + GIS + AI/ML + Spatial Statistics + Programming + Multi-source Data Fusion**
+
+with applications in:
+
+- Environmental monitoring
+- Land-use/land-cover dynamics
+- Disaster risk and damage assessment
+- Agricultural monitoring
+- Natural-resource management
+- Climate/environmental change
+- Land administration
+- Geospatial decision support
+
+---
+
+# Teaching Assistant — Artificial Intelligence & Computer Science
+
+- Assisted MSc and PhD-level students in **Artificial Intelligence and algorithmic problem solving**.
+- Supported practical exercises involving fundamental algorithms and computational thinking, including **Breadth-First Search (BFS), Depth-First Search (DFS), graph traversal, data structures, and algorithmic reasoning**.
+- Provided programming guidance, debugging support, and conceptual explanations for computational assignments and research-oriented coding tasks.
+- Helped students connect theoretical AI concepts with practical implementation and problem-solving workflows.
+
+---
+
+# Software Engineering & Geospatial Computing Experience
+
+Alongside academic and geospatial research activities, I have professional experience in **software engineering, backend development, distributed systems, DevOps, and collaborative software development**, providing a strong computational foundation for research-oriented geospatial applications.
+
+- Engineered robust **Web APIs using Ruby on Rails** to improve data accessibility and integration with third-party applications, achieving approximately **50% reduction in response time** through workflow and application optimization.
+- Contributed to the transition from monolithic systems toward a **microservices architecture using Golang**, improving deployment flexibility and increasing deployment frequency by approximately **30%**.
+- Developed and maintained technical documentation covering **software architecture, development methodologies, workflows, and operational procedures** using Notion and Confluence.
+- Served as **Scrum Master**, coordinating agile development activities, sprint planning, task tracking, and team communication using **Jira**.
+- Implemented and improved **CI/CD pipelines using GitLab and GitHub**, supporting automated testing, code integration, deployment, and collaborative software development.
+- Applied software-engineering principles including **version control, modular development, API design, automation, testing, documentation, and reproducible workflows**.
+- Bring software engineering practices into geospatial research through **Python/R scripting, automation, API-based data access, computational pipelines, version-controlled research code, and scalable data-processing workflows**.
+
+---
+
+# Core Technical Skills
+
+### Geospatial & Remote Sensing
+`GIS` · `Remote Sensing` · `Earth Observation` · `SAR` · `InSAR` · `Image Processing` · `Change Detection` · `Time-Series Analysis` · `Photogrammetry` · `UAV Mapping` · `DEM/Terrain Analysis`
+
+### Geospatial Software
+`ArcGIS Pro` · `ArcGIS Enterprise` · `QGIS` · `ERDAS Imagine` · `Google Earth Engine` · `GDAL` · `GRASS GIS` · `SAGA GIS`
+
+### Programming & Data Science
+`Python` · `R` · `SQL` · `Golang` · `Ruby on Rails` · `NumPy` · `Pandas` · `GeoPandas` · `Rasterio` · `Xarray` · `Scikit-learn`
+
+### AI & Machine Learning
+`Machine Learning` · `Deep Learning` · `CNNs` · `Transformers` · `Semantic Segmentation` · `Object Detection` · `Change Detection` · `Feature Engineering` · `Model Evaluation` · `Geospatial AI`
+
+### Spatial & Statistical Methods
+`Spatial Statistics` · `Geostatistics` · `Regression` · `Spatial Autocorrelation` · `Interpolation` · `Uncertainty Analysis` · `Multivariate Analysis` · `Time-Series Statistics`
+
+### Data & Infrastructure
+`PostgreSQL/PostGIS` · `Spatial Databases` · `Linux` · `High-Performance Workstations` · `Cloud/Scalable Processing` · `APIs` · `Git` · `GitHub` · `GitLab` · `CI/CD`
+
+### Software Engineering
+`REST APIs` · `Microservices` · `Ruby on Rails` · `Golang` · `Agile/Scrum` · `Jira` · `CI/CD` · `Version Control` · `Technical Documentation`
+
+---
+
+# Research Profile
+
+My work sits at the intersection of **Remote Sensing, GIS, Geospatial Data Science, Artificial Intelligence, and Software Engineering**, with a particular emphasis on transforming multi-source Earth observation data into reproducible and computationally scalable environmental information.
+
+I am particularly interested in research that combines:
+
+> **Satellite Remote Sensing + SAR/InSAR + GIS + AI/ML + Spatial Statistics + Programming + Multi-source Data Fusion**
+
+for applications in **environmental monitoring, natural hazards, agriculture, land-use dynamics, ecosystem assessment, climate-related environmental change, and land administration**.
+
+This interdisciplinary foundation supports both **applied geospatial research and future PhD-level work** in areas such as **Geospatial AI, Earth Observation, SAR/InSAR, environmental remote sensing, spatial data science, and computational Earth-system science**.
+
+Work experience old
+======
+* (2020 – Present): Senior Technical Instructor & Lab Manager
+* Bahir Dar University GIS & Remote Sensing Lab
+  * Teaching & Curriculum Development:
+  * Lead lab instruction for BSc and MSc courses: Advanced Remote Sensing/GIS, Geo-Databases, Computational and Geostatistical Science and Spatial Programming.
   * Research Mentorship: Technical lead for 20+ MSc theses, transitioning student projects from manual GIS workflows to automated Python/R-based spatial analysis.
   * System Administration: Manage high-performance GIS workstations and ERDAS/ArcGIS Enterprise environments.
   * Supervisor: Lab technicians and Users
