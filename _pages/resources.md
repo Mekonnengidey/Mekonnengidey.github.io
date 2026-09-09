@@ -8,7 +8,6 @@ author_profile: true
 
 {% include base_path %}
 
-# Academic Resources
 
 This collection presents selected **postgraduate laboratory manuals, technical guides, datasets, and research-oriented teaching resources** developed through my work in GIS, Remote Sensing, Geospatial Data Science, and laboratory-based research support at Bahir Dar University.
 
