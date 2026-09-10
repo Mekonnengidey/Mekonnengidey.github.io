@@ -23,7 +23,7 @@ The resources emphasize **reproducible geospatial workflows, Earth observation d
 
 A postgraduate laboratory manual covering the principles and practical processing of Synthetic Aperture Radar data for Earth observation applications.
 
-[**Download the SAR Data Processing & Applications Manual →**](/files/SAR-Data-Processing-Laboratory-Manual.pdf)
+[**Download the SAR Data Processing & Applications Manual →**](/files/SAR_GRD_FLOOD.pdf)
 
 ### Sentinel-1 Flood Monitoring
 
@@ -31,7 +31,7 @@ A postgraduate laboratory manual covering the principles and practical processin
 
 A practical workflow for extracting flood/inundation information from multi-temporal Sentinel-1 SAR observations.
 
-[**Download the Sentinel-1 Flood Monitoring Manual →**](/files/Sentinel-1-Flood-Monitoring-Laboratory-Manual.pdf)
+[**Download the Sentinel-1 Flood Monitoring Manual →**](/files/SAR_GRD_FLOOD.pdf.pdf)
 
 ### InSAR Surface Deformation
 
@@ -39,7 +39,7 @@ A practical workflow for extracting flood/inundation information from multi-temp
 
 A practical introduction to interferometric SAR processing and interpretation for surface-deformation applications.
 
-[**Download the InSAR Surface Deformation Manual →**](/files/InSAR-Surface-Deformation-Laboratory-Manual.pdf)
+[**Download the InSAR Surface Deformation Manual →**](/files/LAB2IN~1)
 
 ---
 
@@ -51,7 +51,7 @@ A practical introduction to interferometric SAR processing and interpretation fo
 
 A practical workflow for object-based image classification using high-resolution aerial imagery and probabilistic classification methods.
 
-[**Download the Object-Based Image Classification Manual →**](/files/Object-Based-Image-Classification-Laboratory-Manual.pdf)
+[**Download the Object-Based Image Classification Manual →**](/OBIC%20v5..pdf)
 
 ### Geospatial Machine Learning
 
@@ -69,7 +69,7 @@ Laboratory and research exercises exploring machine-learning approaches for Eart
 
 A practical workflow for DEM-based watershed analysis, morphometric characterization, and conservation prioritization.
 
-[**Download the Watershed & Morphometric Analysis Manual →**](/files/Watershed-Morphometric-Analysis-Laboratory-Manual.pdf)
+[**Download the Watershed & Morphometric Analysis Manual →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
 
 ### Investment Site Suitability Analysis
 
