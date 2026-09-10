@@ -14,17 +14,17 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+   {% if teaser and (include.type == "grid" or post.collection == "portfolio") %}
+  <div class="archive__item-teaser">
+    <img src=
+      {% if teaser contains "://" %}
+        "{{ teaser }}"
+      {% else %}
+        "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+      {% endif %}
+      alt="">
+  </div>
+{% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -51,7 +51,19 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
+    {% if post.collection == "portfolio" %}
+  {% if post.skills %}
+    <p><strong>Key skills:</strong> {{ post.skills | join: " • " }}</p>
+  {% endif %}
+
+  {% if post.techniques %}
+    <p><strong>Techniques:</strong> {{ post.techniques | join: " • " }}</p>
+  {% endif %}
+
+  {% if post.tools %}
+    <p><strong>Tools:</strong> {{ post.tools | join: " • " }}</p>
+  {% endif %}
+{% endif %}
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
