@@ -4,7 +4,7 @@ excerpt: "A comparative analysis of Sentinel-1 SAR flood mapping workflows using
 header:
   teaser: "/study-area-map.png"
   skills:
-  - SAR
+  - SAR GRD
   - Flood Mapping
   - Change Detection
   - Remote Sensing
