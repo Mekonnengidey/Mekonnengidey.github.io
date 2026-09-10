@@ -77,7 +77,7 @@ A practical workflow for DEM-based watershed analysis, morphometric characteriza
 
 A spatial decision-analysis workflow integrating environmental, infrastructural, accessibility, socioeconomic, and land-related information.
 
-[**Download the Investment Site Suitability Manual →**](/files/Investment-Site-Suitability-Laboratory-Manual.pdf)
+[**Download the Investment Site Suitability Manual →**](/files/Mekonnen%20Lab%202%20Python%20based%20Irrigation%20analysis%20and%20Workflow%20Automation.pdf)
 
 ### Malaria Risk & Geostatistical Analysis
 
@@ -85,7 +85,7 @@ A spatial decision-analysis workflow integrating environmental, infrastructural,
 
 A geospatial analysis workflow for investigating spatial patterns and environmental factors associated with malaria risk.
 
-[**Download the Malaria Risk & Geostatistical Analysis Manual →**](/files/Malaria-Risk-Geostatistical-Analysis-Laboratory-Manual.pdf)
+[**Download the Malaria Risk & Geostatistical Analysis Manual →**](/files/Mekonnen%20Lab%203%20Malaria%20Lab%20Portfolio%20Final.pdf)
 
 ---
 
