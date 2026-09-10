@@ -6,7 +6,8 @@ category: manuscripts
 permalink: /publication/data-security-in-lan-using-distributed-firewall/
 date: 2017-05-01
 venue: "International Research Journal of Engineering and Technology (IRJET)"
-paperurl: "https://doi.org/10.13140/RG.2.2.27418.09924"
+paperurl: "https://www.irjet.net/archives/V4/i5/IRJET-V4I5173.pdf"
+url: "https://doi.org/10.13140/RG.2.2.27418.09924"
 citation: 'Pandikumar, T., & Gidey, M. (2017). "Data Security in LAN Using Distributed Firewall." <i>International Research Journal of Engineering and Technology (IRJET)</i>, 4(5), 867–873.'
 excerpt: "A study on improving local-area-network security using a distributed firewall approach."
 
