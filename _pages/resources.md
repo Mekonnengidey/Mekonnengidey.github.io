@@ -27,6 +27,8 @@ A practical workflow for extracting flood/inundation information from multi-temp
 
 [**Download the Sentinel-1 Flood Monitoring Manual →**](/files/SAR_GRD_FLOOD.pdf)
 
+---
+
 ### InSAR Surface Deformation
 
 **Topics:** InSAR · interferometry · phase analysis · surface deformation · terrain correction
@@ -47,6 +49,8 @@ A practical workflow for object-based image classification using high-resolution
 
 [**Download the Object-Based Image Classification Manual →**](/files/OBICv5.pdf)
 
+---
+
 ### Geospatial Machine Learning
 
 **Topics:** machine learning · remote sensing · feature engineering · classification · segmentation · change detection
@@ -65,6 +69,8 @@ A practical workflow for DEM-based watershed analysis, morphometric characteriza
 
 [**Download the Watershed & Morphometric Analysis Manual →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
 
+---
+
 ### Irrigation Investment Site Suitability Analysis using Python and ArcGIS-Pro Model Builder
 
 **Topics:** ArcPy, geostatistics · MCDA · suitability modeling · proximity analysis · weighted overlay
@@ -74,6 +80,8 @@ A spatial decision-analysis workflow integrating environmental, infrastructural,
 [**Download the Investment Site Suitability using ArcGIS-Pro Model Builder Manual →**](/files/Mekonnen%20Lab%201%20Irrigation%20portfolio%20Final.pdf)
 
 [**Download the Python based Workflow Automation Investment Site Suitability Manual →**](/files/Mekonnen%20Lab%202%20Python%20based%20Irrigation%20analysis%20and%20Workflow%20Automation.pdf)
+
+---
 
 ### Malaria Risk & Geostatistical Analysis
 
@@ -94,6 +102,8 @@ A geospatial analysis workflow for investigating spatial patterns and environmen
 A practical guide to building and publishing interoperable geospatial data infrastructure using spatial databases and OGC web services.
 
 [**Download the Geospatial Database & GeoServer Manual →**](/files/Advanced-Geospatial-Database-GeoServer-Laboratory-Manual.pdf)
+
+---
 
 ### Python Web GIS & Health Facility Routing
 
@@ -126,3 +136,5 @@ My current MSc research interests increasingly focus on:
 with applications in **flood and natural-hazard monitoring, environmental change, agricultural monitoring, and Earth-system observation**.
 
 These resources provide practical foundations for this continuing research direction.
+
+---
