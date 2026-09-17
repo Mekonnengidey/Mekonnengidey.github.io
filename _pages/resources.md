@@ -25,7 +25,7 @@ The resources emphasize **reproducible geospatial workflows, Earth observation d
 A postgraduate laboratory manual covering the principles and practical processing of Synthetic Aperture Radar data for Earth observation applications.
 A practical workflow for extracting flood/inundation information from multi-temporal Sentinel-1 SAR observations.
 
-[**Download the Sentinel-1 Flood Monitoring Manual →**](/files/SAR_GRD_FLOOD.pdf.pdf)
+[**Download the Sentinel-1 Flood Monitoring Manual →**](/files/SAR_GRD_FLOOD.pdf)
 
 ### InSAR Surface Deformation
 
