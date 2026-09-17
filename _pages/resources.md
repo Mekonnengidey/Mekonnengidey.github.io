@@ -17,18 +17,12 @@ The resources emphasize **reproducible geospatial workflows, Earth observation d
 
 ## Remote Sensing, SAR & InSAR
 
-### SAR Data Processing & Applications
+### SAR Data Processing & Applications Sentinel-1 Flood Monitoring
 
 **Topics:** Sentinel-1 SAR · preprocessing · calibration · speckle filtering · backscatter analysis · interpretation
+            Sentinel-1 GRD · VV/VH · preprocessing · change detection · thresholding · flood mapping
 
 A postgraduate laboratory manual covering the principles and practical processing of Synthetic Aperture Radar data for Earth observation applications.
-
-[**Download the SAR Data Processing & Applications Manual →**](/files/SAR_GRD_FLOOD.pdf)
-
-### Sentinel-1 Flood Monitoring
-
-**Topics:** Sentinel-1 GRD · VV/VH · preprocessing · change detection · thresholding · flood mapping
-
 A practical workflow for extracting flood/inundation information from multi-temporal Sentinel-1 SAR observations.
 
 [**Download the Sentinel-1 Flood Monitoring Manual →**](/files/SAR_GRD_FLOOD.pdf.pdf)
