@@ -72,6 +72,7 @@ A practical workflow for DEM-based watershed analysis, morphometric characteriza
 A spatial decision-analysis workflow integrating environmental, infrastructural, accessibility, socioeconomic, and land-related information.
 
 [**Download the Investment Site Suitability using ArcGIS-Pro Model Builder Manual →**](/files/Mekonnen%20Lab%201%20Irrigation%20portfolio%20Final.pdf)
+
 [**Download the Python based Workflow Automation Investment Site Suitability Manual →**](/files/Mekonnen%20Lab%202%20Python%20based%20Irrigation%20analysis%20and%20Workflow%20Automation.pdf)
 
 ### Malaria Risk & Geostatistical Analysis
