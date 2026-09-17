@@ -45,7 +45,7 @@ A practical introduction to interferometric SAR processing and interpretation fo
 
 A practical workflow for object-based image classification using high-resolution aerial imagery and probabilistic classification methods.
 
-[**Download the Object-Based Image Classification Manual →**](/OBIC%20v5..pdf)
+[**Download the Object-Based Image Classification Manual →**](/files/OBICv5.pdf)
 
 ### Geospatial Machine Learning
 
