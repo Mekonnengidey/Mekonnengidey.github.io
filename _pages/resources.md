@@ -51,14 +51,6 @@ A practical workflow for object-based image classification using high-resolution
 
 ---
 
-### Geospatial Machine Learning
-
-**Topics:** machine learning · remote sensing · feature engineering · classification · segmentation · change detection
-
-Laboratory and research exercises exploring machine-learning approaches for Earth observation and geospatial analysis, including Random Forest, SVM, deep learning, and model evaluation.
-
----
-
 ## GIS, Spatial Analysis & Environmental Modeling
 
 ### Watershed & Morphometric Analysis
@@ -101,7 +93,7 @@ A geospatial analysis workflow for investigating spatial patterns and environmen
 
 A practical guide to building and publishing interoperable geospatial data infrastructure using spatial databases and OGC web services.
 
-[**Download the Geospatial Database & GeoServer Manual →**](/files/Advanced-Geospatial-Database-GeoServer-Laboratory-Manual.pdf)
+[**Download the Geospatial Database & GeoServer Manual →**](/files/Geospatial%20Databases%20Web%20GIS%20Project%20report.pdf)
 
 ---
 
