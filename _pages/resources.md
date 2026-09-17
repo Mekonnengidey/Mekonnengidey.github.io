@@ -33,7 +33,7 @@ A practical workflow for extracting flood/inundation information from multi-temp
 
 A practical introduction to interferometric SAR processing and interpretation for surface-deformation applications.
 
-[**Download the InSAR Surface Deformation Manual →**](/files/LAB2IN~1)
+[**Download the InSAR Surface Deformation Manual →**](/files/Adv_RS_Lab_2_InSAR_Manual)
 
 ---
 
