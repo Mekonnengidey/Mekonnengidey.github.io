@@ -37,3 +37,30 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+/* ==========================================================================
+   Custom fixes for layout overlap and responsive navigation
+   ========================================================================== */
+
+/* Prevent sidebar border/content from overlapping main body text */
+.sidebar {
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.archive, 
+.page {
+  box-sizing: border-box;
+  overflow: hidden; /* Constrains main content to its container */
+}
+
+.author__urls-wrapper {
+  max-width: 100%;
+  word-break: break-word;
+}
+
+/* Ensure navbar items don't hide prematurely on medium screens */
+@media (min-width: 768px) {
+  .greedy-nav .visible-links {
+    display: flex !important;
+  }
+}
