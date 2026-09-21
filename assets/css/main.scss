@@ -1,56 +1,24 @@
----
-# Minimal Mistakes / Academicpages default styling
----
-
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv"
-;
-
 /* ==========================================================================
-   Academicpages Clean Layout & Navigation Fixes
+   Edge Cross-Browser Sidebar & Main Content Alignment
    ========================================================================== */
 
-/* 1. Prevent sidebar border line from overlapping body text */
-#main {
-  clear: both;
-}
-
+/* Fix sidebar width and positioning */
 .sidebar {
   box-sizing: border-box;
+  float: left;
+  width: 200px !important;
 }
 
+/* Force main content container to clear the sidebar border line in Edge & Chrome */
 .archive, .page {
   box-sizing: border-box;
-  overflow: hidden; /* Constrains text inside container */
+  float: right;
+  width: calc(100% - 220px) !important; /* Leaves a 20px buffer clearing the line */
+  padding-left: 15px !important; /* Prevents text from touching the gray line */
+  clear: none !important;
 }
 
-/* 2. Reset navigation menu toggle state and restore desktop links */
+/* Maintain clean desktop header navigation */
 .greedy-nav {
   position: relative;
   display: flex !important;
@@ -61,12 +29,9 @@
   display: flex !important;
   visibility: visible !important;
   opacity: 1 !important;
-  position: static !important;
 }
 
-/* Hide toggle icon (both hamburger and close X) on desktop viewports */
 @media (min-width: 768px) {
-  .greedy-nav nav-toggle,
   .greedy-nav .nav-toggle,
   .greedy-nav button,
   .greedy-nav .hidden-links {
