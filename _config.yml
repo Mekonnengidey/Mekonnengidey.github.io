@@ -158,7 +158,7 @@ analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google: "G-DNNMR9EZ3B"
     tracking_id          :
-# google_analytics: "G-DNNMR9EZ3B" # Replace with your real Measurement ID
+google_analytics: "G-DNNMR9EZ3B" # Replace with your real Measurement ID
 
 # Reading Files
 include:
