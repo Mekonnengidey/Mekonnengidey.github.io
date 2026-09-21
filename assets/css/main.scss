@@ -37,30 +37,47 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
 /* ==========================================================================
-   Custom fixes for layout overlap and responsive navigation
+   Academicpages Responsive Overlap & Navigation Fixes
    ========================================================================== */
 
-/* Prevent sidebar border/content from overlapping main body text */
+/* 1. Prevent body text from overlapping under the sidebar border */
+#main {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  clear: both;
+}
+
 .sidebar {
-  box-sizing: border-box;
-  z-index: 10;
+  flex: 0 0 300px !important; /* Fixed width sidebar */
+  max-width: 300px !important;
+  width: 300px !important;
+  position: relative !important;
+  z-index: 2;
 }
 
-.archive, 
-.page {
-  box-sizing: border-box;
-  overflow: hidden; /* Constrains main content to its container */
+#main .archive,
+#main .page {
+  flex: 1 1 auto !important;
+  min-width: 0 !important; /* Forces flex child to shrink text instead of overlapping */
+  width: auto !important;
+  padding-left: 2em !important;
 }
 
-.author__urls-wrapper {
-  max-width: 100%;
-  word-break: break-word;
+/* 2. Fix GreedyNav hiding menu links on desktop */
+.greedy-nav {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-/* Ensure navbar items don't hide prematurely on medium screens */
-@media (min-width: 768px) {
-  .greedy-nav .visible-links {
-    display: flex !important;
-  }
+.greedy-nav .visible-links {
+  display: flex !important;
+  overflow: visible !important;
+}
+
+.greedy-nav nav-toggle,
+.greedy-nav .hidden-links {
+  display: none !important; /* Hides hamburger button when screen is wide */
 }
