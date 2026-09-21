@@ -39,33 +39,32 @@
 ;
 
 /* ==========================================================================
-   Academicpages Responsive Overlap & Navigation Fixes
+   Academicpages Clean Layout Alignment & Navbar Fixes
    ========================================================================== */
 
-/* 1. Prevent body text from overlapping under the sidebar border */
-#main {
-  display: flex !important;
-  flex-wrap: nowrap !important;
-  clear: both;
-}
-
+/* 1. Align sidebar top edge cleanly with page headings */
 .sidebar {
-  flex: 0 0 300px !important; /* Fixed width sidebar */
-  max-width: 300px !important;
-  width: 300px !important;
-  position: relative !important;
-  z-index: 2;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
-#main .archive,
-#main .page {
-  flex: 1 1 auto !important;
-  min-width: 0 !important; /* Forces flex child to shrink text instead of overlapping */
-  width: auto !important;
-  padding-left: 2em !important;
+.author__avatar {
+  margin-top: 0 !important;
 }
 
-/* 2. Fix GreedyNav hiding menu links on desktop */
+/* 2. Prevent content overlap without breaking layout alignment */
+.archive, .page {
+  float: right;
+  width: calc(100% - 260px) !important;
+  box-sizing: border-box;
+}
+
+.sidebar.sticky {
+  float: left;
+  width: 240px !important;
+}
+
+/* 3. Keep horizontal top menu visible on desktop screens */
 .greedy-nav {
   position: relative;
   display: flex;
@@ -77,7 +76,7 @@
   overflow: visible !important;
 }
 
-.greedy-nav nav-toggle,
+.greedy-nav .nav-toggle,
 .greedy-nav .hidden-links {
-  display: none !important; /* Hides hamburger button when screen is wide */
+  display: none !important;
 }
