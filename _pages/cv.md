@@ -155,7 +155,8 @@ Demonstration** Geospatial Data Technology Center seminar series, May 2026, Bahi
 # RESEARCH & TECHNICAL PROJECTS:APPLIED LABORATORY MANUALS
 
 
-The following research-oriented postgraduate laboratory manuals were developed through GIS, Remote Sensing, and Geospatial Data Technology Center activities. 
+The following research-oriented postgraduate laboratory manuals were developed through GIS, Remote Sensing, and Geospatial Data Technology Center research activities. 
+
 Selected resources are available through the [Academic Resources](../resources/) page.
 
 | Resource                                     | Main Methods                                                       |
