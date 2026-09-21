@@ -33,35 +33,43 @@
 ;
 
 /* ==========================================================================
-   Fix Layout Overlap and Navigation Menu Behavior
+   Academicpages Clean Layout & Navigation Fixes
    ========================================================================== */
 
 /* 1. Prevent sidebar border line from overlapping body text */
+#main {
+  clear: both;
+}
+
 .sidebar {
   box-sizing: border-box;
-  float: left;
 }
 
 .archive, .page {
   box-sizing: border-box;
-  overflow: hidden; /* Clears floating children so text never goes under sidebar */
+  overflow: hidden; /* Constrains text inside container */
 }
 
-/* 2. Force horizontal menu links to stay visible and prevent JS flickering */
+/* 2. Reset navigation menu toggle state and restore desktop links */
 .greedy-nav {
   position: relative;
-  overflow: visible !important;
+  display: flex !important;
+  align-items: center;
 }
 
 .greedy-nav .visible-links {
   display: flex !important;
   visibility: visible !important;
   opacity: 1 !important;
-  height: auto !important;
-  overflow: visible !important;
+  position: static !important;
 }
 
-.greedy-nav .nav-toggle,
-.greedy-nav .hidden-links {
-  display: none !important;
+/* Hide toggle icon (both hamburger and close X) on desktop viewports */
+@media (min-width: 768px) {
+  .greedy-nav nav-toggle,
+  .greedy-nav .nav-toggle,
+  .greedy-nav button,
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
 }
