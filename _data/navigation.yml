@@ -11,7 +11,7 @@ main:
   - title: "Research & Portfolio"
     url: /portfolio/
 
-  - title: "Academic Resources"
+  - title: "Projects & Academic Resources"
     url: /resources/
 
   - title: "Publications"
@@ -19,3 +19,6 @@ main:
 
   - title: "CV"
     url: /cv/
+
+  - title: "Certificates"
+    url: /Certificates/
