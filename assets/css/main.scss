@@ -39,41 +39,40 @@
 ;
 
 /* ==========================================================================
-   Academicpages Clean Layout Alignment & Navbar Fixes
+   Academicpages Cross-Browser Consistency Fixes
    ========================================================================== */
 
-/* 1. Align sidebar top edge cleanly with page headings */
-.sidebar {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
+/* 1. Fix profile picture clipping and top alignment */
 .author__avatar {
-  margin-top: 0 !important;
+  display: block;
+  margin-top: 15px !important; /* Restores top margin to prevent head clipping */
+  padding: 0;
 }
 
-/* 2. Prevent content overlap without breaking layout alignment */
-.archive, .page {
-  float: right;
-  width: calc(100% - 260px) !important;
+.author__avatar img {
+  padding: 4px; /* Soft inner border padding */
   box-sizing: border-box;
 }
 
-.sidebar.sticky {
-  float: left;
-  width: 240px !important;
+/* 2. Prevent content overlap while respecting natural theme width */
+.sidebar {
+  box-sizing: border-box;
 }
 
-/* 3. Keep horizontal top menu visible on desktop screens */
+.page, .archive {
+  box-sizing: border-box;
+  clear: none;
+}
+
+/* 3. Keep top menu items horizontal across all browsers */
 .greedy-nav {
   position: relative;
-  display: flex;
-  align-items: center;
 }
 
 .greedy-nav .visible-links {
   display: flex !important;
-  overflow: visible !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .greedy-nav .nav-toggle,
