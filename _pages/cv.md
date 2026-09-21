@@ -45,8 +45,7 @@ Bahir Dar, Ethiopia
 
 **Bahir Dar University, Ethiopia** | *In Progress — Expected June 2027*
 
-* Research focus: **Geospatial AI, Advanced Remote Sensing, Object-Based Image Analysis, and high-resolution Earth observation**.
-* Current interests include **NISAR/SAR, multi-source Earth observation, spatial machine learning, image segmentation, time-series analysis, and environmental geospatial AI**.
+* Current interests include **NISAR data fusion for disaster monitoring, NISAR fusion for Forest & Biomass mapping, Intelligent, near-real-time, disaster monitoring and early-warning frameworks**.
 
 ### M.Sc. in Information Technology
 
