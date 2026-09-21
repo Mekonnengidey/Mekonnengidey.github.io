@@ -35,3 +35,4 @@ Explore my:
 - **[Academic Resources](/resources/)** — postgraduate laboratory manuals and technical research resources
 - **[Publications](/publications/)** — publications and research outputs
 - **[CV](/cv/)** — detailed academic and professional background
+- **[Certificates](/Certificates/)** — Selected Training Certificates
