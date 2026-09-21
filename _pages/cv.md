@@ -67,7 +67,7 @@ Bahir Dar, Ethiopia
 ## Senior Technical Instructor & GIS/Remote Sensing Laboratory Manager
 
 **Bahir Dar University — GIS & Remote Sensing Laboratory**
-**2020 – Present**
+**2010 – Present**
 
 * Lead the technical and academic operation of a multidisciplinary laboratory supporting **GIS, Remote Sensing, Geospatial Data Science, Spatial Computing, and environmental research**.
 * Design and deliver practical instruction in **Advanced GIS & Remote Sensing, Geo-Databases, Computational & Geostatistical Science, Spatial Programming, Photogrammetry, and Geospatial Data Analysis**.
@@ -82,7 +82,7 @@ Bahir Dar, Ethiopia
 ### Senior Teaching & Research Assistant
 
 **Bahir Dar University, Ethiopia**
-**September 2016 – Present**
+**September 2017 – Present**
 
 * Support undergraduate and postgraduate teaching and research in **GIS, Remote Sensing, Geo-Databases, Photogrammetry, Programming, Spatial Analysis, and Computational Geospatial Science**.
 * Integrate **computer science, Earth observation, GIS, statistics, databases, and programming** into multidisciplinary teaching and research.
@@ -110,7 +110,7 @@ Bahir Dar, Ethiopia
 
 **Laboratory Instruction**
 
-* Advanced GIS & Remote Sensing
+* Advanced GIS & Remote Sensing(MSc)
 * Remote Sensing
 * Geographic Information Systems
 * Geo-Databases
@@ -131,7 +131,7 @@ Bahir Dar, Ethiopia
 
 ### Laboratory & Academic Leadership
 
-* **Laboratory Accreditation Team Leader:** Coordinate accreditation activities across **7 laboratories and approximately 210 workstations**, including technical infrastructure, documentation, standards, and technician coordination.
+* **Laboratory Accreditation Team Leader:** Coordinate accreditation activities across **Seven laboratories and over 210 workstations**, including technical infrastructure, documentation, standards, and technician coordination.
 * **GIS & Remote Sensing Laboratory Management:** Coordinate laboratory users, technical resources, software environments, computing infrastructure, and research support.
 * **Academic Resource Development:** Develop laboratory manuals, datasets, exercises, technical guidelines, and research-oriented teaching materials.
 
@@ -148,19 +148,17 @@ Bahir Dar, Ethiopia
 
 * **Gidey, M. (2025).** *Synthetic Aperture Radar (SAR) Data Processing and Applications: An Advanced Postgraduate Laboratory Manual.* Geospatial Data Technology Center Publication Series, Bahir Dar University, Ethiopia.
 
-### Research in Preparation
+### INVITED TALKS & PRESENTATIONS
 
-* **Gidey, M., et al.** *Spatiotemporal Flood Monitoring Using Sentinel-1 SAR and Cloud-Based Geospatial Processing in Sub-Saharan Catchments.*
-
-### Conference Presentation
-
-* **A Comparative Analysis of Sentinel-1 SAR Flood Mapping Workflows Using ESA SNAP and Google Earth Engine.** Geospatial Data Technology Center Weekly Conference, Bahir Dar University, June 2026.
-
+* **NISAR and Advances in SAR Missions: Insights for Ethiopian Complex-Terrain Studies, with Practical
+Demonstration** Geospatial Data Technology Center seminar series, May 2026, Bahir Dar University, may 2026.
 ---
 
-# Selected Academic Resources
+# RESEARCH & TECHNICAL PROJECTS:APPLIED LABORATORY MANUALS
 
-The following research-oriented postgraduate laboratory manuals were developed through GIS, Remote Sensing, and Geospatial Data Technology Center activities.
+
+The following research-oriented postgraduate laboratory manuals were developed through GIS, Remote Sensing, and Geospatial Data Technology Center activities. 
+Selected resources are available through the [Academic Resources](../resources/) page.
 
 | Resource                                     | Main Methods                                                       |
 | -------------------------------------------- | ------------------------------------------------------------------ |
@@ -173,8 +171,6 @@ The following research-oriented postgraduate laboratory manuals were developed t
 | **Malaria Risk & Geostatistical Analysis**   | Spatial statistics, geostatistics, risk modeling                   |
 | **Advanced Geospatial Database & GeoServer** | PostGIS, GeoServer, WMS/WFS, spatial data infrastructure           |
 | **Python Web GIS & Health Facility Routing** | Python, APIs, OSM, OSRM, Web GIS                                   |
-
-Selected resources are available through the [Academic Resources](../resources/) page.
 
 ---
 
@@ -235,17 +231,7 @@ Selected resources are available through the [Academic Resources](../resources/)
 # Languages
 
 * **Amharic:** Native
-* **English:** Proficient — TOEFL 87; Duolingo English Test 130
-
----
-
-# Additional Information
-
-* **GRE:** 309 — Verbal Reasoning: 155; Quantitative Reasoning: 154
-* **Current Degree:** M.Sc. Geoinformation Science, Bahir Dar University
-* **Expected Graduation:** December 2026
-* **Current Position:** Senior GIS & Remote Sensing Research Laboratory Assistant
-* **Research Profile:** Earth Observation · Geospatial AI · SAR/InSAR · Spatial Data Science · GIS · Geostatistics · Environmental Modeling
+* **English:Proficient (Duolingo English Test 130; TOEFL 87; GRE 309: Verbal 155, Quantitative 154)
 
 ---
 
