@@ -1,12 +1,6 @@
 ---
+# Minimal Mistakes / Academicpages default styling
 ---
-
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
 
 @import
     "vendor/breakpoint/breakpoint",
@@ -38,44 +32,22 @@
     "layout/json_cv"
 ;
 
-/* ==========================================================================
-   Academicpages Cross-Browser Consistency Fixes
-   ========================================================================== */
-
-/* 1. Fix profile picture clipping and top alignment */
-.author__avatar {
-  display: block;
-  margin-top: 15px !important; /* Restores top margin to prevent head clipping */
-  padding: 0;
-}
-
-.author__avatar img {
-  padding: 4px; /* Soft inner border padding */
-  box-sizing: border-box;
-}
-
-/* 2. Prevent content overlap while respecting natural theme width */
-.sidebar {
-  box-sizing: border-box;
-}
-
-.page, .archive {
-  box-sizing: border-box;
-  clear: none;
-}
-
-/* 3. Keep top menu items horizontal across all browsers */
+/* Clean responsiveness & navbar fixes */
 .greedy-nav {
   position: relative;
+  overflow: visible !important;
 }
 
 .greedy-nav .visible-links {
   display: flex !important;
   flex-direction: row;
-  flex-wrap: nowrap;
 }
 
-.greedy-nav .nav-toggle,
-.greedy-nav .hidden-links {
+.greedy-nav .nav-toggle {
   display: none !important;
+}
+
+.archive, .page {
+  box-sizing: border-box;
+  overflow: hidden;
 }
