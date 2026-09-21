@@ -35,8 +35,6 @@ Bahir Dar, Ethiopia
 * Environmental Modeling and Geospatial Decision Support
 * Semantic web, Knowledge representation. 
 
-**Current research direction:** NISAR/SAR, InSAR, optical Earth observation, geospatial AI, multi-source data fusion, time-series analysis, and environmental applications.
-
 ---
 
 # Education
