@@ -13,7 +13,7 @@ redirect_from:
 
 # MEKONNEN GIDEY MELES
 
-**Senior GIS & Remote Sensing Research Laboratory Assistant | Geospatial Data Science | Earth Observation | Geospatial AI**
+**Senior GIS/Remote Sensing Technical Instructor & Lab Manager**
 
 Bahir Dar, Ethiopia
 **Phone:** +251-918-23-33-32
@@ -26,17 +26,14 @@ Bahir Dar, Ethiopia
 
 # Research Interests
 
-* Geospatial Artificial Intelligence and Spatial Machine Learning
-* Advanced Remote Sensing and Earth Observation
-* SAR/InSAR and Surface Deformation Monitoring
-* Multi-source and Multi-modal Earth Observation
-* Object-Based Image Analysis and Image Segmentation
-* Satellite Image Time-Series Analysis and Change Detection
-* Flood and Natural Hazard Monitoring
-* Agricultural and Ecosystem Monitoring
-* Geospatial Data Fusion and Cloud-Based Earth Observation
-* Computational GIS and Spatial Data Science
+* Geospatial Artificial Intelligence
+* Remote Sensing and GIS
+* Big Spatial Data Science
+* SAR based Disaster Monitoring and Mapping
+* Forest and Ecosystem Monitoring
+* Satellite Image Time-Series Analysis.
 * Environmental Modeling and Geospatial Decision Support
+* Semantic web, Knowledge representation. 
 
 **Current research direction:** NISAR/SAR, InSAR, optical Earth observation, geospatial AI, multi-source data fusion, time-series analysis, and environmental applications.
 
@@ -46,7 +43,7 @@ Bahir Dar, Ethiopia
 
 ### M.Sc. in Geoinformation Science
 
-**Bahir Dar University, Ethiopia** | *In Progress — Expected December 2026*
+**Bahir Dar University, Ethiopia** | *In Progress — Expected June 2027*
 
 * Research focus: **Geospatial AI, Advanced Remote Sensing, Object-Based Image Analysis, and high-resolution Earth observation**.
 * Current interests include **NISAR/SAR, multi-source Earth observation, spatial machine learning, image segmentation, time-series analysis, and environmental geospatial AI**.
