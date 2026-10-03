@@ -10,10 +10,10 @@ skills:
   - Change Detection
   - Remote Sensing
 techniques:
-  - Sentinel-1 GRD
+  - Sentinel-1 GRD, Polarization
   - Bi-temporal Analysis
   - Speckle Filtering
-  - Thresholding
+  - Histogram analysis and thresholding
 tools:
   - ESA SNAP
   - Google Earth Engine
