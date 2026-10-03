@@ -26,9 +26,10 @@ tags:
   - Google Earth Engine
   - ESA SNAP
   - Flood Mapping
+more:
+  url: "/resources"
 
 ---
-![ESA SNAP Graph Builder showing the pre-processing workflow](/images/snap-graph-workflow.png)
 
 ### Project Overview
 
