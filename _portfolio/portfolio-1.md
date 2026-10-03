@@ -1,8 +1,8 @@
 ---
 title: "Bi-Temporal SAR GRD Processing for Flood Mapping: SNAP vs. GEE"
 excerpt: "A comparative analysis of Sentinel-1 SAR flood mapping workflows using ESA SNAP and Google Earth Engine to assess the August 2025 Awash River inundation."
-header:
-  teaser: "Pf1_SAR_Flood_Teaser.png"
+#header:
+  #teaser: "Pf1_SAR_Flood_Teaser.png"
   
 skills:
   - SAR
@@ -31,7 +31,7 @@ actions:
     url: "/resources"
 
 ---
-
+<img src="/images/Pf1_SAR_Flood_Teaser.png" alt="Teaser" style="max-width: 300px; height: auto; margin-top: 15px; border-radius: 6px;" />
 ### Project Overview
 
 Heavy rainfall during the Ethiopian Kiremt season in August 2025 caused severe flooding and widespread displacement along the Awash River plain and parts of Addis Ababa. This project leverages Synthetic Aperture Radar (SAR) technology to map the disaster footprint, overcoming the severe cloud-cover limitations that optical sensors face during storm events. 
