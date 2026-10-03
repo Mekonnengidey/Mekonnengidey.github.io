@@ -26,9 +26,11 @@ tags:
   - Google Earth Engine
   - ESA SNAP
   - Flood Mapping
-Links:
-  - title: "Use All projects — to see all my projects and case studies"
-    url: "/resources/"
+
+Links: 
+  - "Use All projects to see all my projects and case studies"
+  - url: "/resources/"
+
 ---
 
 ### Project Overview
