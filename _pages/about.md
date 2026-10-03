@@ -11,22 +11,14 @@ I am a **GIS and Remote Sensing researcher, instructor, and laboratory manager**
 
 I am generally interested in **remote sensing, SAR/InSAR, geospatial data science, and geospatial AI**, with particular interest in using multi-source satellite data and computational methods for Environmental monitoring, Forest mapping, Disaster and Intelligent Early Warning Systems (EWS).
 
-### Ongoing Researchs
-
-* **NISAR L/S band data fusion and its potential for disaster mapping and monitoring**; building on previous **Sentinel-1 SAR** based case studies using ESA SNAP and Google Earth Engine.
-* **Integrating NISAR and GEDI for large-scale forest-height and structural mapping in Ethiopia**.
-
 ### Academic & Research Experience
 
 At Bahir Dar University, I work across **graduate teaching, research support, and GIS/Remote Sensing laboratory management**. I teach and support practical work in remote sensing, GIS, geospatial databases, spatial analysis, programming, photogrammetry, and related computational methods.
 
-I have **mentored 20+ MSc research projects** and developed postgraduate laboratory manuals and technical workflows covering SAR processing, flood mapping, InSAR, image classification, geospatial databases, and spatial analysis.
+I have **mentored 20+ MSc research projects** and developed postgraduate laboratory manuals and technical workflows covering Optical, SAR processing, flood mapping, InSAR, image classification, geospatial databases, and spatial analysis.
 
 My technical background includes **Python, Google Earth Engine, GIS and remote sensing software, spatial analysis, machine learning, geospatial databases, and cloud-based geospatial processing**. My earlier training in Computer Science and Information Technology also provides a foundation for developing computational and data-driven geospatial workflows.
 
-### Research & Professional Profile
-
-My research and technical work combines **remote sensing and geospatial AI with computational and data-driven methods**, with a particular interest in **NISAR, SAR data fusion, disaster monitoring, and environmental applications**.
 
 Explore my:
 
