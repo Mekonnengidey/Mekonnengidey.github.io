@@ -27,8 +27,8 @@ tags:
   - ESA SNAP
   - Flood Mapping
 
-Links:
-  - please [**Go to All Projects tab to see other projects**](/resources)
+Explore:
+  - Use **[All projects](/resources/)** — to see all my projects and case studies
 
 ---
 
