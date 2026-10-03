@@ -27,6 +27,9 @@ tags:
   - ESA SNAP
   - Flood Mapping
 
+Links:
+  - title: "All projects"
+    url: "/resources/"
 ---
 
 ### Project Overview
