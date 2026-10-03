@@ -158,7 +158,7 @@ analytics:
   provider               : "google-analytics-4" # "google-analytics-4" or "false"
   google:
     tracking_id          : "G-DNNMR9EZ3B"
-google_analytics: "G-DNNMR9EZ3B"
+#google_analytics: "G-DNNMR9EZ3B"
 
 # Reading Files
 include:
