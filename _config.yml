@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=_h04weYAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0003-7699-9391"
+  orcid            : #"https://orcid.org/0009-0003-7699-9391"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "http://www.linkedin.com/in/mekonnengidey" # Username
+  linkedin         : "mekonnengidey" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -79,7 +79,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "http://www.youtube.com/mekonnengidey" # Username
+  youtube          : #"http://www.youtube.com/mekonnengidey" # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
