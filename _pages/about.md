@@ -30,8 +30,8 @@ My research and technical work combines **remote sensing and geospatial AI with 
 
 Explore my:
 
-- **[Research & Portfolio](/portfolio/)** — selected remote sensing and geospatial projects
-- **[Academic Resources](/resources/)** — postgraduate laboratory manuals and technical research resources
+- **[Portfolio](/portfolio/)** — selected remote sensing and geospatial projects
+- **[All projects](/resources/)** — All my projects and case studies tailored to postgraduate laboratory manuals and technical research resources
 - **[Publications](/publications/)** — publications and research outputs
 - **[CV](/cv/)** — detailed academic and professional background
 - **[Certificates](/Certificates/)** — Selected Training Certificates
