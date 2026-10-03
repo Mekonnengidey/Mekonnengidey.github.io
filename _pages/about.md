@@ -9,13 +9,12 @@ redirect_from:
 
 I am a **GIS and Remote Sensing researcher, instructor, and laboratory manager** at Bahir Dar University, Ethiopia, with an interdisciplinary background in **Computer Science, Information Technology, and Geoinformation Science**.
 
-My work focuses on **remote sensing, SAR/InSAR, geospatial data science, and geospatial AI**, with particular interest in using multi-source satellite data and computational methods for environmental monitoring and disaster-related applications.
+I am generally interested in **remote sensing, SAR/InSAR, geospatial data science, and geospatial AI**, with particular interest in using multi-source satellite data and computational methods for Environmental monitoring, Forest mapping, Disaster and Intelligent Early Warning Systems (EWS).
 
-### Research Focus
+### Ongoing Researchs
 
-My current research interests include **NISAR and SAR data fusion, multi-source remote sensing, satellite image time-series, change detection, and geospatial AI**. I am particularly interested in evaluating how **NISAR and complementary optical and SAR data** can improve monitoring of floods and other environmental hazards.
-
-My current MSc research direction focuses on **NISAR data fusion and its potential for disaster and environmental monitoring**, building on my previous work with **Sentinel-1 SAR flood mapping** using ESA SNAP and Google Earth Engine.
+* **NISAR L/S band data fusion and its potential for disaster mapping and monitoring**; building on previous **Sentinel-1 SAR** based case studies using ESA SNAP and Google Earth Engine.
+* **Integrating NISAR and GEDI for large-scale forest-height and structural mapping in Ethiopia**.
 
 ### Academic & Research Experience
 
