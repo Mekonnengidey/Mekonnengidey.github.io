@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV Generic"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -24,14 +24,13 @@ Bahir Dar, Ethiopia
 
 ---
 
-# Research Interests
+# General Research Interests
 
-* Geospatial Artificial Intelligence
+* Geospatial Artificial Intelligence,Spatial Data Science
 * Remote Sensing and GIS
-* Big Spatial Data Science
 * SAR based Disaster Monitoring and Mapping
-* Forest and Ecosystem Monitoring
-* Satellite Image Time-Series Analysis.
+* SAR/GEDI based Forest and Ecosystem Monitoring
+* Multimodal fusion, Time-Series Analysis.
 * Environmental Modeling and Geospatial Decision Support
 * Semantic web, Knowledge representation. 
 
@@ -43,7 +42,6 @@ Bahir Dar, Ethiopia
 
 **Bahir Dar University, Ethiopia** | *In Progress — Expected June 2027*
 
-* Current interests include **NISAR data fusion for disaster monitoring, NISAR fusion for Forest & Biomass mapping, Intelligent, near-real-time, disaster monitoring and early-warning frameworks**.
 
 ### M.Sc. in Information Technology
 
