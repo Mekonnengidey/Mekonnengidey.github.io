@@ -155,10 +155,10 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  google: "G-DNNMR9EZ3B"
-    tracking_id          :
-google_analytics: "G-DNNMR9EZ3B" # Replace with your real Measurement ID
+  provider               : "google-analytics-4" # "google-analytics-4" or "false"
+  google:
+    tracking_id          : "G-DNNMR9EZ3B"
+google_analytics: "G-DNNMR9EZ3B"
 
 # Reading Files
 include:
