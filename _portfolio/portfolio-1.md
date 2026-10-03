@@ -29,7 +29,7 @@ tags:
 
 Links:
   - title: "All projects"
-    url: "/resources/"
+    url: "/resources"
 ---
 
 ### Project Overview
