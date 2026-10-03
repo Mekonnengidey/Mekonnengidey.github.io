@@ -26,8 +26,9 @@ tags:
   - Google Earth Engine
   - ESA SNAP
   - Flood Mapping
-more:
-  url: "/resources"
+actions:
+  - label: "See All projects"
+    url: "/resources"
 
 ---
 
