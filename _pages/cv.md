@@ -228,7 +228,7 @@ Projects resources are available through the [All Projects](../resources/) page.
 # Languages
 
 * **Amharic:** Native
-* **English:Proficient (Duolingo English Test 130; TOEFL 87; GRE 309: Verbal 155, Quantitative 154)
+* **English:** Proficient (Duolingo English Test 130; TOEFL 87; GRE 309: Verbal 155, Quantitative 154)
 
 ---
 
