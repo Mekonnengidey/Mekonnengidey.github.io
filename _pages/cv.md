@@ -29,7 +29,7 @@ Bahir Dar, Ethiopia
 * Geospatial Artificial Intelligence,Spatial Data Science
 * Remote Sensing and GIS
 * SAR based Disaster Monitoring and Mapping
-* SAR/GEDI based Forest and Ecosystem Monitoring
+* SAR/LiDAR based Forest and Ecosystem Monitoring
 * Multimodal fusion, Time-Series Analysis.
 * Environmental Modeling and Geospatial Decision Support
 * Semantic web, Knowledge representation. 
