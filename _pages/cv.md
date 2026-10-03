@@ -147,7 +147,7 @@ Bahir Dar, Ethiopia
 ### INVITED TALKS & PRESENTATIONS
 
 * **NISAR and Advances in SAR Missions: Insights for Ethiopian Complex-Terrain Studies, with Practical
-Demonstration** Geospatial Data Technology Center seminar series, May 2026, Bahir Dar University, may 2026.
+Demonstration** Geospatial Data and Technology Center seminar series, Bahir Dar University.
 ---
 
 # RESEARCH & TECHNICAL PROJECTS:APPLIED LABORATORY MANUALS
@@ -155,7 +155,7 @@ Demonstration** Geospatial Data Technology Center seminar series, May 2026, Bahi
 
 The following research-oriented postgraduate laboratory manuals were developed through GIS, Remote Sensing, and Geospatial Data Technology Center research activities. 
 
-Selected resources are available through the [Academic Resources](../resources/) page.
+Projects resources are available through the [All Projects](../resources/) page.
 
 | Resource                                     | Main Methods                                                       |
 | -------------------------------------------- | ------------------------------------------------------------------ |
