@@ -1,0 +1,2511 @@
+
+<!-- saved from url=(0292)file:///C:/Users/Moke/Downloads/Planning%20and%20Management%20july%202026/_Task%20Execution%20Action%20Table/PhD%20Advisor%20and%20School%20hunt/Leila%20Hashemi%20Beni/dr%20leila%20package/Mek%20Artifacts%20mannuals/Adv%20RS%20ALL/Mekonnen%20Adv%20Remote%20Sensing%20Asgts%20ALL/LAB2InSAR.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="Generator" content="Microsoft Word 14 (filtered)">
+<title>BDU-Advanced remote sensing Lab: SAR Interferometry                     
+By: Mekonnen G</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+	{font-family:"Noto Sans Symbols";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Times New Roman","serif";}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.55in;
+	text-indent:-.3in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";}
+h3
+	{margin-top:14.0pt;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.85in;
+	text-indent:-.35in;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";}
+h4
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h5
+	{margin-top:11.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+h6
+	{margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:36.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:.25in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:24.0pt;
+	font-family:"Georgia","serif";
+	color:#666666;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.t286pc
+	{mso-style-name:t286pc;}
+.MsoChpDefault
+	{font-family:"Arial","sans-serif";}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang="EN-US" link="blue" vlink="purple">
+
+<div class="WordSection1">
+
+<p class="MsoNormal" style="line-height:150%"><img width="260" height="208" src="./portfolio-2_files/image003.jpg" align="left" hspace="12"></p>
+
+<p class="MsoNormal" style="line-height:150%"><a name="_wsfr1y35qbk2"></a><b><span style="font-size:16.0pt;line-height:150%">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="line-height:150%"><b><span style="font-size:16.0pt;
+line-height:150%">&nbsp;</span></b></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><b><span style="font-size:16.0pt;line-height:150%">&nbsp;</span></b></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:150%"><b><span style="font-size:16.0pt;line-height:150%">Bahir Dar University <br>
+Department of Geography and Environmental studies Masters in Geo-Information
+Science</span></b></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-size:16.0pt">&nbsp;</span></b></p>
+
+<p class="MsoNormal"><b><span style="font-size:14.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Advanced
+Remote Sensing Course</span></b></p>
+
+<p class="MsoNormal"><b><span style="font-size:14.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Practical
+Assignment on Using Sentinel-1 SAR imagery</span></b></p>
+
+<p class="MsoNormal" style="margin-left:1.15pt;text-autospace:none"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img width="702" height="397" id="Picture 44" src="./portfolio-2_files/image004.gif"></span></p>
+
+<p class="MsoNormal" style="text-autospace:none"><span style="font-size:20.0pt;
+font-family:&quot;Cambria&quot;,&quot;serif&quot;">Lab 2: SAR Interferometry(InSAR) for Surface
+Deformation analysis Using SNAP 13.</span></p>
+
+<p class="MsoNormal" style="text-autospace:none"><span style="font-size:14.0pt">&nbsp;</span></p>
+
+<p class="MsoNormal" align="right" style="text-align:right"><b><span style="font-size:12.0pt">Student: Mekonnen Gidey (ID: BDU1806929)</span></b></p>
+
+<p class="MsoNormal" align="right" style="text-align:right"><b><span style="font-size:12.0pt">Submitted to: Dr. Daniel Ayalew</span></b></p>
+
+<p class="MsoNormal" align="right" style="text-align:right"><b><span style="font-size:12.0pt">Date: May 20, 2026</span></b></p>
+
+<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><br clear="all" style="page-break-before:always">
+</span>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h1>1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span>Interferometric
+SAR(InSAR) Lab Mansual</h1>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+goal of this manual is to provide students users with step-by-step instructions
+on interferometric processing with Sentinel-1 Interferometric Wide Swath
+products.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+data used in this tutorial includes the Afar area, Ethiopia, where a
+considerable number of&nbsp; volcanic activities and surface movement is reported in
+the region.Particularly it studies eruption activity that occurred on November
+23, 2025.Using a pair of SAR SLC data and InSAR techniques this tutorial
+develops interferogram that identify the twin volcanic craters involved,
+measure the surface deformation and displacement occurred during the stated time.
+</span></p>
+
+<p class="MsoNormal" align="center" style="margin-top:12.0pt;text-align:center;
+line-height:115%;page-break-after:avoid"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img width="511" height="505" id="Picture 48" src="./portfolio-2_files/image005.gif"></span></p>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 1 Study area includes the Afar,Guba Haili, Afdera Lake, Ethiopia</p>
+
+<h2>1.1.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>InSAR Background</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Interferometric
+synthetic aperture radar (InSAR) exploits the phase difference between two
+complex radar SAR observations taken from slightly different sensor positions
+and extracts information about the earth’s surface movement.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">A
+SAR signal contains amplitude and phase information. The amplitude is the
+strength of the radar response and the phase is the fraction of one complete
+sine wave cycle (a single SAR wavelength). The phase of the SAR image is
+determined primarily by the distance between the satellite antenna and the
+ground targets.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">By
+combining the phase of these two images after coregistration, an interferogram
+can be generated whose phase is highly correlated to the terrain topography. In
+the case of differential interferometry (DInSAR), this topographic phase
+contribution is removed using a digital elevation model (DEM). The remaining
+variation in the interferogram can be attributed to surface changes which
+occurred between the two image acquisition dates, as well as unwanted atmospheric
+effects.</span></p>
+
+<h2>1.2.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Sentinel-1
+Interferometric Wide(IW) Swath Products</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+Interferometric Wide (IW) swath mode is the main acquisition mode over land for
+Sentinel-1. It acquires data with a 250 km swath at 5 m by 20 m spatial
+resolution (single look). IW mode captures three sub- swaths using Terrain
+Observation with Progressive Scans SAR (TOPSAR). With the TOPSAR technique, in
+addition to steering the beam in range as in ScanSAR, the beam is also
+electronically steered from backward to forward in the azimuth direction for
+each burst, avoiding scalloping and resulting in homogeneous image quality
+throughout the swath.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">IW
+SLC products consist of three sub-swaths (Figure 1, red labels) image per
+polarization channel, for a total of three (single polarizations) or six (dual
+polarization) images in an IW product. Each sub-swath image consists of a
+series of bursts (Figure 1, white labels), where each burst has been processed
+as a separate SLC image. The individually focused complex burst images are
+included, in azimuth-time order, into a single sub-swath image with black-fill
+demarcation in between, similar to ENVISAT ASAR Wide ScanSAR SLC products.</span></p>
+
+<p class="MsoNormal" align="center" style="margin-top:12.0pt;text-align:center;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;"><img width="542" height="406" id="Picture 66" src="./portfolio-2_files/image006.gif"></span></p>
+
+<p class="MsoNormal" style="margin-left:101.15pt;text-autospace:none"><span style="font-size:10.0pt">Source[4]: (ESA)</span></p>
+
+<h2><a name="_bookmark0"></a>1.3.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Data
+Preparation</h2>
+
+<p class="MsoBodyText" style="line-height:115%"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The two datasets for
+this lab will be shared as <b>SAR_Lab_2</b> data in zipped folder, which
+contain </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">S1C_IW_SLC__1SDV_<b>20251119</b>T152635_20251119T152711_005085_00A12F_E1B8</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">S1A_IW_SLC__1SDV_<b>20251125</b>T152734_20251125T152800_062036_07C2C4_0277</span></p>
+
+<p class="MsoBodyText" style="line-height:115%"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">As shown in the dataset
+names, &nbsp;the dates the two SLC datasets captured by sentinel 1 are stated as </span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">20251119
+(November 19, 2025) and 20251125(November 25,2025).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+datasets can also downloaded from the Copernicus Open Access Hub at:
+https://scihub.copernicus.eu/dhus (login required, registration is free)
+following the similar steps in lab 1 manual by adjusting the study area search
+to Afar Guba Hailli area, product type to SLC and filtering dates to (November 19,
+2025) and (November 25, 2025). These details can be obtained from the image
+name itself by understanding </span>Sentinel-1 Product Naming Convention as
+shown below<span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">.
+</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%">&nbsp;</p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Breakdown
+of our Specific File Name:</span></b></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">S1C_IW_SLC__1SDV_20251119T152635_20251119T152711_005085_00A12F_E1B8</span></b></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">S1C</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Mission Identifier</b>.
+Refers to the Sentinel-1C satellite.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">IW</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Mode/Beam
+Identifier</b>. Stands for <i>Interferometric Wide</i> swath mode.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">SLC</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Product Type</b>.
+Stands for <i>Single Look Complex</i> data.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">_</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Resolution Class</b>.
+Underscore is used when resolution class does not apply to the specific product
+type.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">1</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Processing Level</b>.
+This is a <i>Level-1</i> data product.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">S</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Product Class</b>.
+Denotes <i>Standard</i> operational data.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">DV</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Polarisation</b>.
+Dual-polarisation, specifically <i>Dual VV + VH</i>.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">20251119T152635</span></b><span style="font-size:
+12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Start Date
+and Time</b>. Acquired on <b>November 19, 2025</b>, at 15:26:35 UTC.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">20251119T152711</span></b><span style="font-size:
+12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Stop Date
+and Time</b>. Scene collection ended on <b>November 19, 2025, at 15:27:11 UTC.</b></span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">005085</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Absolute Orbit
+Number</b>. The specific orbital loop count since launch.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">00A12F</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Mission Data Take
+ID</b>. Unique ID for the specific continuous data stream.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-align:justify;text-indent:
+-.25in;line-height:115%"><span style="font-size:10.0pt;line-height:115%;
+font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">E1B8</span></b><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: <b>Product Unique
+Identifier</b>. A 4-character hex code used to ensure every ZIP/SAFE file has a
+completely unique folder name.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="line-height:115%"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<h2>1.4.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Software</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">For
+this Lab, we use the Open source ESA SNAP 13 (Sentinel Application Platform).
+It can be downloaded from</span><a href="https://step.esa.int/main/download/snap-download/"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">
+https://step.esa.int/main/download/snap-download/</span></a><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">.
+</span></p>
+
+<h3>1.1.1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span>Install
+SNAPHU</h3>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In
+addition to SNAP an external free software Plug in, SNAPHU (statistical- cost
+network-flow algorithm for phase unwrapping) has to be installed separately. </span></p>
+
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+install the plugin in SNAP, go to Plugins (under the Tools menu, Figure 1) and
+search for “SNAPHU Unwrapping” in the Available Plugins tab. Select it and
+click Install.</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%;
+page-break-after:avoid"><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="635" height="361" id="image24.png" src="./portfolio-2_files/image007.gif"></span></p>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 2 The Plugins interface</p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">You
+will be asked to proceed with “Next” and restart SNAP. This creates a menu
+entry for snaphu unwrapping in the Interferometry menu.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<div align="center">
+
+<table class="a" border="1" cellspacing="0" cellpadding="0" width="958" style="margin-left:
+ -5.4pt;border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="479" valign="top" style="width:239.4pt;border:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:10.0pt;line-height:115%"><img border="0" width="447" height="404" id="image6.png" src="./portfolio-2_files/image008.gif"></span></p>
+  </td>
+  <td width="479" valign="top" style="width:239.4pt;border:solid black 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%;page-break-after:
+  avoid"><span style="font-size:10.0pt;line-height:115%"><img border="0" width="447" height="404" id="image18.png" src="./portfolio-2_files/image009.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 3: Installation of the snaphu plugin<a name="_heading=h.hzmk88vbtllc"></a></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">After
+restarting SNAP, you need to install the snaphu bundles as well. Go to Manage
+External Tools in the Tools menu. Select “Snaphu-unwrapping” and click Edit the
+selected operator&nbsp;&nbsp; to open the configuration (Figure 5). Select a suitable
+Target Folder (here C:\GIS) where snaphu will be installed and proceed with
+Download and Install Now. You will then get a confirmation “Bundle was
+installed in location C:\GIS\snaphu-v8.0.0_win64” (this may differ according to
+version, path and operating system).</span></p>
+
+<p class="MsoNormal" align="center" style="margin-top:12.0pt;text-align:center;
+line-height:115%;page-break-after:avoid"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="638" height="335" id="image12.png" src="./portfolio-2_files/image010.gif"></span></p>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 4: Installation of the snaphu bundles</p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2 style="margin-left:0in;text-indent:0in">&nbsp;Open the SAR SLC Products in SNAP</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Use
+the&nbsp; Open Product button in the top toolbar and browse for the location of the
+downloaded data. Select the two zip files and press Open Product.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In
+the Products View you will see the opened products. Each Sentinel-1 product
+consists of Metadata, Vector Data, Tie-Point Grids, Quicklooks and Bands (which
+contains the actual raster data, organized by polarization and sub- swath as shown
+in Figure 5).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">As
+the data is still compressed in the zip file and each sub-swath covers a large
+area, it is not advised to open all the bands in their current state, because
+it takes a considerable time until SNAP loads the raster. If you still want to
+check the data before proceeding double-click on the Intensity_IW1_VV band to
+view the raster data.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+identify the location of your study area within the product (required for the
+next step), you can use the World View or World Map (to see its full extent on
+a base map) or open the Quicklook for a preview of the dataset in an RGB color
+representation.</span></p>
+
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+World View or World Map menus are also a good way to check if the two images
+belong to the same relative orbit (required for interferometry) and if they are
+shifted along-track. </span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%;
+page-break-after:avoid"><img border="0" width="772" height="415" id="Picture 49" src="./portfolio-2_files/image011.gif"></p>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 5: Product Explorer and World Map. By zomming in the world view ,you can see our study
+area(Afar Guba Haili )is contained in Sub swath 2.</p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<h1>2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span>SAR
+Interferometry Workflow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+
+<h2>2.1.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>TOPS Split</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">S-1
+TOPS Split is applied to the data to select only those bursts which are
+required for the analysis. To reduce the loaded data to our area of interest, </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Open
+the S-1 TOPS Split operator (under Radar &gt; Sentinel-1 TOPS) and </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+sub-swath IW2 and VV polarization in the Processing Parameters. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Then
+reduce the bursts to 1 to 5 by dragging the grey triangles towards the middle(Figure
+6). </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Use
+the preview to check the location of the selected area. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Confirm
+with Run and </span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Repeat
+&nbsp;the step for the second image.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note:
+If the area of interest covers several Sub-Swaths, they have to be merged with
+the S-1 TOPS Merge operator after the Sub-Swaths were debursted.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%;
+page-break-after:avoid"><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="637" height="477" id="Picture 67" src="./portfolio-2_files/image012.gif"></span></p>
+
+<p class="MsoCaption" align="center" style="margin-bottom:0in;margin-bottom:.0001pt;
+text-align:center">Figure 6: TOPS Split By zomming in the map ,</p>
+
+<p class="MsoCaption" align="center" style="margin-bottom:0in;margin-bottom:.0001pt;
+text-align:center">you can see our study area(Afar Guba Haili ) is contained in
+bursts 1&nbsp; to 5</p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>2.2.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Applying Orbit
+Information</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Orbit
+auxiliary data contain information about the position of the satellite during
+the acquisition of SAR data. They are automatically downloaded for Sentinel-1
+products by SNAP and added to its metadata with the Apply Orbit File (under the
+menu point Radar) operator.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+Precise Orbit Determination (POD) service for Sentinel-1 provides restituted
+orbit files and precise Orbit Ephemerides (POE) orbit files. POE files cover
+ca. 28 hours and contain orbit state vectors at intervals of 10 seconds
+intervals. Files are generated one file per day and are delivered within 20
+days after data acquisition.</span></p>
+
+<p class="MsoNormal" style="margin-top:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">If
+precise orbits are not yet available for your product, restituted orbits can be
+selected which may not be as accurate as the Precise orbits but will be better
+than the predicted orbits available within the product.</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-top:12.0pt;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Radar
+&gt; Apply Orbit File</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-top:12.0pt;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Execute
+the operator for both split products as generated in the previous step.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%;
+page-break-after:avoid"><img border="0" width="523" height="290" id="image23.png" src="./portfolio-2_files/image013.gif"></p>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 7 Apply Orbit File</p>
+
+<h2>2.3.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Coregistration (Back
+Geocoding ) and Enhanced Spectral Diversity</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+S-1 Back Geocoding operator coregisters the two split products based on the
+orbit information added in the previous step and information from a digital
+elevation model (DEM) which is downloaded by SNAP.</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Radar
+&gt; Coregistration &gt; Sentinel-1 TOPS Coregistration</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Add
+the products of the two dates (ending with “_split_Orb”) to the file list in
+the ProductSet-Reader tab and</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+SRTM 1Sec HGT (AutoDownload) in the Back-Geocoding tab (Figure 8).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note</span></b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">:
+Please be aware that SRTM is only available between 60° North and 54° South. Ethiopia
+is coered in this regeon. However, in case your area lies outside this coverage
+(https://www2.jpl.nasa.gov/srtm/coverage.html), you can use one of the other
+DEMs with AutoDownload option or use an external DEM (make sure it stored as a
+GeoTiff and projected in geographic coordinates / WGS84).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="692" height="191" id="image20.png" src="./portfolio-2_files/image014.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%;
+page-break-after:avoid"><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="692" height="248" id="image26.png" src="./portfolio-2_files/image015.gif"></span></p>
+
+<p class="MsoCaption" align="center" style="text-align:center">Figure 8: Back Geocoding</p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><a name="_heading=h.ibu4n12pbtaj"></a><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+increase the quality of the coregistration you apply the S-1 Enhanced Spectal
+Diversity (ESD) operator on the stack generated by the Back Geocoding. It
+applies range and azimuth shift corrections to the secondary image.</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Under
+&nbsp;Radar &gt; Coregistration &gt; Sentinel-1 TOPS Coregistration</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+the stack generated by Back Geocoding</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-.25in;
+line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:
+Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note:
+This operator is only needed when you select more than one burst. If you only
+selected one burst in the TOPS Split step, you do not need the ESD operator.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h1>3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span>Interferogram
+Formation and Coherence Estimation</h1>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">An
+interferogram is formed by cross multiplying the reference image with the
+complex conjugate of the secondary image. The amplitude of both images is
+multiplied while the phase represents the phase difference between the two
+images.</span></p>
+
+<p class="MsoNormal" style="margin-top:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+interferometric phase of each SAR image pixel would depend only on the
+difference in the travel paths from each of the two SARs to the considered
+resolution cell. Accordingly, the computed interferogram contains phase
+variation (&#981;) from several contributing factors, most importantly the
+flat-earth phase &#981;flat (earth curvature), the topographic phase &#981;DEM
+(topographic surface of the earth), atmospheric conditions &#981;atm (humidity,
+temperature and pressure change between the two acquisitions), and other noise
+&#981;noise (change of the scatterers, different look angle, and volume
+scattering ), and lastly the eventual surface deformation &#981;disp which
+occurred between the two acquisitions (Equation 1)[2]. Contributors to SAR
+interferometric phase[2].</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><b><span style="font-size:16.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&#981;
+= &#981;DEM + &#981;flat + &#981;disp + &#981;atm + &#981;noise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1)</span></b></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Differential
+SAR interferometry tries to estimate the contribution from the earth’s surface
+(&#981;flat and &#981;DEM) which is considered equal for both image
+acquisitions and remove them from the interferogram so that the remaining phase
+variation can be attributed to surface elevation changes between both image
+acquisitions (Equation 2)[2].This works best if atmospheric contributions and
+other noise is kept as small as possible because they are hard to model. It is
+therefore advisable to use images from the dry season and with small
+perpendicular baseline. </span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><b><span style="font-size:16.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&#981;disp
++ &#981;atm + &#981;noise = &#981; - &#981;DEM - &#981;flat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (2)</span></b></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Besides
+the interferometric phase, the coherence between the reference and the
+secondary image is estimated as an indicator for the quality of the phase
+information. Basically, it shows if the images have strong similarities and are
+therefore usable for interferometric processing. Loss of coherence can produce
+poor interferometric results and is caused by temporal (over vegetation and
+water bodies), geometric (errors or inaccuracies in the orbit metadata) and
+volumetric decorrelation (potential scattering mechanisms of voluminous
+structures, such as complex vegetation or dry surfaces).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;NOTE:
+accordingly, repeat-pass interferometry (phase difference of images of two
+different acquisition dates) will rarely lead to usable results over dense
+vegetation, especially with C-band SAR data of Sentinel-1 which has a
+wavelength of around 5.5 cm).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Coherence
+is calculated as a separate raster band and shows how similar each pixel is
+between the secondary and reference images in a scale from 0 to 1. Areas of
+high coherence will appear bright. Areas with poor coherence will be dark. In
+the image, vegetation is shown as having poor coherence and buildings have very
+high coherence.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+compute the interferogram and the coherence bands, </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Radar
+&gt; Interferometric &gt; Products&gt;Apply the Interferogram Formation
+operator </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+the stack you generated after Back Geocoding and ESD as an input and </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Check
+the boxes: <span style="color:black">Subtract flat-earth phase: </span></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%;border:none"><span style="font-size:12.0pt;line-height:115%;
+font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">The flat-earth phase is the phase present in the interferometric
+signal due to the curvature of the reference surface. The flat-earth phase is
+estimated using the orbital metadata information and subtracted from the complex
+interferogram.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Check Subtract topographic phase: </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%;border:none"><span style="font-size:12.0pt;line-height:115%;
+font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Flat terrain should produce a series of regularly spaced, parallel
+fringes. Any deviation from a parallel fringe pattern can be interpreted as
+topographic variation. If you want this topographic variation (e.g. for the
+derivation of a digital elevation model), you do not subtract the topographic
+phase. As this workflow is interested in the surface displacement (Equation 2),
+topographic phase removal is applied by selecting the SRTM 1Sec HGT (Auto Download).</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Check the Include coherence estimation box: This produces a
+coherence band in the output calculated based on a window of 10x3 pixels in
+range/azimuth direction.</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="377" height="400" id="image30.png" src="./portfolio-2_files/image016.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+13: Interferogram Formation</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="margin-top:1.8pt;text-align:center;
+border:none"><span style="font-size:10.0pt;color:black"><img border="0" width="812" height="232" id="image31.png" src="./portfolio-2_files/image017.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="margin-top:1.8pt;text-align:center;
+border:none"><span style="font-size:10.0pt;color:black"><img border="0" width="820" height="230" id="image35.png" src="./portfolio-2_files/image018.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+14: Interferogram (top) and coherence (bottom)</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+resulting product will contain the interferogram (Phase_ifg_IW…) and the
+coherence (coh_IW_...) as separate bands. Double click them to check for their
+quality. Both products still contain the black seamlines separating the single
+bursts. They will be removed in the following step.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">As
+topographic phase removal was applied, the interferogram should now only
+contain variations from displacement, atmosphere and noise. </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+interferogram is displayed in a rainbow color scale ranging from -&#960; to
++&#960;. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+patterns, also called “fringes” represent a full 2&#960; cycle and appear in an
+interferogram as cycles of arbitrary colors, with each cycle representing half
+the sensor’s wavelength. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">Relative ground movement between two points is later
+derived by counting the fringes and multiplying by half of the wavelength. The
+closer the fringes are together, the greater the strain on the ground.</span></b></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+coherence image shows the areas where the phase information is coherent, which
+means that it can be used to measure deformation (as in this tutorial) or
+topography (without removing the topographic phase). </span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">While
+urban areas and agricultural land are displayed in white and show high
+coherence values (above 0.6), forest areas are dark and have low coherence
+(below 0.3). Accordingly, phase information over forest areas is not usable
+here. If low coherence areas are too dominant in the image, the later
+unwrapping will fail and produce faulty or random results.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>3.1.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>TOPS Deburst</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+remove the seamlines between the single bursts,</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+S-1 TOPS Deburst operator (under Radar &gt; Sentinel-1 TOPS) is applied to the
+interferogram product. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">It
+does not require any user input (Figure 16). </span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+output contains the same bands as the input, but with merged bursts according
+to their zero Doppler time. </span></p>
+
+<table class="a0" border="1" cellspacing="0" cellpadding="0" width="792" style="margin-left:48.6pt;border-collapse:collapse;border:none">
+ <tbody><tr style="height:213.45pt">
+  <td width="368" valign="top" style="width:184.0pt;border:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:213.45pt">
+  <p class="MsoNormal" style="border:none"><span style="font-size:10.0pt;
+  color:black"><img border="0" width="444" height="452" id="image36.png" src="./portfolio-2_files/image019.gif"></span></p>
+  </td>
+  <td width="424" valign="top" style="width:212.0pt;border:solid black 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:213.45pt">
+  <p class="MsoNormal" style="margin-top:3.0pt;margin-right:35.7pt;margin-bottom:
+  0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;border:none"><span style="font-size:10.0pt;color:black"><img border="0" width="444" height="452" id="image34.png" src="./portfolio-2_files/image020.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+16: TOPS Deburst (left) and Goldstein phase filtering (right)</span></p>
+
+<h2>3.2.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Goldstein Phase
+Filtering</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Interferometric
+phase can be corrupted by noise from temporal and geometric decorrelation,
+volume scattering, and other processing errors. Phase information in
+decorrelated areas cannot be restored, but the quality of the fringes existing
+in the interferogram can be increased by applying specialized phase filters,
+such as the Goldstein filter which uses a Fast Fourier Transformation (FFT) to
+enhance the signal-to-noise ratio of the image. This is required for a proper
+unwrapping in the subsequent step. A detailed description of this filter and its
+parameters is given in the publication of Goldstein &amp; Werner (1998).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoListParagraph" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:.25in;text-align:justify;text-indent:-.25in;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Apply
+the Goldstein Phase Filtering (under Radar &gt; Interferometric &gt; Filtering)
+to the debursted image. The output is a filtered phase image, the coherence is
+not affected.</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="936" height="580" id="image13.png" src="./portfolio-2_files/image021.gif"></span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+17: Interferogram before (left) and after (right) Goldstein phase filtering</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>3.3.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Subset</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">As
+the selected bursts cover a larger area than required for this analysis, a
+subset can be generated. Please note that the subset should only be applied on
+a S1 SLC product after TOPS Deburst. Technically, the subset could have been
+applied before the phase filtering, but sometimes patterns become visible after
+applying the filter and it is good to have a look at the filtered result before
+selecting the area of interest.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Furthermore,
+the subset allows to get rid of the green areas at the edges of the image which
+were introduced during the processing.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+create a subset, </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+the filtered product in the Product Explorer and </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Raster
+&gt;Subset. Enter the following Pixel coordinates</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Scene start X:1064</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Scene start Y:4018</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Scene end X:3390</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Scene end Y:5263</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="777" height="441" id="image5.png" src="./portfolio-2_files/image022.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+18: Subset</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">It
+is also possible to enter geographic coordinates, but as the product is still
+stored in slant range geometry, these are not very precise. Furthermore, it is
+possible to draw a rectangle in the image preview.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">A
+new product is show in the Product Explorer, starting with <b><i>subset_0_of</i>_.
+</b>This product is only of temporary nature and lost if SNAP is closed. </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+permanently store it, right-click on the product and select Save Product As…
+and save it in BEAM DIMAP format under the name</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">20251119_20251125_split_Orb_Stack_esd_ifg_deb_flt_subset.dim</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note:
+for reasons of consistency, the suffix subset is placed at the end of the
+filename.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>3.4.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Phase Unwrapping</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In
+the interferogram, the interferometric phase is ambiguous and only known within
+the scale of 2&#960;. To be able to relate the interferometric phase to the
+topographic height, the phase must first be unwrapped. The altitude of
+ambiguity is defined as the altitude difference that generates an
+interferometric phase change of 2&#960; after interferogram flattening.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Phase
+unwrapping solves this ambiguity by integrating phase difference between
+neighboring pixels. After deleting any integer number of altitudes of ambiguity
+(equivalent to an integer number of 2&#960; phase cycles), the phase variation
+between two points on the flattened interferogram provides a measurement of the
+actual altitude variation (Figure 19). Accordingly, unwrapped results should be
+interpreted as a relative height/displacement between pixels of two images.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="619" height="226" id="Picture 2" src="./portfolio-2_files/image023.gif"></span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+19: Principle of phase unwrapping.Source:ESA,[2]</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">For
+optimal unwrapping results it is recommended to filter the interferogram as
+done in the previous step and eventually apply multi-looking (under Raster &gt;
+SAR Utilities). As the fringe patterns of the surface displacement are quite
+fine scaled (Figure 17), no multi-looking is applied in this case. For the
+derivation of large-scale displacement maps, multi-looking to a spatial
+resolution of 20 meters or lower should be considered.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+quality and reliability of unwrapped results very much depends on the input
+coherence. Reliable results can only be expected in areas of high coherence.
+Although no definite threshold exists, a minimum coherence of 0.3 is suggested.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Unwrapping
+in SNAP follows three distinct steps:</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Export
+of the wrapped phase (and definition of the parameters)</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Unwrapping
+of the phase (performed outside SNAP by SNAPHU)</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Import
+of the unwrapped phase back into SNAP</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Because
+snaphu is an independent software (see under the section “Install snaphu” at
+the beginning of this document), the unwrapping is executed outside SNAP, but
+the plugin allows to call this execution, so no command line processing is
+required any longer.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Depending
+on the capabilities of the system, the unwrapping can take a considerable
+amount of time. However, snaphu supports multi-threading which means that the
+computation can be distributed over multiple processor cores. This has to be
+defined during the export.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2 style="margin-left:.85in;text-indent:-.35in">3.4.1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span>Export</h2>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+Export operator (under Radar &gt; Interferometric &gt; Unwrapping) converts the
+interferogram (as the wrapped phase) into a format which can be read by snaphu.
+Furthermore, a couple of parameters can be selected which affect the unwrapping
+process and stored in a configuration file which is accessed by snaphu.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+source product is the subset created in the previous step. In the SnaphuExport
+tab, select your working directory as the target folder (e.g: D:\afar\SNAPLab\unwrap_Export).
+If the selection of the directory does not work, simply copy and paste the path
+of your working directory into the text field. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+DEFO as Statistical-cost mode</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note:
+You can neglect the eventual error message (Error: [NodeId: SnaphuExport Please
+add a target folder]. It will go away once you switch tabs or hit Validate or Run,
+as long as you have entered a valid target folder.</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+learn about the meaning and impact of all parameters, please consult the
+official documentation.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="516" height="415" id="image17.png" src="./portfolio-2_files/image024.gif"></span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+20: Snaphu export</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Hit
+Run to start the export. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">A
+directory is created in your working directory with the same name as the product
+you selected as an input (20251119_20251125_split_Orb_Stack_esd_ifg_deb_flt_subset).
+</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Inside
+this folder, you will find the following four files created:</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%;border:none"><span style="font-size:12.0pt;line-height:115%;
+font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">The coherence: image (*.img) and metadata (*.hdr)</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%;border:none"><span style="font-size:12.0pt;line-height:115%;
+font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">The wrapped phase: image (*.img) and metadata (*.hdr)</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-indent:-.25in;
+line-height:115%;border:none"><span style="font-size:12.0pt;line-height:115%;
+font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">The unwrapped phase: only the metadata (*.hdr), because the image
+(*.img) is first to be created by snaphu in the next step.</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-indent:-.25in;
+line-height:115%;border:none"><span style="font-size:12.0pt;line-height:115%;
+font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">A configuration file (snaphu.conf) containing the parameters
+defined in the export operator</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2 style="margin-left:.85in;text-indent:-.35in">3.4.2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span>Unwrapping with snaphu</h2>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Once
+the product is exported correctly, the unwrapping can be started from within
+SNAP, by calling the Snaphu-unwrapping operator (under Radar &gt;
+Interferometric &gt; Unwrapping). </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">As
+an input product, select the subset which was created before the export from
+the drop-down menu. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">For
+the output folder in the Processing Parameters tab you can activate Display
+execution output and select the folder which was created during the export ( 20251119_20251125_split_Orb_Stack_esd_ifg_deb_flt_subset).
+</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+start the unwrapping, click Run. SNAP then sends the command stored in snaphu.conf
+to the snaphu.exe which creates the raster image belonging to the unwrapped
+phase metadata.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="733" height="511" id="image7.png" src="./portfolio-2_files/image025.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+21: Unwrapping with the snaphu plugin</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note:
+If the tool is not executed by clicking Run, go to Manage External Tools in the
+Tools menu. Select “Snaphu-unwrapping” and click Edit the selected operator&nbsp;&nbsp;
+to open the configuration and enter the export directory in the variable
+USERPROFILE under the System Variables tab. Confirm with OK and start the
+Snaphu-unwrapping operator again.</span></p>
+
+<table class="a1" border="1" cellspacing="0" cellpadding="0" width="934" style="margin-left:-5.4pt;border-collapse:collapse;border:none">
+ <tbody><tr style="height:206.5pt">
+  <td width="452" valign="top" style="width:225.9pt;border:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:206.5pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="433" height="371" id="image19.png" src="./portfolio-2_files/image026.gif"></span></p>
+  </td>
+  <td width="482" valign="top" style="width:241.1pt;border:solid black 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:206.5pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="447" height="392" id="image4.png" src="./portfolio-2_files/image027.gif"></span></p>
+  </td>
+ </tr>
+ <tr style="height:215.5pt">
+  <td width="934" colspan="2" valign="top" style="width:467.0pt;border:solid black 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:215.5pt">
+  <p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="595" height="414" id="image16.png" src="./portfolio-2_files/image028.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+22: System variables of the snaphu plugin</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="margin-bottom:12.0pt;text-align:justify;line-height:
+115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Note
+that unwrapping can take a considerable amount of time. To break the raster
+into smaller chunks, snaphu divides it by standard into 10 rows and 10 columns,
+leading to a total of 100 tiles to be unwrapped. These tiles are merged
+afterwards based on the selected pixel overlap (here 200 pixels). A progress
+bar will inform you about the remaining time (Figure 23). The calculation is
+completed when the progress reaches 100% and the output states “Finished tool
+execution in … seconds”. You can then close the operator.</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="841" height="406" id="image11.png" src="./portfolio-2_files/image029.gif"></span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+23: Progress of the unwrapping</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Alternative
+option: If the unwrapping does not work with the plugin from within SNAP,
+snaphu can also be started from the command line. It can be downloaded from the
+following page which also contains instruction for its manual execution:
+https://step.esa.int/main/third-party-plugins-2/snaphu/</span></p>
+
+<h2 style="margin-left:.85in;text-indent:-.35in">3.4.3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;
+</span>Import </h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+opened unwrapped phase does not have any metadata or geocoding. The Snaphu
+import (under Radar &gt;Interferometric &gt; Unwrapping) converts the it back
+into the BEAM DIMAP format and adds the required metadata from on the wrapped
+phase product as they have the same geometry. The Snaphu import needs the
+following tabs:</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">1-Read-Phase: Here, you select the subset of the interferogram
+(before the export) from the drop- down menu.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">2-Read-Unwrapped-Phase: Select the&nbsp;&nbsp; icon to open a file menu and
+navigate to the export directory. Select the *.hdr file of the unwrapped phase
+(here UnwPhase_ifg_[…].hdr). Note: The error message will then vanish if you
+proceed to the next tab.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">3-SnaphuImport: Leave the option “Do NOT save Wrapped
+interferogram in the target product” unchecked, because it is required in the
+later step.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">4-Write: To store the imported unwrapped band in a separate
+product (recommended), add ‘_unw’ to the output name </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">20251119_20251125_split_Orb_Stack_esd_ifg_deb_flt_subset_unw </span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%;border:none"><span style="font-size:12.0pt;
+line-height:115%;font-family:Symbol;color:black">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+color:black">Click Run.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">A
+new product is added to the Product Explorer which contains the wrapped
+interferogram (Phase_ifg_IW…), the coherence (coh_IW_...) and the unwrapped
+phase generated with snaphu (here: Unw_Phase_ifg_20251119_20251125)</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Double
+click on the unwrapped phase to see if the unwrapping was successful. It should
+be a smooth raster with little variation except for the areas of expected
+deformation (Figure 24). All fringe patterns are summarized to absolute changes
+(Figure 19). Unwrapping errors can occur in areas of low coherence and in urban
+areas with many vertical objects.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">If
+you notice strange grid-like patterns in your unwrapped results, you can change
+the amount of tile columns and rows in the export (or directly in the
+snaphu.conf file) and run the unwrapping again. Just make sure</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">you
+delete the unwrapped phase (UnwPhase_ifg_[…].img) and the temporary files in
+the export directory before you restart the unwrapping. Sometimes it is also
+favorable to switch the statistical cost- mode from DEFO to SMOOTH or the
+initial method from MCF to MST and compare the outputs.</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="848" height="531" id="image15.png" src="./portfolio-2_files/image030.gif"></span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+24: Phase before (top) and after (bottom) unwrapping</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>3.5.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Phase to
+Displacement</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+unwrapped phase is now a continuous raster but not yet a metric measure. </span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">To
+convert the radian units into absolute displacements, the Phase to Displacement
+operator (under Radar &gt; Interferometric &gt; Products) is applied. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">It
+translates the phase into surface changes along the line-of-sight (LOS) in
+meters. The LOS is the line between the sensor and a pixel. </span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">Accordingly, positive values mean uplift and
+negative values mean subsidence of the surface.</span></b></p>
+
+<table class="a2" border="1" cellspacing="0" cellpadding="0" width="958" style="margin-left:-5.4pt;border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="416" valign="top" style="width:207.9pt;border:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal" style="line-height:115%"><span style="font-size:12.0pt;
+  line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="368" height="320" id="image9.png" src="./portfolio-2_files/image031.gif"></span></p>
+  </td>
+  <td width="542" valign="top" style="width:270.9pt;border:solid black 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal" style="line-height:115%"><span style="font-size:12.0pt;
+  line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="452" height="534" id="image10.png" src="./portfolio-2_files/image032.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+Phase to Displacement operator has no parameters and is applied to the
+unwrapped phase which was imported in the last step. It produces an output
+which looks similar to the unwrapped phase (slightly different predefined color
+ramp), but now each pixel has a metric value indicating its displacement</span></p>
+
+<table class="a3" border="1" cellspacing="0" cellpadding="0" width="958" style="margin-left:-5.4pt;border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="479" valign="top" style="width:239.4pt;border:solid black 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="427" height="262" id="image28.png" src="./portfolio-2_files/image033.gif"></span></p>
+  </td>
+  <td width="479" valign="top" style="width:239.4pt;border:solid black 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="412" height="255" id="image32.png" src="./portfolio-2_files/image034.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><a name="_heading=h.dcufsrruvwv"></a><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure 25: Histogram of unwrapped
+phase (left) and LOS displacement (right)</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>3.6.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Terrain Correction</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Terrain
+Correction will geocode the image by correcting SAR geometric distortions using
+a digital elevation model (DEM) and producing a map projected product.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Geocoding
+converts an image from slant range or ground range geometry into a map
+coordinate system. Terrain geocoding involves using a Digital Elevation Model
+(DEM) to correct for inherent geometric distortions, such as foreshortening,
+layover and shadow. More information on these effects is given in the ESA radar
+course materials.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Open
+the Range Doppler Terrain Correction operator (under Radar &gt; Geometric &gt;
+Terrain Correction). </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+the displacement product as an input in the first tab.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">In
+the Processing Parameters tab, select SRTM 1Sec HGT (AutoDownload) as input
+DEM.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">If
+you want to export the data as a KMZ file to view it in Google Earth WGS84 must
+be selected as Map Projection. It is based on geographic coordinates (latitude
+and longitude). For the later use in a geographic information system (GIS) a
+metric map projection, such as UTM (Automatic) could be selected as well.</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Click
+on Run to start the terrain correction. After completing the terrain
+correction, SNAP will add the result to product explorer. </span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Double
+click on the output to view the geocoded displacement raster.</span></p>
+
+<table class="a4" border="1" cellspacing="0" cellpadding="0" width="936" style="border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="468" valign="top" style="width:3.25in;border:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt">
+  <p class="MsoNormal" style="border:none"><span style="font-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;<img border="0" width="447" height="366" id="image2.png" src="./portfolio-2_files/image035.gif"></span></p>
+  </td>
+  <td width="468" valign="top" style="width:3.25in;border:solid black 1.0pt;
+  border-left:none;padding:5.0pt 5.0pt 5.0pt 5.0pt">
+  <p class="MsoNormal" style="border:none"><span style="font-size:12.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="383" height="455" id="image3.png" src="./portfolio-2_files/image036.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+29: Range Doppler Terrain Correction</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="936" height="635" id="Picture 1" src="./portfolio-2_files/image037.gif"></span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+30: Terrain corrected and geocoded displacement raster</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">Positive values mean uplift and negative values mean
+subsidence of the surface.</span></b></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style="font-size:12.0pt;line-height:115%;font-family:
+&quot;Times New Roman&quot;,&quot;serif&quot;">The whiter pixel is, the greater the uplift, The
+bluer a pixel is, the greater the subsidence. </span></b></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Export
+to see the movement shown in meters in the legend.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<h2>3.7.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Export to Google
+Earth</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">All
+geocoded products (projected to WGS84) can be exported as a KMZ file to view
+them in Google Earth.</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+a suitable color scale and color ramp in the Color Manipulation tab and then</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Choose
+File &gt; Export &gt; Other &gt; View As Google Earth KMZ. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Select
+an output directory and a suitable filename and confirm with Save. </span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Open
+the kmz file in Google Earth to view the location of the displacement patterns
+on the satellite image base map (Figure 32).</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" width="837" style="width:418.35pt;border-collapse:collapse;border:none">
+ <tbody><tr style="height:256.75pt">
+  <td valign="top" style="border:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;
+  height:256.75pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="400" height="466" id="Picture 38" src="./portfolio-2_files/image038.gif"></span></p>
+  </td>
+  <td valign="top" style="border:solid windowtext 1.0pt;border-left:none;
+  padding:0in 5.4pt 0in 5.4pt;height:256.75pt">
+  <p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><img border="0" width="390" height="466" id="Picture 42" src="./portfolio-2_files/image039.gif"></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Figure
+32: Result exported to Google Earth</span></p>
+
+<h2>3.8.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Interpretating Interferogram
+</h2>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">This
+image shows a Differential Interferometric Synthetic Aperture Radar (DInSAR)
+analysis of ground deformation near the Erta Ale and Hayli Gubbi volcanoes.</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Left
+Panel: Interferometric Phase (Fringes)</span></b></p>
+
+<ul style="margin-top:0in" type="disc">
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Interferogram
+     shows</span><span style="font-size:12.0pt;line-height:115%;font-family:
+     &quot;Times New Roman&quot;,&quot;serif&quot;">: The phase difference between two radar images
+     taken at different times.</span></li>
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Fringe
+     is </span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">each
+     full cycle of color (e.g., from purple to purple) represents a specific
+     amount of ground movement along the radar's line of sight (LOS). These
+     patterns(fringes) represent a full 2&#960; cycle(e.g., from purple to
+     purple)&nbsp; and appear in an interferogram as cycles of arbitrary colors,
+     with each cycle representing half the sensor&#8223;s wavelength.</span></li>
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Relative
+     ground movement away/towards radar LOS can be derived by counting the
+     fringes and multiplying by half of the wavelength(Sentinel-1 C band is
+     5.5cm). The closer the fringes are together, the greater the strain on the
+     ground</span></b><span style="font-size:12.0pt;line-height:115%;
+     font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">.</span></li>
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Dense
+     Fringes</span><span style="font-size:12.0pt;line-height:115%;font-family:
+     &quot;Times New Roman&quot;,&quot;serif&quot;">: The concentric rings packed closely together
+     near Erta Ale indicate a high gradient of rapid ground displacement.</span></li>
+</ul>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Right
+Panel: Displacement Map (Meters)</span></b></p>
+
+<ul style="margin-top:0in" type="disc">
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Image
+     shows the Unwraped displacement phase</span><span style="font-size:12.0pt;
+     line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: The phase data
+     converted into actual physical measurements of vertical/LOS ground
+     movement.</span></li>
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Blue/Green
+     Zone</span></b><b><span style="font-size:12.0pt;line-height:115%;
+     font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: Represents negative values down <u>to
+     -0.146 meters(-14.6 centimeters), indicating significant ground subsidence
+     or sinking near the Erta Ale crater.</u></span></b></li>
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><b><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">White/Bright
+     Zone</span></b><b><span style="font-size:12.0pt;line-height:115%;
+     font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: Represents positive values up <u>to
+     positive 0.034 meters(3.4 centimeters), indicating ground uplift or
+     inflation adjacent to the sinking area.</u></span></b></li>
+ <li class="MsoNormal" style="text-align:justify;line-height:115%"><b><u><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Yellow
+     Zone</span></u></b><b><u><span style="font-size:12.0pt;line-height:115%;
+     font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: Represents stable areas with
+     near-zero displacement.</span></u></b></li>
+</ul>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+difference between the color bar sliders(figure 32 right) and the actual
+metadata(figure 30): &nbsp;values comes down to how the software handles data
+scaling and outliers.</span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-indent:-.25in;line-height:
+115%"><span style="font-size:10.0pt;line-height:115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+Metadata True min max Range(figure 30)</span><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: The text window shows
+a true minimum value of -0.471 meters and a maximum of 0.15 meters. This
+represents the absolute highest and lowest pixel values in the entire unwrapped
+data layer; <b><u>which means some areas show uplift upto 15 Cm and subsidence
+to 47.1 cm.</u></b></span></p>
+
+<p class="MsoNormal" style="margin-left:.25in;text-indent:-.25in;line-height:
+115%"><span style="font-size:10.0pt;line-height:115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">The
+Color Bar Scale(figure 32 right)</span><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">: slider scale runs
+from -0.15 meters to 0.0338 meters (3.38E-2).The software automatically clips
+or truncates the color stretch to fit the main bulk of the histogram data. This
+prevents a few extreme, noisy pixels (outliers) from compressing the color
+variation across the rest of the map. It is recommended to do further reading
+on interpreting interferogram maps for better analysis and interpretation.</span></p>
+
+<h2>3.9.<span style="font:7.0pt &quot;Times New Roman&quot;"> </span>Suggestions for
+further analyses</h2>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">This
+tutorial showed how to derive surface displacement from a single image pair of
+SLC radar data. However, it remains unclear how well the result represents the
+real conditions. This can only be achieved by external reference data. </span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Moreover,
+to minimize the impact of atmospheric phase disturbances and unwrapping errors,
+a series of images should be analyzed to get a more reliable result. All steps
+in this tutorial can be repeated for each consecutive image pair, for instance doing
+interferometry for images 1 and 2,then&nbsp; 2 and 3, then 3 and 4, and so on.</span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:115%"><span style="font-size:12.0pt;line-height:
+115%;font-family:Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">By
+averaging displacements of several dates, the impact of atmospheric disturbances
+and unwrapping errors is reduced, and actual displacement patterns become more
+evident.</span></p>
+
+<span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><br clear="all" style="page-break-before:always">
+</span>
+
+<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">REFERENCES</span></p>
+
+<p class="MsoListParagraphCxSpFirst" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:150%"><span style="font-size:10.0pt;line-height:
+150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:10.0pt;line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">Roca
+et al. (1997). (n.d.). InSAR Principles: Guidelines for SAR Interferometry
+Processing and Interpretation (ESA TM-19).</span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-indent:-.25in;
+line-height:150%"><span style="font-size:10.0pt;line-height:150%;font-family:
+&quot;Cambria&quot;,&quot;serif&quot;">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:10.0pt;line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">S1TBX
+Stripmap Interferometry with Sentinel-1 Tutorial_v2.</span><span style="font-size:10.0pt;line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">
+European Space Agency. (n.d.). <em><span style="font-family:&quot;Cambria&quot;,&quot;serif&quot;">S1TBX
+Stripmap Interferometry with Sentinel-1 Tutorial</span></em> (Version 2). ESA
+Science Toolbox Exploitation Platform. <span class="t286pc">https://step.esa.int/docs/tutorials/S1TBX%20Stripmap%20Interferometry%20with%20Sentinel-1%20Tutorial_v2.pdf</span></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:150%"><span style="font-size:10.0pt;line-height:
+150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:10.0pt;line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">InSAR
+Displacement Mapping with ERS data. </span><span style="font-size:10.0pt;
+line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">European Space Agency. (n.d.). <em><span style="font-family:&quot;Cambria&quot;,&quot;serif&quot;">S1TBX Stripmap Interferometry with ERS
+Tutorial</span></em>. ESA Science Toolbox Exploitation Platform. <span class="t286pc">http://step.esa.int/docs/tutorials/S1TBX%20Stripmap%20Interferometry%20with%20ERS%20Tutorial.pdf</span></span></p>
+
+<p class="MsoListParagraphCxSpLast" style="margin-left:.25in;text-align:justify;
+text-indent:-.25in;line-height:150%"><span style="font-size:10.0pt;line-height:
+150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="font-size:10.0pt;line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">S1TBX
+DEM generation with Sentinel-1 IW Tutorial. </span><span style="font-size:10.0pt;
+line-height:150%;font-family:&quot;Cambria&quot;,&quot;serif&quot;">European Space Agency. (n.d.). <em><span style="font-family:&quot;Cambria&quot;,&quot;serif&quot;">S1TBX DEM generation with Sentinel-1 IW
+Tutorial</span></em>. ESA Science Toolbox Exploitation Platform. <span class="t286pc">https://step.esa.int/docs/tutorials/S1TBX%20DEM%20generation%20with%20Sentinel-1%20IW%20Tutorial.pdf</span></span></p>
+
+<p class="MsoNormal" style="text-align:justify;line-height:115%"><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+
+</div>
+
+
+
+
+</body><div id="aiFabShadowRoot" data-fab-type="react" style="opacity: 1;"><template shadowrootmode="open"><div id="fab-react-root"><div class="fab-root"><div class="acrobat-button-container " style="bottom: 36px;"><div class="acrobat-button " role="button" aria-label="Get summaries and key insights using AI Assistant"><button class="close-btn  "><svg class="close-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_8552_7892" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14" style="mask-type: alpha;"><path d="M7.82482 7.00034L10.6374 4.18778C10.7893 4.03592 10.7893 3.78969 10.6374 3.63783L10.3625 3.36292C10.2106 3.21106 9.96446 3.21106 9.81255 3.36292L6.99995 6.17548L4.18734 3.36292C4.03543 3.21106 3.78933 3.21106 3.63743 3.36292L3.36247 3.63783C3.21056 3.78969 3.21056 4.03592 3.36247 4.18778L6.17507 7.00034L3.36247 9.81295C3.21056 9.96481 3.21056 10.2111 3.36247 10.3629L3.63743 10.6378C3.78933 10.7897 4.03543 10.7897 4.18734 10.6378L6.99995 7.82526L9.81255 10.6378C9.96446 10.7897 10.2106 10.7897 10.3625 10.6378L10.6374 10.3629C10.7893 10.2111 10.7893 9.96481 10.6374 9.81295L7.82482 7.00034Z" fill="#222222"></path></mask><g mask="url(#mask0_8552_7892)"><rect width="14" height="14"></rect></g></svg><svg class="burger-icon" width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_12188_28876" maskUnits="userSpaceOnUse" x="3" y="3" width="15" height="14" style="mask-type: alpha;"><path d="M15.1285 12.8008H6.37852C6.08867 12.8008 5.85352 13.0359 5.85352 13.3258C5.85352 13.6156 6.08867 13.8508 6.37852 13.8508H15.1285C15.4184 13.8508 15.6535 13.6156 15.6535 13.3258C15.6535 13.0359 15.4184 12.8008 15.1285 12.8008Z" fill="#292929"></path><path d="M6.37852 6.85078H15.1285C15.4184 6.85078 15.6535 6.61562 15.6535 6.32578C15.6535 6.03594 15.4184 5.80078 15.1285 5.80078H6.37852C6.08867 5.80078 5.85352 6.03594 5.85352 6.32578C5.85352 6.61562 6.08867 6.85078 6.37852 6.85078Z" fill="#292929"></path><path d="M15.1285 9.30078H6.37852C6.08867 9.30078 5.85352 9.53594 5.85352 9.82578C5.85352 10.1156 6.08867 10.3508 6.37852 10.3508H15.1285C15.4184 10.3508 15.6535 10.1156 15.6535 9.82578C15.6535 9.53594 15.4184 9.30078 15.1285 9.30078Z" fill="#292929"></path></mask><g mask="url(#mask0_12188_28876)"><rect x="3.75391" y="3" width="14" height="14" fill="#464646"></rect></g></svg></button><div class="icon-container" role="button" tabindex="0" aria-label="Open AI Assistant"><svg id="ImportedIcons" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" class="fab-svg-icon"><path d="m6.21661,16.39534c-1.35034,2.23499-2.67933,3.64758-3.45616,3.64758-.12795.00539-.25276-.04056-.34667-.12762-.14818-.12483-.21629-.32065-.17758-.5105.14764-.80079,1.68628-1.95576,3.98041-3.00946Zm6.49075-3.19656c-.57993.12528-1.1792.27056-1.78689.43544-.4366.11893-.87951.24862-1.32255.38729.23541-.4949.4515-.98554.6398-1.452.24831-.6159.48156-1.232.69564-1.83456.18831.30354.38304.59839.58195.88207.39375.56092.81787,1.09736,1.19205,1.58176Zm-2.99822-10.63684c.08814-.18001.26644-.29855.46653-.31016.51149,0,.62276.63358.62276,1.1638-.06787,1.25011-.29293,2.48669-.66988,3.68055-.85816-2.33642-.73831-3.97319-.41942-4.53419h.00001Zm9.60883,12.20974c-.13359.4402-.56725.71808-1.023.6555-.15594-.00061-.3112-.02054-.46224-.05933-1.07834-.28263-2.07953-.80363-2.92976-1.5246.71719-.11267,1.44198-.17001,2.16797-.17149.48402-.00813.96771.03017,1.44442.11438.43447.09244.92449.33873.80261.98554Zm1.45515-1.0537c-1.01837-.83309-2.33117-1.21735-3.63802-1.06487-.98482.00983-1.96732.09739-2.93836.26187-.62354-.62512-1.19003-1.30467-1.69272-2.03054-.38314-.54455-.73672-1.10931-1.05923-1.69182.54287-1.57384.85986-3.2167.94151-4.87953,0-1.49369-.57564-3.09087-2.19132-3.09087-.56296.01952-1.07528.33036-1.35261.82066-.68906,1.2165-.41298,3.72002.68705,6.26756-.38306,1.17041-.80046,2.31007-1.31196,3.57265-.43687,1.08123-.93191,2.13803-1.48293,3.16579-1.64775.68213-5.15115,2.33642-5.48494,4.16456-.10306.53569.0783,1.08658.47942,1.45629.39145.35044.90217.53779,1.42737.5236,2.10998,0,4.21366-3.003,5.63044-5.58789.80461-.2816,1.62641-.53671,2.44391-.759.8967-.24407,1.76345-.44427,2.58082-.594,1.39014,1.39224,3.25004,2.21523,5.21531,2.30773,1.36751,0,1.87887-.60942,2.06516-1.122.20733-.5893.08589-1.24438-.3189-1.72019Z" fill="var(--iconRed, #d31510)" fill-rule="evenodd"></path></svg></div></div><div class="tooltip-text fab-home-tooltip "><svg class="fab-home-tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><path d="m6.21661,16.39534c-1.35034,2.23499-2.67933,3.64758-3.45616,3.64758-.12795.00539-.25276-.04056-.34667-.12762-.14818-.12483-.21629-.32065-.17758-.5105.14764-.80079,1.68628-1.95576,3.98041-3.00946Zm6.49075-3.19656c-.57993.12528-1.1792.27056-1.78689.43544-.4366.11893-.87951.24862-1.32255.38729.23541-.4949.4515-.98554.6398-1.452.24831-.6159.48156-1.232.69564-1.83456.18831.30354.38304.59839.58195.88207.39375.56092.81787,1.09736,1.19205,1.58176Zm-2.99822-10.63684c.08814-.18001.26644-.29855.46653-.31016.51149,0,.62276.63358.62276,1.1638-.06787,1.25011-.29293,2.48669-.66988,3.68055-.85816-2.33642-.73831-3.97319-.41942-4.53419h.00001Zm9.60883,12.20974c-.13359.4402-.56725.71808-1.023.6555-.15594-.00061-.3112-.02054-.46224-.05933-1.07834-.28263-2.07953-.80363-2.92976-1.5246.71719-.11267,1.44198-.17001,2.16797-.17149.48402-.00813.96771.03017,1.44442.11438.43447.09244.92449.33873.80261.98554Zm1.45515-1.0537c-1.01837-.83309-2.33117-1.21735-3.63802-1.06487-.98482.00983-1.96732.09739-2.93836.26187-.62354-.62512-1.19003-1.30467-1.69272-2.03054-.38314-.54455-.73672-1.10931-1.05923-1.69182.54287-1.57384.85986-3.2167.94151-4.87953,0-1.49369-.57564-3.09087-2.19132-3.09087-.56296.01952-1.07528.33036-1.35261.82066-.68906,1.2165-.41298,3.72002.68705,6.26756-.38306,1.17041-.80046,2.31007-1.31196,3.57265-.43687,1.08123-.93191,2.13803-1.48293,3.16579-1.64775.68213-5.15115,2.33642-5.48494,4.16456-.10306.53569.0783,1.08658.47942,1.45629.39145.35044.90217.53779,1.42737.5236,2.10998,0,4.21366-3.003,5.63044-5.58789.80461-.2816,1.62641-.53671,2.44391-.759.8967-.24407,1.76345-.44427,2.58082-.594,1.39014,1.39224,3.25004,2.21523,5.21531,2.30773,1.36751,0,1.87887-.60942,2.06516-1.122.20733-.5893.08589-1.24438-.3189-1.72019Z" fill="#D6373F" fill-rule="evenodd"></path></svg><span class="tooltip-text-content">Check out Acrobat's new home in your browser</span></div><div class="draggable-handle "><svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.60039 13.0699C5.26313 13.0699 5.80039 12.5327 5.80039 11.8699C5.80039 11.2072 5.26313 10.6699 4.60039 10.6699C3.93765 10.6699 3.40039 11.2072 3.40039 11.8699C3.40039 12.5327 3.93765 13.0699 4.60039 13.0699Z" fill="#292929"></path><path d="M4.60039 8.27109C5.26313 8.27109 5.80039 7.73384 5.80039 7.07109C5.80039 6.40835 5.26313 5.87109 4.60039 5.87109C3.93765 5.87109 3.40039 6.40835 3.40039 7.07109C3.40039 7.73384 3.93765 8.27109 4.60039 8.27109Z" fill="#292929"></path><path d="M4.60039 3.47031C5.26313 3.47031 5.80039 2.93305 5.80039 2.27031C5.80039 1.60757 5.26313 1.07031 4.60039 1.07031C3.93765 1.07031 3.40039 1.60757 3.40039 2.27031C3.40039 2.93305 3.93765 3.47031 4.60039 3.47031Z" fill="#292929"></path><path d="M9.4002 13.0699C10.0629 13.0699 10.6002 12.5327 10.6002 11.8699C10.6002 11.2072 10.0629 10.6699 9.4002 10.6699C8.73745 10.6699 8.2002 11.2072 8.2002 11.8699C8.2002 12.5327 8.73745 13.0699 9.4002 13.0699Z" fill="#292929"></path><path d="M9.4002 8.27109C10.0629 8.27109 10.6002 7.73384 10.6002 7.07109C10.6002 6.40835 10.0629 5.87109 9.4002 5.87109C8.73745 5.87109 8.2002 6.40835 8.2002 7.07109C8.2002 7.73384 8.73745 8.27109 9.4002 8.27109Z" fill="#292929"></path><path d="M9.4002 3.47031C10.0629 3.47031 10.6002 2.93305 10.6002 2.27031C10.6002 1.60757 10.0629 1.07031 9.4002 1.07031C8.73745 1.07031 8.2002 1.60757 8.2002 2.27031C8.2002 2.93305 8.73745 3.47031 9.4002 3.47031Z" fill="#292929"></path></svg></div></div></div></div><style>
+    .acrobat-button-container {
+        position: fixed;
+        right: 0;
+        bottom: 36px;
+        z-index: 2147483646;
+        visibility: visible !important;
+        pointer-events: all;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    @media print {
+        .acrobat-button-container {
+            display: none !important;
+        }
+    }
+
+    .acrobat-button {
+        position: relative;
+        background: white;
+        display: flex;
+        align-items: center;
+        pointer-events: all;
+        touch-action: none;
+        box-shadow: 0px 2px 8px 0px #00000029;
+        height: 34px;
+        width: 34px;
+        border: 1px solid transparent;
+        background-clip: padding-box, border-box;
+        background-origin: border-box;
+        background-image: linear-gradient(white, white),
+                        linear-gradient(95.85deg, #D73220 0%, #D92361 33%, #7155FA 100%);
+        border-radius: 18px;
+        justify-content: right;
+        margin-right: var(--fab-margin-right, 28px);
+        overflow: hidden;
+    }
+
+    .acrobat-button-container-transparent {
+        opacity: 0.4 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .acrobat-button-container-transparent:hover,
+    .acrobat-button-container-transparent:focus,
+    .acrobat-button-container-transparent:active {
+        opacity: 1;
+    }
+
+    .acrobat-button > svg {
+        flex-shrink: 0;
+        margin: 4px 5px 5px 5px;
+        width: 22px;
+        height: 22px;
+        pointer-events: none;
+        fill: #b40000;
+    }
+    .acrobat-button:has(.close-btn.open),
+    .expand-acrobat-button {
+        width: 64px;
+    }
+
+    .disabled {
+        background: #B1B1B1;
+    }
+
+    .tooltip-text {
+        width: 160px;
+        visibility: hidden;
+        opacity: 0;
+        background-color: #FFFFFF;
+        color: #292929;
+        border-radius: 7px;
+        padding: 4px 1px 5px 9px;
+        position: absolute;
+        z-index: 1;
+        right: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 10px;
+        transition: opacity 0.3s, visibility 0s linear 2s;
+        font-size: 12px;
+        line-height: 15px;
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.12));
+    }
+
+    .tooltip-text::after {
+       content: '';
+       position: absolute;
+       top: 50%;
+       left: 100%;
+       transform: translateY(-50%);
+       border-width: 6px;
+       border-style: solid;
+       border-color: transparent transparent transparent #fff;
+    }
+
+    .show-tooltip {
+        visibility: visible;
+        opacity: 1;
+        line-height: 1.5;
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        transition: opacity 0.3s;
+        transition-delay: 500ms;
+    }
+
+    .close-btn {
+        position: relative;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .close-btn svg {
+        fill: #464646;
+    }
+
+    .close-btn.showCloseButton {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        padding: 2px;
+    }
+
+    .fab-view-settings-dialog {
+        display: none;
+        position: absolute;
+        bottom: 40px;
+        z-index: 1;
+    }
+
+    .close-btn:hover {
+        background: #E6E6E6;
+        border-radius: 50%; /* Keep original circular hover */
+        cursor: pointer;
+    }
+
+    .fab-view-settings-dialog.showDialog {
+        display: block;
+    }
+    .close-btn .burger-icon {
+        display: inline;
+        margin-bottom: 2px;
+    }
+    .close-btn .close-icon {
+        display: none;
+    }
+    .close-btn.open .burger-icon {
+        display: none;
+    }
+    .close-btn.open .close-icon {
+        display: inline;
+    }
+    .tooltip-text .tooltip-text-content {
+        font-weight: bold;
+    }
+    .tooltip-text .tooltip-sub-text-text {
+        font-style: italic;
+        font-size: 11px;
+    }
+
+    /* Home tooltip FTE — icon + layout overrides */
+    .fab-home-tooltip {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 183px;
+        border-radius: 8px;
+        padding: 6px 8px 8px 12px;
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.08), 0px 1px 2px rgba(0,0,0,0.04), 0px 0px 1px rgba(0,0,0,0.08), 0px 3px 5px rgba(116,23,208,0.07);
+    }
+    .fab-home-tooltip .tooltip-text-content {
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #292929;
+        white-space: normal;
+        word-wrap: break-word;
+        width: 145px;
+    }
+    .fab-home-tooltip-icon {
+        flex-shrink: 0;
+        display: block;
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Icon container styles - replaces iframe */
+    .icon-container {
+        width: 33px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: grab;
+        pointer-events: all;
+        flex-shrink: 0;
+        background: transparent;
+        border: none;
+    }
+
+    .icon-container:active {
+        cursor: grabbing;
+    }
+
+    .fab-svg-icon {
+        width: 22px;
+        height: 22px;
+        padding: 5px 5px 5px 6px;
+        pointer-events: none;
+        fill: #b40000;
+    }
+
+    .draggable-handle {
+        display: none;
+        position: absolute;
+        right: var(--drag-handle-right, 12px);
+        cursor: grab;
+    }
+    .draggable-handle-visible {
+        display: flex;
+    }
+
+    /* Font face declarations - for proper font loading in Shadow DOM */
+    @font-face {
+        font-family: 'adobe-clean';
+        font-weight: 400;
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Regular.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'adobe-clean';
+        font-weight: 700;
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Bold.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'AdobeClean-Regular';
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Regular.otf') format('opentype');
+    }
+    @font-face {
+        font-family: 'AdobeClean-Bold';
+        src: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/css/fonts/AdobeClean-Bold.otf') format('opentype');
+    }
+    body {
+        font-family: 'AdobeClean-Regular', adobe-clean, "Adobe Clean", sans-serif;
+    }
+
+    .dialog-container {
+        width: 166px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        border: 1px solid #B1B1B1;
+        box-shadow: 0px 1px 4px 0px #00000026;
+        z-index: 1000;
+        padding: 4px;
+        position: relative;
+        margin: 4px 0px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu .menu_item {
+        cursor: pointer;
+        font-family: 'AdobeClean-Regular', adobe-clean, "Adobe Clean", sans-serif;
+        align-content: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: left;
+        color: #222222;
+        padding: 0px 12px;
+        height: 32px;
+        width: 140px;
+    }
+
+    .menu .menu_item:hover {
+        background-color: #eaeaea;
+    }
+
+    .preferences {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: left;
+        color: #464646;
+    }
+
+    .divider {
+        border-top: 1px solid #E6E6E6;
+    }
+
+    /* React-specific wrappers - minimal */
+    .fab-root {
+        font-family: 'adobe-clean', Adobe Clean, sans-serif;
+        /* FAB is UI chrome, not page content — exclude from host page select-all/copy */
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    button.close-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 10; /* Ensure clickable above all other elements */
+        pointer-events: auto;
+    }
+
+    /* FAB Action Pills - From Figma Design */
+    .fab-pills-container {
+        position: absolute;
+        bottom: 42px; /* FAB height (34px) + gap (8px) = 42px */
+        right: var(--fab-margin-right, 28px);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-end;
+        width: 142px;
+        z-index: 1;
+    }
+
+    .fab-pills-container.pills-below {
+        bottom: auto;
+        top: 42px; /* Same gap when positioned below */
+    }
+
+    /* Nudge variant (challenger) — all pills take dynamic width instead of fixed 142px */
+    .fab-pills-container.nudge-variant .fab-pill-button {
+        width: auto;
+    }
+
+    .fab-pills-container.nudge-variant .fab-pill-label {
+        white-space: nowrap;
+    }
+
+    /* Extend hover area using ::after pseudo-element - doesn't affect visual layout */
+    .fab-pills-container::after {
+        content: '';
+        position: absolute;
+        top: 100%; /* Start right after the pills content */
+        left: 0;
+        right: 0;
+        height: 8px;
+        background: transparent;
+        pointer-events: auto;
+    }
+
+    .fab-pills-container.pills-below::after {
+        top: auto;
+        bottom: 100%; /* Start right before the pills when positioned below */
+    }
+
+    /* FTE Header - First Time Experience (56px with close button) */
+    .fab-fte-header {
+        position: relative;
+        width: 142px;
+        min-height: 56px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .fab-fte-background {
+        position: absolute;
+        left: -13px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 183.33px;
+        height: 126.82px;
+        background: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/fab-header-background.svg') no-repeat center;
+        background-size: cover;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .fab-fte-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 2;
+        color: #222222;
+        padding: 0;
+    }
+
+    .fab-fte-close:hover {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+    }
+
+    .fab-fte-close svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .fab-fte-text {
+        position: relative;
+        width: 102px;
+        font-family: 'AdobeClean-Bold', adobe-clean, sans-serif;
+        font-weight: 400; /* Use Bold font file directly, not synthetic bold */
+        font-size: 12px;
+        line-height: 16px;
+        color: #222222; /* Figma spec color */
+        z-index: 1;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-left: 16px;
+        margin-right: auto;
+        box-sizing: border-box;
+        -webkit-font-smoothing: subpixel-antialiased; /* Better font rendering */
+        -moz-osx-font-smoothing: auto;
+    }
+
+    /* Hover Header - Normal state (24px without close button) */
+    .fab-hover-header {
+        position: relative;
+        width: 142px;
+        min-height: 24px;
+        background: #FFFFFF; /* White background to show the colorful SVG and text */
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .fab-hover-background {
+        position: absolute;
+        left: -27px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 212.63px;
+        height: 147.09px;
+        background: url('chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/browser/images/fab-header-background.svg') no-repeat center;
+        background-size: cover;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .fab-hover-text {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'AdobeClean-Bold', adobe-clean, sans-serif;
+        font-weight: 400; /* Use Bold font file directly, not synthetic bold */
+        font-size: 12px;
+        line-height: 15px;
+        color: #222222; /* Figma spec color */
+        z-index: 1;
+        white-space: normal;
+        padding: 4px 9px;
+        box-sizing: border-box;
+        -webkit-font-smoothing: subpixel-antialiased; /* Better font rendering */
+        -moz-osx-font-smoothing: auto;
+    }
+
+    /* Individual Pill Buttons */
+    .fab-pill-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        width: 142px;
+        min-height: 24px; /* Min height, allows growth with content */
+        background: #FFFFFF;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+        padding: 0;
+        transition: background 0.2s ease;
+        overflow: visible;
+    }
+
+    .fab-pill-button:hover {
+        background: #D5D5D5;
+    }
+
+    .fab-pill-button:hover .fab-pill-label,
+    .fab-pill-button:hover .fab-pill-icon {
+        color: #000000; /* Hover state color from Figma Alias/content/neutral/hover */
+    }
+
+    .fab-pill-button:active {
+        background: #F4F4F4;
+    }
+
+    .fab-pill-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 7px 4px 10px; /* Exact Figma specs: top right bottom left */
+        flex-shrink: 0;
+        box-sizing: border-box;
+    }
+
+    .fab-pill-icon img {
+        width: 16px;
+        height: 16px;
+        display: block;
+        flex-shrink: 0;
+        /* SVG icons with currentColor fill will inherit color from parent */
+        filter: brightness(0) saturate(100%) invert(13%) sepia(0%) saturate(0%) hue-rotate(196deg) brightness(97%) contrast(97%); /* #222222 */
+    }
+
+    .fab-pill-button:hover .fab-pill-icon img {
+        filter: brightness(0) saturate(100%); /* #000000 on hover */
+    }
+
+    .fab-pill-label {
+        display: flex;
+        align-items: center;
+        font-family: 'AdobeClean-Bold', adobe-clean, sans-serif;
+        font-weight: 400; /* Use Bold font file directly, not synthetic bold */
+        font-size: 12px;
+        line-height: 15px; /* 1.252 * 12px = 15.024px */
+        color: #222222; /* Default text color from Figma Alias/content/neutral/default */
+        padding: 4px 9px 5px 0; /* Reduced right padding to prevent wrapping */
+        text-align: left;
+        white-space: normal; /* Allow text wrapping for multi-line content */
+        box-sizing: border-box;
+        flex: 1;
+        overflow: visible;
+        -webkit-font-smoothing: subpixel-antialiased; /* Better font rendering */
+        -moz-osx-font-smoothing: auto;
+    }
+</style></template></div></html>
