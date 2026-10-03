@@ -28,6 +28,7 @@ tags:
   - Flood Mapping
 
 ---
+![ESA SNAP Graph Builder showing the pre-processing workflow](/images/snap-graph-workflow.png)
 
 ### Project Overview
 
