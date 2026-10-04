@@ -51,7 +51,13 @@
   padding-left: 15px !important; /* Prevents text from touching the gray line */
   clear: none !important;
 }
-
+/* Reduce portfolio teaser image height/width in archive list */
+.archive__item-teaser {
+  max-width: 250px !important;
+  max-height: 160px !important;
+  object-fit: cover;
+  margin: 10px 0;
+}
 /* Maintain clean desktop header navigation */
 .greedy-nav {
   position: relative;
