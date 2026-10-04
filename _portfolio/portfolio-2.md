@@ -1,12 +1,18 @@
 ---
 
 #layout: default
-title: "Sentinel-1 InSAR Surface Deformation Analysis — Afar, Ethiopia, teaser,icon"
+title: "Sentinel-1 InSAR Surface Deformation Analysis of the 2025 Hayli Gubbi volcano, Afar, Ethiopia"
 header:
   teaser: "insar-teaser-title-results.png"
-#permalink: /portfolio/portfolio-2/
-excerpt: " A complete single-pair Differential SAR Interferometry (DInSAR) workflow using Sentinel-1 SLC imagery to investigate surface deformation around the Afar volcanic region. The analysis moves from complex SAR phase to an interpretable line-of-sight (LOS) displacement map, while explicitly examining coherence, filtering, phase unwrapping, geocoding, and the limitations of a single interferometric pair."
+
+excerpt: "A Differential SAR Interferometry (DInSAR) workflow using SNAp & Sentinel-1 SLC data to map line-of-sight surface deformation caused by the 2025 Afar volcanic eruption."
 collection: portfolio
+
+---
+
+
+### Project Overview
+A complete workflow for single-pair Differential SAR Interferometry (DInSAR) using Sentinel-1 SLC imagery to investigate surface deformation caused by the 2025 Afar volcanic eruption. The analysis moves from complex SAR phase to an interpretable line-of-sight (LOS) displacement map, while explicitly examining coherence, filtering, phase unwrapping, geocoding, and the limitations of a single interferometric pair.
 
 ---
 
