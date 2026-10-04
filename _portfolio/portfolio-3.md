@@ -32,7 +32,25 @@ I processed a UAV image block over a forested hillside in the Gulele area of Add
 | OBIA overall accuracy | [CONFIRM: 87.1% (kappa 0.84) or 80.5%] on the 30% validation set |
 | Pixel-based comparison | 62% overall accuracy, with strong salt-and-pepper noise |
 
-[ADD FIGURES: orthomosaic, DSM, DTM, 3D model, OBIA vs pixel-based land-cover maps]
+### Figures
+
+![UAV orthomosaic of the Gulele study area over a satellite basemap](/images/uav-gulele-orthomosaic.png)
+*Orthomosaic generated from 162 UAV images (WebODM).*
+
+![Digital surface model of the Gulele study area](/images/uav-gulele-dsm.png)
+*Digital surface model (DSM): top-of-canopy and structure heights.*
+
+![Digital terrain model of the Gulele study area](/images/uav-gulele-dtm.png)
+*Digital terrain model (DTM): vegetation filtered out; beneath dense canopy it is interpolated.*
+
+![Textured 3D model of the Gulele forest and road](/images/uav-gulele-3d-model.png)
+*Textured 3D model viewed in WebODM.*
+
+![Object-based land-cover map of the Gulele area with five classes](/images/obia-gulele-lulc-map.png)
+*Object-based (OBIA) land-cover map: Forest, Built-up, Road, Bareland, Grassland.*
+
+![Object-based map beside the pixel-based map showing salt-and-pepper noise](/images/obia-vs-pixel-comparison.png)
+*Object-based map (left) and pixel-based map (right). The two layouts use different map scales.*
 
 ## Limitations I identified
 
