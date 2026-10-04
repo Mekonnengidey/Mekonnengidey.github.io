@@ -1,10 +1,10 @@
 ---
 
 title: "UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)"
-img: "uav-gulele-3d-model.png"
+#img: "uav-gulele-3d-model.png"
 excerpt: "From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class land-cover map."
 collection: portfolio
-header: #"UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)"
+footer: 
   teaser: "uav-gulele-3d-model.png"
 
 ---
