@@ -1,36 +1,18 @@
 ---
+
 title: "Bi-Temporal SAR GRD Processing for Flood Mapping: SNAP vs. GEE"
-excerpt: "A comparative analysis of Sentinel-1 SAR flood mapping workflows using ESA SNAP and Google Earth Engine to assess the August 2025 Awash River inundation."
-header:
-  teaser: "Pf1_SAR_Flood_Teaser.png"
-skills:
-  - SAR
-  - Flood Mapping
-  - Change Detection
-  - Remote Sensing
-techniques:
-  - Sentinel-1 GRD, Polarization
-  - Bi-temporal Analysis
-  - Speckle Filtering
-  - Histogram analysis and thresholding
-tools:
-  - ESA SNAP
-  - Google Earth Engine
-  - JavaScript
-categories:
-  - Portfolio
-  - Remote Sensing
-tags:
-  - SAR
-  - Google Earth Engine
-  - ESA SNAP
-  - Flood Mapping
-actions:
-  - label: "See All projects"
-    url: "/resources/"
+excerpt: "A comparative analysis of Sentinel-1 SAR flood mapping workflows using ESA SNAP and Google Earth Engine for the Awash River inundation."
+collection: portfolio
+teaser: "Pf1_SAR_Flood_Teaser.png"
 
 ---
- <!--img src="/images/Pf1_SAR_Flood_Teaser.png" alt="Teaser" style="max-width: 300px; height: auto; margin-top: 15px; border-radius: 6px;" /-->
+
+### Key Skills & Tools
+* **Key skills:** SAR • Flood Mapping • Change Detection • Remote Sensing
+* **Techniques:** Sentinel-1 GRD, Polarization • Bi-temporal Analysis • Speckle Filtering • Histogram analysis and thresholding
+* **Tools:** ESA SNAP • Google Earth Engine • JavaScript
+
+Detailed project overview and methodology goes here...
 
 ### Project Overview
 
