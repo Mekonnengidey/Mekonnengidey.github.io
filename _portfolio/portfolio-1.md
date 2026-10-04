@@ -11,13 +11,15 @@ categories:
 tags:
   - SAR
   - Google Earth Engine
+  - ESA SNAP
+  - Flood Mapping
 
 ---
 
 ### Key Skills & Tools
-* **Key skills:** SAR • Flood Mapping • Change Detection • Remote Sensing
-* **Techniques:** Sentinel-1 GRD, Polarization • Bi-temporal Analysis • Speckle Filtering • Histogram analysis and thresholding
-* **Tools:** ESA SNAP • Google Earth Engine • JavaScript
+* **Key skills:** sentinel-1 SAR • Flood Mapping • Change Detection • Remote Sensing
+* **Techniques:** Sentinel-1 GRD, Polarization(VV, VH) • Speckle Filtering • Histogram analysis and thresholding
+* **Tools:** ESA SNAP(Graph model and batch processing) • Google Earth Engine • JavaScript
 
 Detailed project overview and methodology goes here...
 
