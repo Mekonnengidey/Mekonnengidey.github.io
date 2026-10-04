@@ -1,17 +1,19 @@
 ---
-layout: default
+
+#layout: default
 title: "Sentinel-1 InSAR Surface Deformation Analysis — Afar, Ethiopia"
-permalink: /portfolio/portfolio-2/
-excerpt: "Research-style Sentinel-1 DInSAR case study of surface deformation around the Afar volcanic region."
-teaser: /images/insar-teaser-title-results.png
+teaser: "insar-teaser-title-results.png"
+#permalink: /portfolio/portfolio-2/
+excerpt: " A complete single-pair Differential SAR Interferometry (DInSAR) workflow using Sentinel-1 SLC imagery to investigate surface deformation around the Afar volcanic region. The analysis moves from complex SAR phase to an interpretable line-of-sight (LOS) displacement map, while explicitly examining coherence, filtering, phase unwrapping, geocoding, and the limitations of a single interferometric pair."
 collection: portfolio
+
 ---
 
 <!-- Paste the contents of portfolio-2.md below this front matter if your site uses this layout. -->
 
 # Sentinel-1 InSAR Surface Deformation Analysis — Afar, Ethiopia
 
-**Research-style remote sensing case study | Advanced Remote Sensing, MSc Geoinformation Science | Bahir Dar University | May 2026**
+**Case study | Advanced Remote Sensing, MSc Geoinformation Science | Bahir Dar University | May 2026**
 
 > **At a glance:** A complete single-pair Differential SAR Interferometry (DInSAR) workflow using Sentinel-1 SLC imagery to investigate surface deformation around the Afar volcanic region. The analysis moves from complex SAR phase to an interpretable line-of-sight (LOS) displacement map, while explicitly examining coherence, filtering, phase unwrapping, geocoding, and the limitations of a single interferometric pair.
 
