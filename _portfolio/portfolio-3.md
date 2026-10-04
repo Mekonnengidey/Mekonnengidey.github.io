@@ -1,7 +1,10 @@
 ---
+
 title: "UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)"
-excerpt: "From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class land-cover map, with an honest account of what worked and what did not."
+excerpt: "From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class land-cover map."
 collection: portfolio
+subtitle: "uav-gulele-3d-model.png"
+
 ---
 
 ## Summary
@@ -64,6 +67,6 @@ I processed a UAV image block over a forested hillside in the Gulele area of Add
 UAV-derived DSMs, CHMs and orthomosaics give centimeter-scale structure between field plots and satellite pixels. I would like to use data like this as a reference when evaluating GEDI and NISAR forest height and structure estimates in Ethiopian forests.
 
 ## Materials
-
+<!--
 - [UAV photogrammetry manual (PDF)](/files/UAV_based_RS_Final.pdf)
-- [OBIA manual (PDF)](/files/UAV_based_OBIA2.pdf)
+- [OBIA manual (PDF)](/files/UAV_based_OBIA2.pdf) -->
