@@ -1,9 +1,11 @@
 ---
 
 title: "UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)"
+  #thumbnail: "uav-gulele-3d-model.png"
 excerpt: "From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class land-cover map."
 collection: portfolio
-subtitle: "uav-gulele-3d-model.png"
+header3:
+  teaser: "uav-gulele-3d-model.png"
 
 ---
 
@@ -13,10 +15,10 @@ I processed a UAV image block over a forested hillside in the Gulele area of Add
 
 ## Context and my role
 
-- **Course term project** in Advanced Remote Sensing (MSc, Bahir Dar University), completed May 2026.
+- **Group term project** in Advanced Remote Sensing (MSc, Bahir Dar University), completed May 2026.
 - **Data:** the UAV dataset was provided by the course instructor and was collected in August 2017 by earlier cohorts, not by me. It contains 162 nadir RGB images (DJI FC330, 4000 x 3000 px) over about 11 ha, plus a GCP file with 9 ground control points.
 - **How the course works:** each student sets up and teaches one component to classmates, and every student then runs all workflows independently. I ran the full pipeline below on my own computer.
-- **Credits:** [CONFIRM AND FILL: instructor name; classmates whose setup materials I used; the sections I prepared myself].
+- **Members:** [Mekonnen, Mulugeta, Birhanu, : instructor name;Dr. Daniel A.].
 
 ## Workflow
 
@@ -32,7 +34,7 @@ I processed a UAV image block over a forested hillside in the Gulele area of Add
 | Onboard GPS error | 13.57 m RMSE, mostly a constant vertical offset (about 13.1 m) |
 | After adding 9 GCPs | 0.71 m RMSE (fit residual, see limitations) |
 | Reprojection error | 1.21 px (0.19 normalized) |
-| OBIA overall accuracy | [CONFIRM: 87.1% (kappa 0.84) or 80.5%] on the 30% validation set |
+| OBIA overall accuracy | 87.1% (kappa 0.84) on the 30% validation set |
 | Pixel-based comparison | 62% overall accuracy, with strong salt-and-pepper noise |
 
 ### Figures
