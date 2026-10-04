@@ -58,6 +58,11 @@
   object-fit: cover;
   margin: 10px 0;
 }
+.grid__item .archive__item-teaser img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
 /* Maintain clean desktop header navigation */
 .greedy-nav {
   position: relative;
