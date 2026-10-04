@@ -30,7 +30,7 @@ actions:
     url: "/resources/"
 
 ---
-<img src="/images/Pf1_SAR_Flood_Teaser.png" alt="Teaser" style="max-width: 300px; height: auto; margin-top: 15px; border-radius: 6px;" />
+ <!--img src="/images/Pf1_SAR_Flood_Teaser.png" alt="Teaser" style="max-width: 300px; height: auto; margin-top: 15px; border-radius: 6px;" /-->
 
 ### Project Overview
 
