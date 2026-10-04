@@ -52,11 +52,12 @@
   clear: none !important;
 }
 
-/* Clean uniform teaser images in portfolio  */
+/* Fixed box height for teaser images without cropping */
 .grid__item .archive__item-teaser img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 180px;            /* Fixed box height */
+  object-fit: contain;      /* Fits 100% of the image without cropping */
+  background-color: #f8f9fa; /* Light neutral background for letterboxing */
   border-radius: 4px;
 }
 /* Maintain clean desktop header navigation */
