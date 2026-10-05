@@ -18,6 +18,14 @@ collection: portfolio
 ### Project Overview
 This project presents a single-pair Differential SAR Interferometry (DInSAR) workflow using Sentinel-1 SLC imagery to investigate ground surface deformation resulting from the November 2025 volcanic activity in the Afar region, Ethiopia. The analysis processes complex SAR phase observations into a geocoded Line-of-Sight (LOS) displacement map while evaluating phase coherence, adaptive filtering, SNAPHU phase unwrapping, and geometric corrections.
 
+## Key Technical Skills Demonstrated
+
+* **SAR / DInSAR Processing:** Sentinel-1 SLC coregistration, Back-Geocoding, and ESD alignment.
+* **Phase Analysis:** Coherence evaluation, Goldstein filtering, phase unwrapping with SNAPHU.
+* **Geospatial & Geodetic Analytics:** Metric displacement modeling, SRTM DEM geocoding, and histogram interpretation.
+* **Software Tools:** ESA SNAP 13, SNAPHU, GIS integration.
+
+
 > *Note: This portfolio post is a concise, web-optimized summary of my full 28-page project report. For the detailed technical breakdown, mathematical formulations, and step-by-step SNAP parameter settings, please refer to the full PDF report linked above.*
 
 ---
@@ -201,16 +209,26 @@ Doppler Range-Terrain Correction (SRTM 1-ArcSec) was applied to correct geometri
 
 ---
 
-## 11. Key Technical Skills Demonstrated
+## Results & Volcanological Interpretation
 
-* **SAR / DInSAR Processing:** Sentinel-1 SLC coregistration, Back-Geocoding, and ESD alignment.
-* **Phase Analysis:** Coherence evaluation, Goldstein filtering, phase unwrapping with SNAPHU.
-* **Geospatial & Geodetic Analytics:** Metric displacement modeling, SRTM DEM geocoding, and histogram interpretation.
-* **Software Tools:** ESA SNAP 13, SNAPHU, GIS integration.
+| Deformation Parameter | Metric Value (LOS) | Geological Mechanism |
+| :--- | :--- | :--- |
+| **Maximum Subsidence** | -0.471 m (-47.1 cm) | Caldera collapse / Magma chamber evacuation |
+| **Maximum Uplift** | +0.150 m (+15.0 cm) | Peripheral magmatic dike intrusion |
+| **Coherence Threshold** | $> 0.6$ | Strong phase stability across the arid Afar terrain |
 
 ---
 
-### Project Metadata
-* **Author:** Mekonnen Gidey  
-* **Program:** MSc Geoinformation Science, Bahir Dar University  
-* **Course:** Advanced Remote Sensing
+### Analysis Highlights
+* **Fringe Density Analysis:** Concentric closed fringe loops around the Erta Ale and Hayli Gubbi craters indicate steep spatial deformation gradients occurring across the 6-day acquisition window (November 19 to November 25, 2025).
+* **Deformation Dynamic:** The spatial pattern reflects co-eruptive magma movement, characterized by central caldera deflation flanked by asymmetric dike-induced uplift along the active rift axis.
+* **Histogram Scaling vs. True Metadata:** While automated histogram color-stretching clips display values between -0.146 m and +0.034 m to mitigate localized noise artifacts, absolute raster metadata confirms peak ground displacement bounds of -0.471 m to +0.150 m.
+
+---
+
+## References
+
+1. European Space Agency (ESA). *S1TBX Stripmap & TOPSAR Interferometry with Sentinel-1 Tutorial*. ESA STEP Documentation.
+2. Ferretti, A., Monti-Guarnieri, A., Prati, C., Rocca, F., & Vassena, B. (2007). *InSAR Principles: Guidelines for SAR Interferometry Processing and Interpretation* (ESA TM-19). European Space Agency.
+3. Goldstein, R. M., & Werner, C. L. (1998). Radar interferogram filtering for geophysical applications. *Geophysical Research Letters*, 25(21), 4035-4038.
+4. Hanssen, R. F. (2001). *Radar Interferometry: Data Interpretation and Error Analysis*. Kluwer Academic Publishers, Dordrecht.
