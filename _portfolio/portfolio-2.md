@@ -3,7 +3,7 @@
 layout: single
 title: "Sentinel-1 InSAR Surface Deformation Analysis of the 2025 Hayli Gubbi Volcano, Afar, Ethiopia"
 header:
-  teaser: "/images/insar-teaser-title-results.png"
+  teaser: "insar-teaser-title-results.png"
 excerpt: "A Differential SAR Interferometry (DInSAR) workflow using SNAP & Sentinel-1 SLC data to map line-of-sight surface deformation caused by the 2025 Afar volcanic eruption."
 collection: portfolio
 
@@ -11,7 +11,7 @@ collection: portfolio
 
 **Author:** Mekonnen Gidey | MSc Geoinformation Science, Bahir Dar University  
 **Date:** May 2026  
-**Project Resources:** [Download Full 28-Page Project Report (PDF)](#) <!-- Add your PDF link here -->
+**Project Resources:** [Download Full Project Document](/files/Adv_RS_Lab_2_InSAR.pdf) 
 
 ---
 
