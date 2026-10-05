@@ -23,7 +23,7 @@ This project presents a single-pair Differential SAR Interferometry (DInSAR) wor
 * **SAR / DInSAR Processing:** Sentinel-1 SLC coregistration, Back-Geocoding, and ESD alignment.
 * **Phase Analysis:** Coherence evaluation, Goldstein filtering, phase unwrapping with SNAPHU.
 * **Geospatial & Geodetic Analytics:** Metric displacement modeling, SRTM DEM geocoding, and histogram interpretation.
-* **Software Tools:** ESA SNAP 13, Graph model, Batch processing, SNAPHU, GIS integration.
+* **Software Tools:** ESA SNAP 13, Graph process modeling, Batch processing, SNAPHU, GIS.
 
 
 > *Note: This portfolio post is a concise, web-optimized summary of my full 28-page project report. For the detailed technical breakdown, mathematical formulations, and step-by-step SNAP parameter settings, please refer to the full PDF report linked above.*
