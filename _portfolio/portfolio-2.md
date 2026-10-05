@@ -90,7 +90,7 @@ The workflow follows a structured sequence designed to maintain sub-pixel co-reg
 | 5 | **TOPS Deburst** | Merged individual burst boundaries into a continuous raster. |
 | 6 | **Goldstein Filtering** | Applied adaptive filtering to improve phase fringe clarity. |
 | 7 | **Subsetting** | Cropped processing area to the immediate volcanic AOI. |
-| 8 | **SNAPHU Unwrapping** | Resolved $2\pi$ phase ambiguities using Minimum Cost Flow (MCF). |
+| 8 | **SNAPHU Unwrapping** | Resolved 2π phase ambiguities using Minimum Cost Flow (MCF). |
 | 9 | **Phase to Displacement** | Converted unwrapped phase values into metric LOS displacement. |
 | 10 | **Terrain Correction** | Geocoded output to UTM projection using SRTM DEM. |
 
@@ -120,7 +120,7 @@ Cross-multiplying the master image with the complex conjugate of the slave image
 *Figure 7: SNAP Interferogram formation operator configuration.*
 
 ### Coherence Analysis
-Spatial coherence was computed as a diagnostic layer to evaluate phase reliability. Higher coherence ($\ge 0.3$) in the arid lava fields enabled stable phase unwrapping, whereas localized decorrelation was observed in sparsely vegetated pockets.
+Spatial coherence was computed as a diagnostic layer to evaluate phase reliability. Higher coherence (> 0.6) in the arid lava fields enabled stable phase unwrapping, whereas localized decorrelation was observed in sparsely vegetated pockets.
 
 <table>
   <tr>
@@ -146,7 +146,7 @@ To improve the signal-to-noise ratio, **Goldstein Phase Filtering** was applied 
 
 ## 8. Phase Unwrapping (SNAPHU)
 
-Phase unwrapping was executed using SNAPHU via the SNAP export interface. The unwrapping process resolves the $2\pi$ ambiguity, producing a continuous relative phase map across the target area.
+Phase unwrapping was executed using SNAPHU via the SNAP export interface. The unwrapping process resolves the 2π ambiguity, producing a continuous relative phase map across the target area.
 
 ![Wrapped versus unwrapped phase principle](/images/phase-unwrapping-principle.png)
 *Figure 10: Conceptual transformation from ambiguous wrapped phase to continuous unwrapped phase.*
@@ -215,7 +215,7 @@ Doppler Range-Terrain Correction (SRTM 1-ArcSec) was applied to correct geometri
 | :--- | :--- | :--- |
 | **Maximum Subsidence** | -0.471 m (-47.1 cm) | Caldera collapse / Magma chamber evacuation |
 | **Maximum Uplift** | +0.150 m (+15.0 cm) | Peripheral magmatic dike intrusion |
-| **Coherence Threshold** | $> 0.6$ | Strong phase stability across the arid Afar terrain |
+| **Coherence Threshold** | > 0.6 | Strong phase stability across the arid Afar terrain |
 
 ---
 
