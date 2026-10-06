@@ -62,9 +62,6 @@ I processed a UAV image block over a forested hillside in the Gulele area of Add
 - **OBIA validation is optimistic.** Randomly splitting nearby points from one scene can overestimate accuracy. A spatially separated validation set is the next step.
 - **One site, one date.** This shows a workflow, not a time series or a transferable model.
 
-## Why this matters for my research
-
-UAV-derived DSMs, CHMs and orthomosaics give centimeter-scale structure between field plots and satellite pixels. I would like to use data like this as a reference when evaluating GEDI and NISAR forest height and structure estimates in Ethiopian forests.
 
 ## Materials
 <!--
