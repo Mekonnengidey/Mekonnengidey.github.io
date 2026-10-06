@@ -11,6 +11,7 @@ collection: portfolio
 
 **Author:** Mekonnen Gidey | MSc Geoinformation Science, Bahir Dar University  
 **Date:** May 2026  
+**Project Resources:** [Download Full Project Document](/files/Adv_RS_Lab_2_InSAR.pdf) 
 
 ---
 
