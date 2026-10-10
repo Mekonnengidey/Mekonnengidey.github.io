@@ -1,7 +1,7 @@
 ---
 
 layout: archive
-title: "Academic Resources"
+title: "Projects tailored to Academic Resources"
 permalink: /resources/
 author_profile: true
 ---
@@ -139,18 +139,8 @@ My technical resources are developed around a common principle:
 
 Where appropriate, workflows incorporate **Python, R, Google Earth Engine, GIS software, spatial databases, machine learning, and cloud-based geospatial processing**.
 
-Selected implementation code and reproducibility materials will be progressively made available through my [GitHub profile](https://github.com/Mekonnengidey).
+Data, codes and reproducibility materials will be made available soon through my [GitHub profile](https://github.com/Mekonnengidey).
 
 ---
-
-## Selected Focus for Current Research
-
-My current MSc research interests increasingly focus on:
-
-**NISAR/SAR + Optical Earth Observation + Geospatial AI + Multi-source Data Fusion + Time-Series Analysis**
-
-with applications in **flood and natural-hazard monitoring, environmental change, agricultural monitoring, and Earth-system observation**.
-
-These resources provide practical foundations for this continuing research direction.
 
 ---
