@@ -65,6 +65,7 @@ From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class 3D lan
 
 
 ![](/images/uav-gulele-3d-model.png)
+
 [See more](https://mekonnengidey.github.io/portfolio/portfolio-3/)
 
 ---
@@ -78,7 +79,8 @@ A practical workflow for DEM-based watershed analysis, morphometric characteriza
 **Topics:** DEM processing · hydrological modeling · watershed delineation · morphometry · spatial prioritization
 
 ![](/images/Watershed_Teaser.png)
-[**Download the Watershed & Morphometric Analysis Manual →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
+
+[**Download the Watershed & Morphometric Analysis project →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
 
 ---
 
