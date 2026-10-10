@@ -80,7 +80,7 @@ A practical workflow for DEM-based watershed analysis, morphometric characteriza
 
 ![](/images/Watershed_Teaser.png)
 
-[**Download the Watershed & Morphometric Analysis project →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
+[**Download the Watershed & Morphometric Analysis Project Manual →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
 
 ---
 
@@ -91,9 +91,9 @@ A spatial decision-analysis workflow integrating environmental, infrastructural,
 **Topics:** ArcPy, geostatistics · MCDA · suitability modeling · proximity analysis · weighted overlay
 ![](/images/Irrigation_Suitablity_Teaser.png)
 
-[**Download the Investment Site Suitability using ArcGIS-Pro Model Builder Manual →**](/files/Mekonnen%20Lab%201%20Irrigation%20portfolio%20Final.pdf)
+[**Download the Investment Site Suitability using ArcGIS-Pro Model Builder Project Manual →**](/files/Mekonnen%20Lab%201%20Irrigation%20portfolio%20Final.pdf)
 
-[**Download the Python based Workflow Automation Investment Site Suitability Manual →**](/files/Mekonnen%20Lab%202%20Python%20based%20Irrigation%20analysis%20and%20Workflow%20Automation.pdf)
+[**Download the Python based Workflow Automation Investment Site Suitability Project Manual →**](/files/Mekonnen%20Lab%202%20Python%20based%20Irrigation%20analysis%20and%20Workflow%20Automation.pdf)
 
 ---
 
@@ -104,7 +104,8 @@ A multi criteria geospatial analysis workflow for investigating spatial patterns
 **Topics:** MCDA · spatial statistics · geostatistics · environmental risk modeling · hotspot analysis
 
 ![](/images/Malaria_Risk_Hotspot_Teaser.png)
-[**Download the Malaria Risk & Geostatistical Analysis Manual →**](/files/Mekonnen%20Lab%203%20Malaria%20Lab%20Portfolio%20Final.pdf)
+
+[**Download the Malaria Risk & Geostatistical Analysis project Manual →**](/files/Mekonnen%20Lab%203%20Malaria%20Lab%20Portfolio%20Final.pdf)
 
 ---
 
