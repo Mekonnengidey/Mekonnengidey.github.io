@@ -15,15 +15,18 @@ The resources emphasize **reproducible geospatial workflows, Earth observation d
 
 ---
 
-## Remote Sensing, SAR & InSAR
+## Remote Sensing: SAR, PolSAR & InSAR
 
 ### SAR Data Processing & Applications Sentinel-1 Flood Monitoring
+A practical workflow for extracting flood/inundation information from multi-temporal Sentinel-1 SAR observations.
+Tilored to postgraduate laboratory manual covering the principles and practical processing of Synthetic Aperture Radar data for Earth observation applications.
 
 **Topics:** Sentinel-1 SAR · preprocessing · calibration · speckle filtering · backscatter analysis · interpretation
             Sentinel-1 GRD · VV/VH · preprocessing · change detection · thresholding · flood mapping
 
-A postgraduate laboratory manual covering the principles and practical processing of Synthetic Aperture Radar data for Earth observation applications.
-A practical workflow for extracting flood/inundation information from multi-temporal Sentinel-1 SAR observations.
+
+
+![](/images/Pf1_SAR_Flood_Teaser.png)
 
 [**Download the Sentinel-1 Flood Monitoring Manual →**](/files/SAR_GRD_FLOOD.pdf)
 
@@ -31,10 +34,13 @@ A practical workflow for extracting flood/inundation information from multi-temp
 
 ### InSAR Surface Deformation
 
+Sentinel-1 InSAR Surface Deformation Analysis of the 2025 Hayli Gubbi Volcano, Afar, Ethiopia.
+
+A practical workflow of interferometric SAR processing and interpretation for surface-deformation applications.
+
 **Topics:** InSAR · interferometry · phase analysis · surface deformation · terrain correction
 
-A practical introduction to interferometric SAR processing and interpretation for surface-deformation applications.
-
+![](/images/insar-teaser-title-results.png)
 [**Download the InSAR Surface Deformation Manual →**](/files/Adv_RS_Lab_2_InSAR.pdf)
 
 ---
@@ -43,11 +49,23 @@ A practical introduction to interferometric SAR processing and interpretation fo
 
 ### Object-Based Image Classification
 
-**Topics:** Object-Based Image Analysis · segmentation · Bayesian classification · high-resolution imagery · accuracy assessment
+A practical workflow of object-based image classification for Farm plot delineation using high-resolution aerial imagery and probabilistic classification methods.
 
-A practical workflow for object-based image classification using high-resolution aerial imagery and probabilistic classification methods.
+**Topics:** Object-Based Image Analysis · segmentation · Bayesian classification · high-resolution imagery · accuracy assessment  · ERDAS OBJECTIVE
 
+![](/images/OBIA_Farmplot_Teaser.png)
 [**Download the Object-Based Image Classification Manual →**](/files/OBICv5.pdf)
+
+---
+### UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)
+
+From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class 3D land-cover map.
+
+**Topics:** UAV · DTM · DSM · orthomosaic · 3D surface mapping · GEE · WebODM
+
+
+![](/images/uav-gulele-3d-model.png)
+[See more](https://mekonnengidey.github.io/portfolio/portfolio-3/)
 
 ---
 
@@ -55,19 +73,20 @@ A practical workflow for object-based image classification using high-resolution
 
 ### Watershed & Morphometric Analysis
 
-**Topics:** DEM processing · hydrological modeling · watershed delineation · morphometry · spatial prioritization
-
 A practical workflow for DEM-based watershed analysis, morphometric characterization, and conservation prioritization.
 
+**Topics:** DEM processing · hydrological modeling · watershed delineation · morphometry · spatial prioritization
+
+![](/images/Watershed_Teaser.png)
 [**Download the Watershed & Morphometric Analysis Manual →**](/files/Mekonnen_Watershed_Lab_Report_v4_FINAL.pdf)
 
 ---
 
 ### Irrigation Investment Site Suitability Analysis using Python and ArcGIS-Pro Model Builder
 
-**Topics:** ArcPy, geostatistics · MCDA · suitability modeling · proximity analysis · weighted overlay
-
 A spatial decision-analysis workflow integrating environmental, infrastructural, accessibility, socioeconomic, and land-related information.
+
+**Topics:** ArcPy, geostatistics · MCDA · suitability modeling · proximity analysis · weighted overlay
 
 [**Download the Investment Site Suitability using ArcGIS-Pro Model Builder Manual →**](/files/Mekonnen%20Lab%201%20Irrigation%20portfolio%20Final.pdf)
 
@@ -77,9 +96,10 @@ A spatial decision-analysis workflow integrating environmental, infrastructural,
 
 ### Malaria Risk & Geostatistical Analysis
 
-**Topics:** spatial statistics · geostatistics · environmental risk modeling · hotspot analysis
+A multi criteria geospatial analysis workflow for investigating spatial patterns and environmental factors associated with malaria risk.
 
-A geospatial analysis workflow for investigating spatial patterns and environmental factors associated with malaria risk.
+**Topics:** MCDA · spatial statistics · geostatistics · environmental risk modeling · hotspot analysis
+
 
 [**Download the Malaria Risk & Geostatistical Analysis Manual →**](/files/Mekonnen%20Lab%203%20Malaria%20Lab%20Portfolio%20Final.pdf)
 
