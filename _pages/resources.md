@@ -87,6 +87,7 @@ A practical workflow for DEM-based watershed analysis, morphometric characteriza
 A spatial decision-analysis workflow integrating environmental, infrastructural, accessibility, socioeconomic, and land-related information.
 
 **Topics:** ArcPy, geostatistics · MCDA · suitability modeling · proximity analysis · weighted overlay
+![](/images/Irrigation_Suitablity_Teaser.png)
 
 [**Download the Investment Site Suitability using ArcGIS-Pro Model Builder Manual →**](/files/Mekonnen%20Lab%201%20Irrigation%20portfolio%20Final.pdf)
 
@@ -100,7 +101,7 @@ A multi criteria geospatial analysis workflow for investigating spatial patterns
 
 **Topics:** MCDA · spatial statistics · geostatistics · environmental risk modeling · hotspot analysis
 
-
+![](/images/Malaria_Risk_Hotspot_Teaser.png)
 [**Download the Malaria Risk & Geostatistical Analysis Manual →**](/files/Mekonnen%20Lab%203%20Malaria%20Lab%20Portfolio%20Final.pdf)
 
 ---
