@@ -23,7 +23,7 @@ Processed a UAV image block over a forested hillside in the Gulele area of Addis
 4. **OBIA in GEE(Google Earth Engine):** SNIC segmentation of the RGB + DSM composite, per-object mean RGB and elevation, then a 100-tree Random Forest for five classes (Forest, Built-up, Road, Bareland, Grassland). 816 reference points were digitised on the orthomosaic and split 70/30 for training and validation.
 
 
-### intermidiate outputs
+### Intermidiate Outputs
 
 ![UAV orthomosaic of the Gulele study area over a satellite basemap](/images/uav-gulele-orthomosaic.png)
 *Orthomosaic generated from 162 UAV images (WebODM).*
