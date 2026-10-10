@@ -9,9 +9,9 @@ author_profile: true
 {% include base_path %}
 
 
-This collection presents selected **postgraduate laboratory manuals, technical guides, and research-oriented teaching resources** developed through my education and work in GIS, Remote Sensing, Geospatial Data Science, and laboratory-based research support at Bahir Dar University.
+This collection presents case studies tailored to **postgraduate laboratory manuals, technical guides, and research-oriented teaching resources**; contributing to my work in GIS and Remote Sensing laboratory at Bahir Dar University.
 
-The resources emphasize **reproducible geospatial workflows, Earth observation data processing, spatial analysis, and computational methods**.
+The resources emphasize **reproducible geospatial workflows, automating earth observation data processing, spatial analysis, and computational methods**.
 
 ---
 
