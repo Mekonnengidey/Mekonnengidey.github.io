@@ -1,8 +1,8 @@
 ---
-title: "UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)"
+title: "UAV Photogrammetry, Object-Based classification and 3D Forest Mapping (Gulele, Addis Ababa)"
 header: 
   teaser: "uav-gulele-3d-model.png"
-excerpt: "From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class land-cover map."
+excerpt: "From 162 drone images to orthomosaic, DSM, DTM, 3D modeing and a five-class land-cover map."
 collection: portfolio
 
 ---
@@ -13,17 +13,17 @@ collection: portfolio
 
 ## Summary
 
-I processed a UAV image block over a forested hillside in the Gulele area of Addis Ababa into an orthomosaic, a digital surface model (DSM), a digital terrain model (DTM), a dense point cloud and a textured 3D model. I then used the DSM together with the orthomosaic to map land cover (including forest) with object-based image analysis (OBIA) in Google Earth Engine.
+Processed a UAV image block over a forested hillside in the Gulele area of Addis Ababa into an orthomosaic, a digital surface model (DSM), a digital terrain model (DTM), a dense point cloud and a textured 3D model. I then used the DSM together with the orthomosaic to map land cover (including forest) with object-based image analysis (OBIA) in Google Earth Engine.
 
 ## Workflow
 
-1. **Photogrammetry in WebODM** (Docker on WSL2): feature matching, structure-from-motion, multi-view stereo, georeferencing with GCPs. Result: 173,928 sparse tie points, 21.5 million dense points, 4.4 cm ground sampling distance.
+1. **Photogrammetry in WebODM**: feature matching, structure-from-motion, multi-view stereo, georeferencing with GCPs. Result: 173,928 sparse tie points, 21.5 million dense points, 4.4 cm ground sampling distance.
 2. **Products:** orthomosaic, DSM, DTM, point cloud, textured 3D model and contour lines.
 3. **Parallel workflow in ArcGIS Pro (Ortho Mapping):** block adjustment, DSM and orthomosaic, then a canopy height model (CHM = DSM - DTM) and a composite raster for cloud processing.
 4. **OBIA in GEE(Google Earth Engine):** SNIC segmentation of the RGB + DSM composite, per-object mean RGB and elevation, then a 100-tree Random Forest for five classes (Forest, Built-up, Road, Bareland, Grassland). 816 reference points were digitised on the orthomosaic and split 70/30 for training and validation.
 
 
-### Figures
+### intermidiate outputs
 
 ![UAV orthomosaic of the Gulele study area over a satellite basemap](/images/uav-gulele-orthomosaic.png)
 *Orthomosaic generated from 162 UAV images (WebODM).*
