@@ -45,7 +45,7 @@ A practical workflow of interferometric SAR processing and interpretation for su
 
 ---
 
-## Image Analysis & Geospatial AI
+## Advanced Image Analysis & Geospatial AI
 
 ### Object-Based Image Classification
 
@@ -57,9 +57,9 @@ A practical workflow of object-based image classification for Farm plot delineat
 [**Download the Object-Based Image Classification Manual →**](/files/OBICv5.pdf)
 
 ---
-### UAV Photogrammetry and Object-Based Forest Mapping (Gulele, Addis Ababa)
+### UAV Photogrammetry,OBIC and 3D Forest Mapping (Gulele, Addis Ababa)
 
-From 162 drone images to orthomosaic, DSM, DTM, 3D model and a five-class 3D land-cover map.
+From 162 drone images to orthomosaic, DSM, DTM, 3D modeling, and a five-class land-cover map.
 
 **Topics:** UAV · DTM · DSM · orthomosaic · 3D surface mapping · GEE · WebODM
 
